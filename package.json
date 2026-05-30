@@ -9,7 +9,9 @@
   "scripts": {
     "build": "npm run build --workspaces",
     "test": "npm run test --workspaces",
-    "lint": "npm run lint --workspaces"
+    "lint": "npm run lint --workspaces",
+    "save": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/commit-push.ps1",
+    "git-all-push": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/commit-push.ps1"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
