@@ -10,6 +10,12 @@
     "build": "npm run build --workspaces",
     "test": "npm run test --workspaces",
     "lint": "npm run lint --workspaces",
+    "dev:api": "npm run dev --workspace api",
+    "dev:web": "npm run dev --workspace web",
+    "test:e2e": "npm run test:e2e --workspace web",
+    "db:migrate": "npm run db:migrate --workspace api",
+    "db:seed": "npm run db:seed --workspace api",
+    "build:packages": "npm run build --workspace @game-tracker/shared && npm run build --workspace @game-tracker/domain",
     "save": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/commit-push.ps1",
     "git-all-push": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/commit-push.ps1"
   },

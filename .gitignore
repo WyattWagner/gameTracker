@@ -2,7 +2,11 @@ node_modules/
 dist/
 .env
 .env.*
+!.env.example
+!.env.test
 coverage/
+*.db
+*.db-journal
 .DS_Store
 npm-debug.log*
 yarn-debug.log*

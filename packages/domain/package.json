@@ -1,13 +1,16 @@
 {
-  "name": "domain",
+  "name": "@game-tracker/domain",
   "version": "1.0.0",
   "private": true,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\" && tsc -p tsconfig.json",
     "test": "vitest run --passWithNoTests",
     "lint": "eslint \"src/**/*.{ts,tsx,js,jsx}\""
+  },
+  "dependencies": {
+    "@game-tracker/shared": "*"
   },
   "devDependencies": {
     "typescript": "^5.6.3",

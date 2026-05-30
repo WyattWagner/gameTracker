@@ -1,8 +1,13 @@
-import express from "express";
+import "dotenv/config";
+import { createApp } from "./app";
 
-export const app = express();
+const app = createApp();
+const port = Number(process.env.PORT ?? 3001);
 
-app.get("/health", (_req, res) => {
-  res.json({ ok: true });
-});
+if (require.main === module) {
+  app.listen(port, () => {
+    console.log(`API listening on http://localhost:${port}`);
+  });
+}
 
+export { app };
