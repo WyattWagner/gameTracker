@@ -5,3 +5,4 @@ export * from "./schemas/monsters";
 export * from "./schemas/quests";
 export * from "./schemas/drops";
 export * from "./schemas/stats";
+export * from "./schemas/monster-hunter";

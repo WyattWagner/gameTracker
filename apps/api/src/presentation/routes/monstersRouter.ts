@@ -1,14 +1,39 @@
+import fs from "node:fs";
+import path from "node:path";
 import { Router } from "express";
+import multer from "multer";
 import {
   CreateMonsterRequestSchema,
   ListMonstersQuerySchema,
+  PatchMonsterStatsSchema,
   UpdateMonsterRequestSchema,
 } from "@game-tracker/shared";
+import { initializeMonsterHunterData } from "../../application/monster-hunter/initializeMonsterHunter";
+import { applyMonsterStatsPatch } from "../../application/monster-hunter/applyMonsterStats";
 import { prisma } from "../../infrastructure/prisma/client";
 import { toMonsterDto } from "../mappers/dtos";
 import type { AuthenticatedRequest } from "../middleware/requireAuth";
 import { requireAuth } from "../middleware/requireAuth";
 import { validateBody, validateQuery } from "../middleware/validate";
+import { monsterHunterRouter } from "./monsterHunterRouter";
+
+const UPLOAD_DIR = path.join(process.cwd(), "uploads", "monsters");
+fs.mkdirSync(UPLOAD_DIR, { recursive: true });
+
+const upload = multer({
+  storage: multer.diskStorage({
+    destination: UPLOAD_DIR,
+    filename: (_req, file, cb) => {
+      const ext = path.extname(file.originalname) || ".jpg";
+      cb(null, `${Date.now()}${ext}`);
+    },
+  }),
+  limits: { fileSize: 5 * 1024 * 1024 },
+  fileFilter: (_req, file, cb) => {
+    const allowed = ["image/jpeg", "image/png", "image/webp"];
+    cb(null, allowed.includes(file.mimetype));
+  },
+});
 
 export const monstersRouter = Router();
 monstersRouter.use(requireAuth);
@@ -50,6 +75,7 @@ monstersRouter.post("/", validateBody(CreateMonsterRequestSchema), async (req: A
         metadata: body.metadata ?? undefined,
       },
     });
+    await initializeMonsterHunterData(prisma, monster.id, body.gameId);
     res.status(201).json(toMonsterDto(monster));
   } catch (error) {
     next(error);
@@ -65,6 +91,153 @@ monstersRouter.get("/:monsterId", async (req: AuthenticatedRequest, res, next) =
       res.status(404).json({ code: "NOT_FOUND", message: "Monster not found" });
       return;
     }
+    res.json(toMonsterDto(monster));
+  } catch (error) {
+    next(error);
+  }
+});
+
+monstersRouter.patch(
+  "/:monsterId/stats",
+  validateBody(PatchMonsterStatsSchema),
+  async (req: AuthenticatedRequest, res, next) => {
+    try {
+      const existing = await prisma.monster.findFirst({
+        where: { id: req.params.monsterId, userId: req.user!.id },
+      });
+      if (!existing) {
+        res.status(404).json({ code: "NOT_FOUND", message: "Monster not found" });
+        return;
+      }
+
+      const stats = applyMonsterStatsPatch(
+        {
+          numberOfHunts: existing.numberOfHunts,
+          wins: existing.wins,
+          losses: existing.losses,
+          captures: existing.captures,
+          failedQuests: existing.failedQuests,
+        },
+        req.body,
+      );
+
+      const monster = await prisma.monster.update({
+        where: { id: existing.id },
+        data: stats,
+      });
+      res.json(toMonsterDto(monster));
+    } catch (error) {
+      next(error);
+    }
+  },
+);
+
+monstersRouter.post("/:monsterId/actions/hunted", async (req: AuthenticatedRequest, res, next) => {
+  try {
+    const existing = await prisma.monster.findFirst({
+      where: { id: req.params.monsterId, userId: req.user!.id },
+    });
+    if (!existing) {
+      res.status(404).json({ code: "NOT_FOUND", message: "Monster not found" });
+      return;
+    }
+    const monster = await prisma.monster.update({
+      where: { id: existing.id },
+      data: {
+        numberOfHunts: { increment: 1 },
+        wins: { increment: 1 },
+        lastEncounterAt: new Date(),
+      },
+    });
+    res.json(toMonsterDto(monster));
+  } catch (error) {
+    next(error);
+  }
+});
+
+monstersRouter.post("/:monsterId/actions/captured", async (req: AuthenticatedRequest, res, next) => {
+  try {
+    const existing = await prisma.monster.findFirst({
+      where: { id: req.params.monsterId, userId: req.user!.id },
+    });
+    if (!existing) {
+      res.status(404).json({ code: "NOT_FOUND", message: "Monster not found" });
+      return;
+    }
+    if (!existing.canBeCaptured) {
+      res.status(403).json({ code: "FORBIDDEN", message: "This monster cannot be captured" });
+      return;
+    }
+    const monster = await prisma.monster.update({
+      where: { id: existing.id },
+      data: {
+        numberOfHunts: { increment: 1 },
+        wins: { increment: 1 },
+        captures: { increment: 1 },
+        lastEncounterAt: new Date(),
+      },
+    });
+    res.json(toMonsterDto(monster));
+  } catch (error) {
+    next(error);
+  }
+});
+
+monstersRouter.post(
+  "/:monsterId/image",
+  upload.single("image"),
+  async (req: AuthenticatedRequest, res, next) => {
+    try {
+      const existing = await prisma.monster.findFirst({
+        where: { id: req.params.monsterId, userId: req.user!.id },
+      });
+      if (!existing) {
+        res.status(404).json({ code: "NOT_FOUND", message: "Monster not found" });
+        return;
+      }
+      if (!req.file) {
+        res.status(400).json({ code: "BAD_REQUEST", message: "No image file provided" });
+        return;
+      }
+
+      if (existing.imageUrl?.startsWith("/uploads/")) {
+        const oldPath = path.join(process.cwd(), existing.imageUrl);
+        if (fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
+      }
+
+      const destName = `${existing.id}${path.extname(req.file.filename)}`;
+      const destPath = path.join(UPLOAD_DIR, destName);
+      fs.renameSync(req.file.path, destPath);
+
+      const imageUrl = `/uploads/monsters/${destName}`;
+      const monster = await prisma.monster.update({
+        where: { id: existing.id },
+        data: { imageUrl },
+      });
+      res.json(toMonsterDto(monster));
+    } catch (error) {
+      next(error);
+    }
+  },
+);
+
+monstersRouter.delete("/:monsterId/image", async (req: AuthenticatedRequest, res, next) => {
+  try {
+    const existing = await prisma.monster.findFirst({
+      where: { id: req.params.monsterId, userId: req.user!.id },
+    });
+    if (!existing) {
+      res.status(404).json({ code: "NOT_FOUND", message: "Monster not found" });
+      return;
+    }
+    if (existing.imageUrl?.startsWith("/uploads/")) {
+      const filePath = path.join(process.cwd(), existing.imageUrl);
+      if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
+    }
+    const monster = await prisma.monster.update({
+      where: { id: existing.id },
+      data: { imageUrl: null },
+    });
     res.json(toMonsterDto(monster));
   } catch (error) {
     next(error);
@@ -114,3 +287,5 @@ monstersRouter.delete("/:monsterId", async (req: AuthenticatedRequest, res, next
     next(error);
   }
 });
+
+monstersRouter.use("/:monsterId", monsterHunterRouter);

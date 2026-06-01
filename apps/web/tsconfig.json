@@ -10,7 +10,12 @@
     "noEmit": true,
     "isolatedModules": true,
     "verbatimModuleSyntax": false,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@game-tracker/shared": ["../../packages/shared/src/index.ts"],
+      "@game-tracker/ui": ["../../packages/ui/src/index.ts"]
+    }
   },
-  "include": ["src"]
+  "include": ["src", "vite.config.ts", "vitest.config.ts"]
 }

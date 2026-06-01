@@ -4,7 +4,29 @@ import { MemoryRouter, Route, Routes } from "react-router-dom";
 import { MonsterDetailPage } from "./MonsterDetailPage";
 
 const getMonster = vi.fn();
-const api = { getMonster };
+const getMhDetail = vi.fn();
+
+const api = {
+  getMonster,
+  getMhDetail,
+  patchMonsterStats: vi.fn(),
+  huntedAction: vi.fn(),
+  capturedAction: vi.fn(),
+  uploadMonsterImage: vi.fn(),
+  deleteMonsterImage: vi.fn(),
+  updateMonster: vi.fn(),
+  patchWeakness: vi.fn(),
+  updateAilment: vi.fn(),
+  updateMaterial: vi.fn(),
+  addMaterialBodyPartDrop: vi.fn(),
+  removeMaterialBodyPartDrop: vi.fn(),
+  initializeMaterialRank: vi.fn(),
+  createBodyPart: vi.fn(),
+  deleteBodyPart: vi.fn(),
+  createAilment: vi.fn(),
+  deleteAilment: vi.fn(),
+  createMaterial: vi.fn(),
+};
 
 vi.mock("../api/AuthContext", () => ({
   useAuth: () => ({ api }),
@@ -19,13 +41,14 @@ vi.mock("../hooks/useDrops", () => ({
 }));
 
 describe("MonsterDetailPage", () => {
-  it("shows monster stats and drop history via modular panel", async () => {
+  it("shows hunt stats on overview and drops on hunt log tab", async () => {
     getMonster.mockResolvedValue({
       id: "m1",
       gameId: "monster-hunter",
       userId: "u1",
       name: "Rathalos",
       imageUrl: null,
+      canBeCaptured: true,
       favoriteWeaponUsed: "Long Sword",
       lastEncounterAt: null,
       numberOfHunts: 4,
@@ -34,6 +57,27 @@ describe("MonsterDetailPage", () => {
       captures: 1,
       failedQuests: 0,
       notes: "Fire wyvern",
+    });
+
+    getMhDetail.mockResolvedValue({
+      bodyParts: [{ id: "bp1", monsterId: "m1", name: "Head", sortOrder: 0 }],
+      weaknesses: [
+        {
+          id: "w1",
+          monsterId: "m1",
+          bodyPartId: "bp1",
+          slash: 0,
+          blunt: 0,
+          pierce: 0,
+          fire: 0,
+          water: 0,
+          thunder: 0,
+          ice: 0,
+          dragon: 0,
+        },
+      ],
+      ailments: [],
+      materials: [],
     });
 
     render(
@@ -48,6 +92,8 @@ describe("MonsterDetailPage", () => {
       expect(screen.getByRole("heading", { name: "Rathalos" })).toBeInTheDocument();
       expect(screen.getByText("Hunts")).toBeInTheDocument();
     });
+
+    await screen.findByRole("button", { name: "Hunt log" }).then((btn) => btn.click());
     expect(screen.getByText("Rathalos Scale × 2 (COMMON)")).toBeInTheDocument();
   });
 });

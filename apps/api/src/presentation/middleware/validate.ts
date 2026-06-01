@@ -1,7 +1,7 @@
 import type { NextFunction, Request, Response } from "express";
-import { ZodError, type ZodSchema } from "zod";
+import { ZodError, type z } from "zod";
 
-export function validateBody<T>(schema: ZodSchema<T>) {
+export function validateBody<T extends z.ZodType>(schema: T) {
   return (req: Request, res: Response, next: NextFunction): void => {
     try {
       req.body = schema.parse(req.body);
@@ -20,10 +20,10 @@ export function validateBody<T>(schema: ZodSchema<T>) {
   };
 }
 
-export function validateQuery<T>(schema: ZodSchema<T>) {
+export function validateQuery<T extends z.ZodType>(schema: T) {
   return (req: Request, res: Response, next: NextFunction): void => {
     try {
-      (req as Request & { validatedQuery: T }).validatedQuery = schema.parse(req.query);
+      (req as Request & { validatedQuery: z.infer<T> }).validatedQuery = schema.parse(req.query);
       next();
     } catch (error) {
       if (error instanceof ZodError) {

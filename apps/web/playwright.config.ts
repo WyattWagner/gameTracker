@@ -11,15 +11,17 @@ export default defineConfig({
   },
   webServer: [
     {
-      command: "npx tsx src/index.ts",
+      command: "npx prisma migrate deploy && npx tsx src/index.ts",
       url: "http://localhost:3001/health",
       reuseExistingServer: !process.env.CI,
       cwd: "../api",
+      timeout: 120_000,
     },
     {
       command: "npm run dev",
       url: "http://localhost:5173",
       reuseExistingServer: !process.env.CI,
+      timeout: 120_000,
     },
   ],
   projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],

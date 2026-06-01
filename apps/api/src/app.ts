@@ -1,5 +1,6 @@
 import cors from "cors";
 import express from "express";
+import path from "node:path";
 import { errorHandler } from "./presentation/errorHandler";
 import { authRouter } from "./presentation/routes/authRouter";
 import { dropsRouter } from "./presentation/routes/dropsRouter";
@@ -11,6 +12,7 @@ export function createApp() {
   const app = express();
   app.use(cors());
   app.use(express.json());
+  app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
 
   app.get("/health", (_req, res) => {
     res.json({ ok: true });

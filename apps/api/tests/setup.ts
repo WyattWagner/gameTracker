@@ -17,6 +17,11 @@ beforeAll(async () => {
 beforeEach(async () => {
   await prisma.encounter.deleteMany();
   await prisma.drop.deleteMany();
+  await prisma.materialBodyPartDrop.deleteMany();
+  await prisma.monsterMaterial.deleteMany();
+  await prisma.monsterAilment.deleteMany();
+  await prisma.weaknessEntry.deleteMany();
+  await prisma.monsterBodyPart.deleteMany();
   await prisma.questMonster.deleteMany();
   await prisma.quest.deleteMany();
   await prisma.monster.deleteMany();

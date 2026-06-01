@@ -7,6 +7,7 @@ const baseMonster = {
   userId: "u1",
   name: "Rathalos",
   imageUrl: null,
+  canBeCaptured: true,
   favoriteWeaponUsed: null,
   lastEncounterAt: null,
   numberOfHunts: 0,

@@ -28,29 +28,108 @@ model Game {
 }
 
 model Monster {
-  id                 String        @id @default(cuid())
+  id                 String             @id @default(cuid())
   gameId             String
   userId             String
   name               String
   imageUrl           String?
+  canBeCaptured      Boolean            @default(true)
   favoriteWeaponUsed String?
   lastEncounterAt    DateTime?
-  numberOfHunts      Int           @default(0)
-  wins               Int           @default(0)
-  losses             Int           @default(0)
-  captures           Int           @default(0)
-  failedQuests       Int           @default(0)
+  numberOfHunts      Int                @default(0)
+  wins               Int                @default(0)
+  losses             Int                @default(0)
+  captures           Int                @default(0)
+  failedQuests       Int                @default(0)
   notes              String?
   metadata           Json?
-  createdAt          DateTime      @default(now())
-  updatedAt          DateTime      @updatedAt
-  game               Game          @relation(fields: [gameId], references: [id])
-  user               User          @relation(fields: [userId], references: [id])
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+  game               Game               @relation(fields: [gameId], references: [id])
+  user               User               @relation(fields: [userId], references: [id])
   questMonsters      QuestMonster[]
   encounters         Encounter[]
   drops              Drop[]
+  bodyParts          MonsterBodyPart[]
+  weaknessEntries    WeaknessEntry[]
+  ailments           MonsterAilment[]
+  materials          MonsterMaterial[]
 
   @@index([userId, gameId])
+}
+
+model MonsterBodyPart {
+  id                  String                 @id @default(cuid())
+  monsterId           String
+  name                String
+  sortOrder           Int                    @default(0)
+  monster             Monster                @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+  weaknessEntry       WeaknessEntry?
+  materialBodyPartDrops MaterialBodyPartDrop[]
+
+  @@index([monsterId])
+}
+
+model WeaknessEntry {
+  id          String          @id @default(cuid())
+  monsterId   String
+  bodyPartId  String          @unique
+  slash       Int             @default(0)
+  blunt       Int             @default(0)
+  pierce      Int             @default(0)
+  fire        Int             @default(0)
+  water       Int             @default(0)
+  thunder     Int             @default(0)
+  ice         Int             @default(0)
+  dragon      Int             @default(0)
+  monster     Monster         @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+  bodyPart    MonsterBodyPart @relation(fields: [bodyPartId], references: [id], onDelete: Cascade)
+
+  @@index([monsterId])
+}
+
+model MonsterAilment {
+  id                        String  @id @default(cuid())
+  monsterId                 String
+  name                      String
+  isCustom                  Boolean @default(false)
+  initialResistance         Int     @default(50)
+  nextResistanceThreshold   Int     @default(50)
+  maximumResistance         Int     @default(50)
+  naturalBuildUpDegradation Int     @default(50)
+  totalEffectiveness        Int     @default(50)
+  sortOrder                 Int     @default(0)
+  monster                   Monster @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+
+  @@index([monsterId])
+}
+
+model MonsterMaterial {
+  id                  String                 @id @default(cuid())
+  monsterId           String
+  rank                String
+  name                String
+  targetReward        Int                    @default(0)
+  captureReward       Int                    @default(0)
+  brokenPartReward    Int                    @default(0)
+  carveReward         Int                    @default(0)
+  dropMaterialReward  Int                    @default(0)
+  sortOrder           Int                    @default(0)
+  monster             Monster                @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+  bodyPartDrops       MaterialBodyPartDrop[]
+
+  @@index([monsterId, rank])
+}
+
+model MaterialBodyPartDrop {
+  id         String          @id @default(cuid())
+  materialId String
+  bodyPartId String
+  chance     Int             @default(0)
+  material   MonsterMaterial @relation(fields: [materialId], references: [id], onDelete: Cascade)
+  bodyPart   MonsterBodyPart @relation(fields: [bodyPartId], references: [id], onDelete: Cascade)
+
+  @@unique([materialId, bodyPartId])
 }
 
 model Quest {

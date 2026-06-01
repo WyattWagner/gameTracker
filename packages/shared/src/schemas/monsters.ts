@@ -7,6 +7,7 @@ export const MonsterSchema = z.object({
   userId: z.string(),
   name: z.string(),
   imageUrl: z.string().nullable(),
+  canBeCaptured: z.boolean(),
   favoriteWeaponUsed: z.string().nullable(),
   lastEncounterAt: z.string().datetime().nullable(),
   numberOfHunts: z.number().int().nonnegative(),
@@ -30,6 +31,7 @@ export type CreateMonsterRequest = z.infer<typeof CreateMonsterRequestSchema>;
 
 export const UpdateMonsterRequestSchema = CreateMonsterRequestSchema.partial().extend({
   favoriteWeaponUsed: z.string().optional(),
+  canBeCaptured: z.boolean().optional(),
 });
 export type UpdateMonsterRequest = z.infer<typeof UpdateMonsterRequestSchema>;
 

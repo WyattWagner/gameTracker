@@ -6,6 +6,7 @@ export function toMonsterDto(row: {
   userId: string;
   name: string;
   imageUrl: string | null;
+  canBeCaptured: boolean;
   favoriteWeaponUsed: string | null;
   lastEncounterAt: Date | null;
   numberOfHunts: number;
@@ -22,6 +23,7 @@ export function toMonsterDto(row: {
     userId: row.userId,
     name: row.name,
     imageUrl: row.imageUrl,
+    canBeCaptured: row.canBeCaptured,
     favoriteWeaponUsed: row.favoriteWeaponUsed,
     lastEncounterAt: row.lastEncounterAt?.toISOString() ?? null,
     numberOfHunts: row.numberOfHunts,
