@@ -23,7 +23,9 @@ vi.mock("../hooks/useDashboardStats", () => ({
 describe("DashboardPage", () => {
   it("renders dashboard cards and recent activity", () => {
     render(<DashboardPage />);
+    expect(screen.getByText("Quests Accepted")).toBeInTheDocument();
     expect(screen.getByText("Total Hunts")).toBeInTheDocument();
+    expect(screen.getByText("7")).toBeInTheDocument();
     expect(screen.getByText("5")).toBeInTheDocument();
     expect(screen.getByText(/WIN encounter/)).toBeInTheDocument();
   });
