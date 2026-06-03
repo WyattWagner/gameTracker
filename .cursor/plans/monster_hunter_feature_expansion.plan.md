@@ -54,14 +54,16 @@ Expand the Monster Hunter Tracker with advanced monster management, hunt trackin
 
 ## Current baseline (what already exists)
 
-| Blueprint area | Today | Location |
-|----------------|-------|----------|
-| Hunt counters (DB fields) | `numberOfHunts`, `wins`, `losses`, `captures`, `failedQuests` | [schema.prisma](../../apps/api/prisma/schema.prisma) |
-| Monster image (URL only) | `imageUrl` nullable | Prisma + [MonsterDetailPage](../../apps/web/src/pages/MonsterDetailPage.tsx) placeholder |
-| Stats display (read-only) | Grid of 5 counters | [MonsterStatsPanel](../../packages/ui/src/games/monster-hunter/MonsterStatsPanel.tsx) |
-| Extensibility hook | `metadata` JSON on `Monster` | Prisma + [monsters.ts](../../packages/shared/src/schemas/monsters.ts) |
-| Encounter-based wins | `POST /quests/encounters` updates stats indirectly | API quests router |
-| Drop history (logged hunts) | `Drop` model + list on monster page | Separate from **reference drop tables** in blueprint |
+
+| Blueprint area              | Today                                                         | Location                                                                                 |
+| --------------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Hunt counters (DB fields)   | `numberOfHunts`, `wins`, `losses`, `captures`, `failedQuests` | [schema.prisma](../../apps/api/prisma/schema.prisma)                                     |
+| Monster image (URL only)    | `imageUrl` nullable                                           | Prisma + [MonsterDetailPage](../../apps/web/src/pages/MonsterDetailPage.tsx) placeholder |
+| Stats display (read-only)   | Grid of 5 counters                                            | [MonsterStatsPanel](../../packages/ui/src/games/monster-hunter/MonsterStatsPanel.tsx)    |
+| Extensibility hook          | `metadata` JSON on `Monster`                                  | Prisma + [monsters.ts](../../packages/shared/src/schemas/monsters.ts)                    |
+| Encounter-based wins        | `POST /quests/encounters` updates stats indirectly            | API quests router                                                                        |
+| Drop history (logged hunts) | `Drop` model + list on monster page                           | Separate from **reference drop tables** in blueprint                                     |
+
 
 **Gap:** Blueprint §5–6 describe **reference material tables** (target/capture/carve %), not the existing **logged drop** records. Keep both: `Drop` = what you actually got; `Material` + matrices = wiki-style reference data per monster.
 
@@ -98,13 +100,17 @@ flowchart TB
   MAT --> BPD
 ```
 
-| Data | Recommendation |
-|------|----------------|
-| `canBeCaptured`, counters | Already on `Monster`; add `canBeCaptured` column |
-| `image` | Add `imagePath` (uploads dir) **or** keep `imageUrl` + upload endpoint that sets URL |
-| `bodyParts[]`, `weaknessGraph` | **Tables:** `MonsterBodyPart`, `WeaknessEntry` (unique `monsterId` + `bodyPartId`) |
-| `ailments[]` | **Table:** `MonsterAilment` with 5 int fields 0–100; `starRating` computed server-side or in domain only (not stored) |
-| `low/high/masterRankDrops` | **Table:** `MonsterMaterial` with `rank` enum `LOW \| HIGH \| MASTER` + reward % columns + `MaterialBodyPartDrop` |
+
+
+
+| Data                           | Recommendation                                                                                                        |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| `canBeCaptured`, counters      | Already on `Monster`; add `canBeCaptured` column                                                                      |
+| `image`                        | Add `imagePath` (uploads dir) **or** keep `imageUrl` + upload endpoint that sets URL                                  |
+| `bodyParts[]`, `weaknessGraph` | **Tables:** `MonsterBodyPart`, `WeaknessEntry` (unique `monsterId` + `bodyPartId`)                                    |
+| `ailments[]`                   | **Table:** `MonsterAilment` with 5 int fields 0–100; `starRating` computed server-side or in domain only (not stored) |
+| `low/high/masterRankDrops`     | **Table:** `MonsterMaterial` with `rank` enum `LOW | HIGH | MASTER` + reward % columns + `MaterialBodyPartDrop`       |
+
 
 Use `@game-tracker/shared` Zod schemas for every API payload. Put **star rating** and **rank clone** logic in `@game-tracker/domain` (testable, no DB).
 
@@ -117,7 +123,7 @@ Use `@game-tracker/shared` Zod schemas for every API payload. Put **star rating*
 - Per counter: `[+]` / optional `[-]` / manual numeric field
 - **Hunted** button → `numberOfHunts++`, `wins++`
 - **Captured** button → `numberOfHunts++`, `wins++`, `captures++`
-- **`canBeCaptured`** setting: when `false`, hide Capture button, capture stat, capture-related UI/calcs
+- `**canBeCaptured`** setting: when `false`, hide Capture button, capture stat, capture-related UI/calcs
 
 ### API design
 
@@ -140,10 +146,12 @@ Validation: all counters `>= 0`; deltas cannot drive below 0.
 
 ### Capture toggle behavior
 
-| `canBeCaptured` | UI | Stats shown |
-|-----------------|-----|-------------|
-| `true` (default) | Captured button + Captures counter | All 5 |
-| `false` | Hide capture button; hide Captures | Hunts, Wins, Losses, Failed Quests only |
+
+| `canBeCaptured`  | UI                                 | Stats shown                             |
+| ---------------- | ---------------------------------- | --------------------------------------- |
+| `true` (default) | Captured button + Captures counter | All 5                                   |
+| `false`          | Hide capture button; hide Captures | Hunts, Wins, Losses, Failed Quests only |
+
 
 Dashboard/domain: when aggregating per-monster capture rates, skip monsters with `canBeCaptured === false`.
 
@@ -219,10 +227,10 @@ Poison, Stun, Paralysis, Sleep, Blast, Exhaust, Fireblight, Waterblight, Thunder
 
 ### Five bars per ailment (0–100%, snap 0/25/50/75/100)
 
-1. Initial Resistance  
-2. Next Resistance Threshold  
-3. Maximum Resistance  
-4. Natural Build-Up Degradation  
+1. Initial Resistance
+2. Next Resistance Threshold
+3. Maximum Resistance
+4. Natural Build-Up Degradation
 5. Total Effectiveness (label editable in settings)
 
 ### Star rating (`@game-tracker/domain`)
@@ -257,13 +265,15 @@ Display: `★★★` | `★★` | `★` | `-` (0 stars)
 
 ### Rank inheritance (domain + API)
 
-| Action | Behavior |
-|--------|----------|
-| Create HR from LR | Clone all LR materials; names append `+` (e.g. `Scale` → `Scale+`); copy % cells; new IDs |
-| Create MR from HR | Clone HR; append `++` |
-| Edit after clone | Independent per rank |
-| New material in HR only | Not visible in LR |
-| New material in MR only | Not in LR/HR |
+
+| Action                  | Behavior                                                                                  |
+| ----------------------- | ----------------------------------------------------------------------------------------- |
+| Create HR from LR       | Clone all LR materials; names append `+` (e.g. `Scale` → `Scale+`); copy % cells; new IDs |
+| Create MR from HR       | Clone HR; append `++`                                                                     |
+| Edit after clone        | Independent per rank                                                                      |
+| New material in HR only | Not visible in LR                                                                         |
+| New material in MR only | Not in LR/HR                                                                              |
+
 
 ```
 POST /monsters/:id/materials/initialize-rank { from: LOW, to: HIGH }
@@ -342,7 +352,7 @@ Shared Zod: `packages/shared/src/schemas/monster-hunter.ts` (new file).
 ## 8) UI structure (monster page)
 
 ```mermaid
-flowchart TB
+Image + nflowchart TB
   Page[MonsterDetailPage]
   Page --> Header[Image + name + quick actions]
   Page --> Tabs[Tab bar]
@@ -354,14 +364,18 @@ flowchart TB
   Tabs --> Drops[Drop history - existing]
 ```
 
-| Tab | Contents |
-|-----|----------|
-| **Overview** | Image, Hunted/Captured, counter controls, notes |
-| **Weaknesses** | Body part matrix |
-| **Ailments** | Resistance sliders + stars |
-| **Materials** | Rank selector, matrices, part drops |
-| **Settings** | Capture toggle, custom ailments/parts/materials |
-| **Hunt log** (optional) | Existing encounter/drop history |
+
+
+
+| Tab                     | Contents                                        |
+| ----------------------- | ----------------------------------------------- |
+| **Overview**            | Image, Hunted/Captured, counter controls, notes |
+| **Weaknesses**          | Body part matrix                                |
+| **Ailments**            | Resistance sliders + stars                      |
+| **Materials**           | Rank selector, matrices, part drops             |
+| **Settings**            | Capture toggle, custom ailments/parts/materials |
+| **Hunt log** (optional) | Existing encounter/drop history                 |
+
 
 Use `@game-tracker/ui` for reusable: `CounterControl`, `WeaknessMatrix`, `ResistanceSlider`, `MaterialDropMatrix`, `RankTabs`.
 
@@ -369,15 +383,17 @@ Use `@game-tracker/ui` for reusable: `CounterControl`, `WeaknessMatrix`, `Resist
 
 ## 9) Suggested build order
 
-| Phase | Scope | Depends on |
-|-------|--------|------------|
-| **A** | `canBeCaptured` + stats PATCH + quick actions + counter UI | — |
-| **B** | Image upload endpoint + UI | A |
-| **C** | Body parts + weakness matrix API/UI | A |
-| **D** | Ailments + domain star calc + UI | C (shared body parts optional) |
-| **E** | Materials + rank clone + matrices + part drops | C |
-| **F** | Settings tab consolidation | C, D, E |
-| **G** | Tests + E2E | All |
+
+| Phase | Scope                                                      | Depends on                     |
+| ----- | ---------------------------------------------------------- | ------------------------------ |
+| **A** | `canBeCaptured` + stats PATCH + quick actions + counter UI | —                              |
+| **B** | Image upload endpoint + UI                                 | A                              |
+| **C** | Body parts + weakness matrix API/UI                        | A                              |
+| **D** | Ailments + domain star calc + UI                           | C (shared body parts optional) |
+| **E** | Materials + rank clone + matrices + part drops             | C                              |
+| **F** | Settings tab consolidation                                 | C, D, E                        |
+| **G** | Tests + E2E                                                | All                            |
+
 
 Complete Phase 2 “UI parity” items from [game_tracker_phase2.plan.md](./game_tracker_phase2.plan.md) (quest/encounter forms) **in parallel or after A**—they complement but are not replaced by manual counters.
 
@@ -385,23 +401,25 @@ Complete Phase 2 “UI parity” items from [game_tracker_phase2.plan.md](./game
 
 ## 10) Testing checklist
 
-| Area | Unit (domain/shared) | API (Jest) | UI (Vitest) | E2E |
-|------|---------------------|------------|-------------|-----|
-| Counter +/- and floors at 0 | — | ✓ | ✓ | ✓ |
-| Hunted / Captured actions | — | ✓ | ✓ | ✓ |
-| Capture disabled | — | ✓ | ✓ | ✓ |
-| Star: any 0% bar → 0 stars | ✓ | ✓ | — | — |
-| Star: relative tiers | ✓ | — | ✓ | — |
-| HR clone `+` naming | ✓ | ✓ | — | — |
-| MR clone `++` | ✓ | ✓ | — | — |
-| Weakness cell 0–99 | — | ✓ | ✓ | optional |
+
+| Area                        | Unit (domain/shared) | API (Jest) | UI (Vitest) | E2E      |
+| --------------------------- | -------------------- | ---------- | ----------- | -------- |
+| Counter +/- and floors at 0 | —                    | ✓          | ✓           | ✓        |
+| Hunted / Captured actions   | —                    | ✓          | ✓           | ✓        |
+| Capture disabled            | —                    | ✓          | ✓           | ✓        |
+| Star: any 0% bar → 0 stars  | ✓                    | ✓          | —           | —        |
+| Star: relative tiers        | ✓                    | —          | ✓           | —        |
+| HR clone `+` naming         | ✓                    | ✓          | —           | —        |
+| MR clone `++`               | ✓                    | ✓          | —           | —        |
+| Weakness cell 0–99          | —                    | ✓          | ✓           | optional |
+
 
 ---
 
 ## 11) Constraints
 
 - Do not remove existing `Encounter` / `Drop` logging; manual counters coexist (document that encounters may also bump stats—decide single source of truth or sync rules in Phase A design).
-- Keep `@game-tracker/*` package names.
+- Keep `@game-tracker/`* package names.
 - JWT auth on all new routes.
 - SQLite-compatible Prisma migrations only.
 
@@ -412,3 +430,4 @@ Complete Phase 2 “UI parity” items from [game_tracker_phase2.plan.md](./game
 1. **Counter sync:** Should `POST .../encounters` also increment manual counters, or only manual/quick actions update them?
 2. **Image storage:** Local disk (simpler) vs S3 (production)—start local.
 3. **Normalized tables vs metadata JSON:** Plan recommends tables; JSON acceptable only for spike, not long-term.
+

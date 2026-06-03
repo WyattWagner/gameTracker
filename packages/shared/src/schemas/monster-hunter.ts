@@ -86,6 +86,7 @@ export type MonsterHunterDetail = z.infer<typeof MonsterHunterDetailSchema>;
 export const PatchMonsterStatsSchema = z
   .object({
     numberOfHunts: z.number().int().nonnegative().optional(),
+    hunts: z.number().int().nonnegative().optional(),
     wins: z.number().int().nonnegative().optional(),
     losses: z.number().int().nonnegative().optional(),
     captures: z.number().int().nonnegative().optional(),
@@ -93,6 +94,7 @@ export const PatchMonsterStatsSchema = z
     deltas: z
       .object({
         numberOfHunts: z.number().int().optional(),
+        hunts: z.number().int().optional(),
         wins: z.number().int().optional(),
         losses: z.number().int().optional(),
         captures: z.number().int().optional(),

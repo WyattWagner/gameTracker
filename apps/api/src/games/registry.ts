@@ -10,9 +10,9 @@ export const monsterHunterModule: GameModule = {
   id: "monster-hunter",
   name: "Monster Hunter",
   getMonsterFieldDefs: () => [
-    { key: "numberOfHunts", label: "Hunts", type: "number" },
-    { key: "wins", label: "Wins", type: "number" },
-    { key: "losses", label: "Losses", type: "number" },
+    { key: "numberOfHunts", label: "Quests Accepted", type: "number" },
+    { key: "hunts", label: "Hunts", type: "number" },
+    { key: "wins", label: "Quests Completed", type: "number" },
     { key: "captures", label: "Captures", type: "number" },
     { key: "failedQuests", label: "Failed Quests", type: "number" },
     { key: "favoriteWeaponUsed", label: "Favorite Weapon", type: "string" },

@@ -1,4 +1,4 @@
-import { createContext, useContext, useMemo, useState, type ReactNode } from "react";
+import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { createApiClient } from "./client";
 
 const TOKEN_KEY = "game-tracker-token";
@@ -21,6 +21,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   const api = useMemo(() => createApiClient(() => token), [token]);
+
+  useEffect(() => {
+    if (!token) return;
+    api.me().catch(() => setToken(null));
+  }, [api, token]);
 
   return <AuthContext.Provider value={{ token, setToken, api }}>{children}</AuthContext.Provider>;
 }

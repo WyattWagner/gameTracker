@@ -2,7 +2,7 @@ import type { PatchMonsterStats } from "@game-tracker/shared";
 
 type PatchStats = PatchMonsterStats;
 
-const STAT_KEYS = ["numberOfHunts", "wins", "losses", "captures", "failedQuests"] as const;
+const STAT_KEYS = ["numberOfHunts", "hunts", "wins", "losses", "captures", "failedQuests"] as const;
 
 export function applyMonsterStatsPatch(
   current: Record<(typeof STAT_KEYS)[number], number>,

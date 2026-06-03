@@ -9,13 +9,23 @@ export function MonstersPage() {
   const [search, setSearch] = useState("");
   const { monsters, loading, error, refresh } = useMonsters("monster-hunter", search);
   const [name, setName] = useState("");
+  const [creating, setCreating] = useState(false);
+  const [createError, setCreateError] = useState<string | null>(null);
 
   async function onCreate(event: FormEvent) {
     event.preventDefault();
     if (!name.trim()) return;
-    await api.createMonster({ gameId: "monster-hunter", name: name.trim() });
-    setName("");
-    await refresh();
+    setCreating(true);
+    setCreateError(null);
+    try {
+      await api.createMonster({ gameId: "monster-hunter", name: name.trim() });
+      setName("");
+      await refresh();
+    } catch (err) {
+      setCreateError(err instanceof Error ? err.message : "Failed to add monster");
+    } finally {
+      setCreating(false);
+    }
   }
 
   return (
@@ -35,11 +45,16 @@ export function MonstersPage() {
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-        <button className="rounded-md bg-emerald-600 px-3 py-2 hover:bg-emerald-500" type="submit">
-          Add Monster
+        <button
+          className="rounded-md bg-emerald-600 px-3 py-2 hover:bg-emerald-500 disabled:opacity-50"
+          type="submit"
+          disabled={creating || !name.trim()}
+        >
+          {creating ? "Adding…" : "Add Monster"}
         </button>
       </form>
 
+      {createError && <ErrorState message={createError} />}
       {loading && <LoadingState />}
       {error && <ErrorState message={error} />}
 
@@ -51,7 +66,7 @@ export function MonstersPage() {
             className="rounded-lg border border-slate-800 bg-slate-900/60 p-4 hover:border-emerald-700"
           >
             <h3 className="font-medium">{monster.name}</h3>
-            <p className="text-sm text-slate-400">{monster.numberOfHunts} hunts</p>
+            <p className="text-sm text-slate-400">{monster.hunts} hunts</p>
           </Link>
         ))}
       </div>

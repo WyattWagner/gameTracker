@@ -8,6 +8,7 @@ vi.mock("../hooks/useDashboardStats", () => ({
     error: null,
     data: {
       totalQuestsCompleted: 2,
+      totalQuestsAccepted: 7,
       totalHunts: 5,
       monstersDefeated: 3,
       monstersCaptured: 1,

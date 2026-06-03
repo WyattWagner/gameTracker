@@ -10,6 +10,7 @@ export function toMonsterDto(row: {
   favoriteWeaponUsed: string | null;
   lastEncounterAt: Date | null;
   numberOfHunts: number;
+  hunts: number;
   wins: number;
   losses: number;
   captures: number;
@@ -27,6 +28,7 @@ export function toMonsterDto(row: {
     favoriteWeaponUsed: row.favoriteWeaponUsed,
     lastEncounterAt: row.lastEncounterAt?.toISOString() ?? null,
     numberOfHunts: row.numberOfHunts,
+    hunts: row.hunts,
     wins: row.wins,
     losses: row.losses,
     captures: row.captures,

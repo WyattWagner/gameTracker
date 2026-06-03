@@ -10,7 +10,7 @@ async function registerAndLogin(email = `mh-${Date.now()}@test.com`) {
 }
 
 describe("Monster Hunter expansion API", () => {
-  it("seeds MH data on monster create and supports hunted/captured actions", async () => {
+  it("seeds MH data on monster create and supports hunt/captured actions", async () => {
     const token = await registerAndLogin();
 
     const created = await request(app)
@@ -27,16 +27,39 @@ describe("Monster Hunter expansion API", () => {
     expect(detail.body.bodyParts.length).toBeGreaterThan(0);
     expect(detail.body.ailments.length).toBe(10);
 
-    const hunted = await request(app)
-      .post(`/api/v1/monsters/${created.body.id}/actions/hunted`)
+    const hunt = await request(app)
+      .post(`/api/v1/monsters/${created.body.id}/actions/hunt`)
       .set("Authorization", `Bearer ${token}`);
-    expect(hunted.body.numberOfHunts).toBe(1);
-    expect(hunted.body.wins).toBe(1);
+    expect(hunt.body.numberOfHunts).toBe(1);
+    expect(hunt.body.hunts).toBe(1);
+    expect(hunt.body.wins).toBe(1);
 
     const captured = await request(app)
       .post(`/api/v1/monsters/${created.body.id}/actions/captured`)
       .set("Authorization", `Bearer ${token}`);
+    expect(captured.body.numberOfHunts).toBe(2);
+    expect(captured.body.hunts).toBe(1);
     expect(captured.body.captures).toBe(1);
+    expect(captured.body.wins).toBe(2);
+  });
+
+  it("supports quest-failed action", async () => {
+    const token = await registerAndLogin();
+
+    const created = await request(app)
+      .post("/api/v1/monsters")
+      .set("Authorization", `Bearer ${token}`)
+      .send({ gameId: "monster-hunter", name: "Barroth" });
+
+    const failed = await request(app)
+      .post(`/api/v1/monsters/${created.body.id}/actions/quest-failed`)
+      .set("Authorization", `Bearer ${token}`);
+
+    expect(failed.body.numberOfHunts).toBe(1);
+    expect(failed.body.hunts).toBe(0);
+    expect(failed.body.losses).toBe(0);
+    expect(failed.body.failedQuests).toBe(1);
+    expect(failed.body.wins).toBe(0);
   });
 
   it("rejects capture when canBeCaptured is false", async () => {

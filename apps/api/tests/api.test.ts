@@ -113,6 +113,7 @@ describe("Quests and encounters API", () => {
       .get("/api/v1/stats/dashboard?gameId=monster-hunter")
       .set("Authorization", `Bearer ${token}`);
 
+    expect(stats.body.totalQuestsAccepted).toBe(1);
     expect(stats.body.totalHunts).toBe(1);
     expect(stats.body.monstersDefeated).toBe(1);
     expect(stats.body.totalQuestsCompleted).toBe(1);

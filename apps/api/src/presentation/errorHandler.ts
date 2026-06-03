@@ -18,6 +18,14 @@ export function errorHandler(err: unknown, _req: Request, res: Response, _next: 
     return;
   }
 
+  if (err instanceof Prisma.PrismaClientKnownRequestError && err.code === "P2003") {
+    res.status(400).json({
+      code: "INVALID_REFERENCE",
+      message: "Related data is missing. Try signing out and back in, or run npm run fix:dev.",
+    });
+    return;
+  }
+
   if (err instanceof Error && err.message === "UNAUTHORIZED") {
     res.status(401).json({ code: "UNAUTHORIZED", message: "Unauthorized" });
     return;

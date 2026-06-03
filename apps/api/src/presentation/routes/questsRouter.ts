@@ -2,10 +2,10 @@ import { Router } from "express";
 import {
   CreateEncounterRequestSchema,
   CreateQuestRequestSchema,
-  ENCOUNTER_RESULT_TO_MONSTER_FIELD,
   ListQuestsQuerySchema,
   UpdateQuestRequestSchema,
 } from "@game-tracker/shared";
+import type { Prisma } from "@prisma/client";
 import { prisma } from "../../infrastructure/prisma/client";
 import { toEncounterDto, toQuestDto } from "../mappers/dtos";
 import type { AuthenticatedRequest } from "../middleware/requireAuth";
@@ -155,7 +155,19 @@ questsRouter.post(
       }
 
       const encounterDate = body.encounterDate ? new Date(body.encounterDate) : new Date();
-      const counterField = ENCOUNTER_RESULT_TO_MONSTER_FIELD[body.result as keyof typeof ENCOUNTER_RESULT_TO_MONSTER_FIELD];
+      const counterUpdate: Prisma.MonsterUpdateInput = {
+        numberOfHunts: { increment: 1 },
+        lastEncounterAt: encounterDate,
+      };
+      if (body.result === "WIN") {
+        counterUpdate.hunts = { increment: 1 };
+        counterUpdate.wins = { increment: 1 };
+      } else if (body.result === "CAPTURE") {
+        counterUpdate.wins = { increment: 1 };
+        counterUpdate.captures = { increment: 1 };
+      } else {
+        counterUpdate.failedQuests = { increment: 1 };
+      }
 
       const [encounter] = await prisma.$transaction([
         prisma.encounter.create({
@@ -170,11 +182,7 @@ questsRouter.post(
         }),
         prisma.monster.update({
           where: { id: monster.id },
-          data: {
-            numberOfHunts: { increment: 1 },
-            [counterField]: { increment: 1 },
-            lastEncounterAt: encounterDate,
-          },
+          data: counterUpdate,
         }),
       ]);
 

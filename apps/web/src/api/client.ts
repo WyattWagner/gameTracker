@@ -49,10 +49,12 @@ export function createApiClient(getToken: () => string | null) {
       request<import("@game-tracker/shared").Monster>(`/monsters/${id}`, { method: "PATCH", body: JSON.stringify(body) }),
     patchMonsterStats: (id: string, body: PatchMonsterStats) =>
       request<import("@game-tracker/shared").Monster>(`/monsters/${id}/stats`, { method: "PATCH", body: JSON.stringify(body) }),
-    huntedAction: (id: string) =>
-      request<import("@game-tracker/shared").Monster>(`/monsters/${id}/actions/hunted`, { method: "POST" }),
+    huntAction: (id: string) =>
+      request<import("@game-tracker/shared").Monster>(`/monsters/${id}/actions/hunt`, { method: "POST" }),
     capturedAction: (id: string) =>
       request<import("@game-tracker/shared").Monster>(`/monsters/${id}/actions/captured`, { method: "POST" }),
+    questFailedAction: (id: string) =>
+      request<import("@game-tracker/shared").Monster>(`/monsters/${id}/actions/quest-failed`, { method: "POST" }),
     uploadMonsterImage: async (id: string, file: File) => {
       const token = getToken();
       const form = new FormData();

@@ -10,24 +10,30 @@ export interface DashboardInput {
   monsters: Monster[];
 }
 
+/** Sum Quests Accepted across every monster (matches per-monster "Quests Accepted" counters). */
+export function sumMonsterQuestsAccepted(monsters: Monster[]): number {
+  return monsters.reduce((sum, m) => sum + (m.numberOfHunts ?? 0), 0);
+}
+
+/** Sum Hunts across every monster (matches per-monster "Hunts" counters). */
+export function sumMonsterHunts(monsters: Monster[]): number {
+  return monsters.reduce((sum, m) => sum + (m.hunts ?? 0), 0);
+}
+
 /** Pure stats logic — testable without DB or HTTP. */
 export function computeDashboardStats(input: DashboardInput): DashboardStats {
-  const completedQuests = input.quests.filter((q) => q.completionStatus === "COMPLETED");
-  const wins = input.encounters.filter((e) => e.result === "WIN").length;
-  const captures = input.encounters.filter((e) => e.result === "CAPTURE").length;
-  const failures = input.encounters.filter((e) => e.result === "FAILED" || e.result === "LOSS").length;
-
-  const huntsByMonster = new Map<string, number>();
-  for (const encounter of input.encounters) {
-    huntsByMonster.set(encounter.monsterId, (huntsByMonster.get(encounter.monsterId) ?? 0) + 1);
-  }
+  const totalQuestsAccepted = sumMonsterQuestsAccepted(input.monsters);
+  const totalHunts = sumMonsterHunts(input.monsters);
+  const totalQuestsCompleted = input.monsters.reduce((sum, m) => sum + m.wins, 0);
+  const monstersDefeated = totalQuestsCompleted;
+  const monstersCaptured = input.monsters.reduce((sum, m) => sum + m.captures, 0);
+  const monstersFailedAgainst = input.monsters.reduce((sum, m) => sum + m.failedQuests, 0);
 
   let mostHunted: DashboardStats["mostHuntedMonster"] = null;
-  for (const [monsterId, hunts] of huntsByMonster) {
-    const monster = input.monsters.find((m) => m.id === monsterId);
-    if (!monster) continue;
-    if (!mostHunted || hunts > mostHunted.hunts) {
-      mostHunted = { id: monster.id, name: monster.name, hunts };
+  for (const monster of input.monsters) {
+    if (monster.hunts === 0) continue;
+    if (!mostHunted || monster.hunts > mostHunted.hunts) {
+      mostHunted = { id: monster.id, name: monster.name, hunts: monster.hunts };
     }
   }
 
@@ -39,12 +45,24 @@ export function computeDashboardStats(input: DashboardInput): DashboardStats {
   }
 
   const recentActivity = [
-    ...input.encounters.map((e) => ({
-      id: e.id,
-      type: "ENCOUNTER" as const,
-      summary: `${e.result} encounter`,
-      occurredAt: e.encounterDate,
-    })),
+    ...input.monsters
+      .filter((m) => m.lastEncounterAt)
+      .map((m) => ({
+        id: `hunt-${m.id}-${m.lastEncounterAt}`,
+        type: "ENCOUNTER" as const,
+        summary: `Hunt ${m.name}`,
+        occurredAt: m.lastEncounterAt!,
+      })),
+    ...input.encounters.map((e) => {
+      const monster = input.monsters.find((m) => m.id === e.monsterId);
+      const label = monster?.name ?? "monster";
+      return {
+        id: e.id,
+        type: "ENCOUNTER" as const,
+        summary: `Hunt ${label} (${e.result})`,
+        occurredAt: e.encounterDate,
+      };
+    }),
     ...input.drops.map((d) => ({
       id: d.id,
       type: "DROP" as const,
@@ -62,11 +80,12 @@ export function computeDashboardStats(input: DashboardInput): DashboardStats {
     .slice(0, 10);
 
   return {
-    totalQuestsCompleted: completedQuests.length,
-    totalHunts: input.encounters.length,
-    monstersDefeated: wins,
-    monstersCaptured: captures,
-    monstersFailedAgainst: failures,
+    totalQuestsCompleted,
+    totalQuestsAccepted,
+    totalHunts,
+    monstersDefeated,
+    monstersCaptured,
+    monstersFailedAgainst,
     mostHuntedMonster: mostHunted,
     rarestDropObtained: rarestDrop,
     recentActivity,

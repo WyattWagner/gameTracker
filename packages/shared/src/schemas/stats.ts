@@ -18,6 +18,7 @@ export type RecentActivity = z.infer<typeof RecentActivitySchema>;
 
 export const DashboardStatsSchema = z.object({
   totalQuestsCompleted: z.number().int().nonnegative(),
+  totalQuestsAccepted: z.number().int().nonnegative(),
   totalHunts: z.number().int().nonnegative(),
   monstersDefeated: z.number().int().nonnegative(),
   monstersCaptured: z.number().int().nonnegative(),
@@ -61,10 +62,10 @@ export type DropAggregation = z.infer<typeof DropAggregationSchema>;
 /** Used when recording encounters to keep monster counters in sync. */
 export const ENCOUNTER_RESULT_TO_MONSTER_FIELD: Record<
   z.infer<typeof EncounterResultSchema>,
-  "wins" | "losses" | "captures" | "failedQuests"
+  "wins" | "captures" | "failedQuests"
 > = {
   WIN: "wins",
-  LOSS: "losses",
+  LOSS: "failedQuests",
   CAPTURE: "captures",
   FAILED: "failedQuests",
 };

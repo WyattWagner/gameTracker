@@ -17,10 +17,12 @@ export function WeaknessMatrix({
   bodyParts,
   weaknesses,
   onUpdateCell,
+  onDeleteBodyPart,
 }: {
   bodyParts: MonsterBodyPart[];
   weaknesses: WeaknessEntry[];
   onUpdateCell: (bodyPartId: string, field: WeaknessKey, value: number) => void;
+  onDeleteBodyPart?: (bodyPartId: string) => void;
 }) {
   const byPart = new Map(weaknesses.map((w) => [w.bodyPartId, w]));
 
@@ -43,7 +45,21 @@ export function WeaknessMatrix({
             if (!row) return null;
             return (
               <tr key={part.id} className="border-b border-slate-800">
-                <td className="sticky left-0 bg-slate-900 px-2 py-1 font-medium">{part.name}</td>
+                <td className="sticky left-0 bg-slate-900 px-2 py-1 font-medium">
+                  <span className="inline-flex items-center gap-2">
+                    {part.name}
+                    {onDeleteBodyPart && (
+                      <button
+                        type="button"
+                        onClick={() => onDeleteBodyPart(part.id)}
+                        className="text-xs text-red-400 hover:text-red-300"
+                        aria-label={`Delete ${part.name}`}
+                      >
+                        Delete
+                      </button>
+                    )}
+                  </span>
+                </td>
                 {COLUMNS.map((c) => (
                   <td key={c.key} className="px-1 py-1 text-center">
                     <input

@@ -21,16 +21,31 @@ npm run db:seed
 
 ## Development
 
-```powershell
-# Terminal 1
-npm run dev:api
+Run **both** servers. The web app proxies `/api` to port 3001.
 
-# Terminal 2
-npm run dev:web
+```powershell
+# One-time or after pull (install, build packages, migrate, seed)
+npm.cmd run fix:dev
+
+# Terminal 1 — API (must show: API listening on http://localhost:3001)
+npm.cmd run dev:api
+
+# Terminal 2 — Web UI
+npm.cmd run dev:web
 ```
 
 - Web: http://localhost:5173
+- API health: http://localhost:3001/health
 - API: http://localhost:3001/api/v1
+
+### Troubleshooting
+
+| Symptom | Fix |
+|--------|-----|
+| Vite `proxy error` / `ECONNREFUSED` on `/api` | Start `npm run dev:api` in a second terminal |
+| `EADDRINUSE` on port 3001 | Only one API instance; run `npm run fix:dev` or close the other terminal |
+| `Foreign key` when adding monsters | Run `npm run fix:dev` or `npm run db:seed` (ensures `monster-hunter` game exists) |
+| `Cannot find module '@game-tracker/domain/dist'` | Run `npm run build:packages` or `npm run fix:dev` |
 
 ## Testing
 

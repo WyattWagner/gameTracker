@@ -11,6 +11,7 @@ export const MonsterSchema = z.object({
   favoriteWeaponUsed: z.string().nullable(),
   lastEncounterAt: z.string().datetime().nullable(),
   numberOfHunts: z.number().int().nonnegative(),
+  hunts: z.number().int().nonnegative(),
   wins: z.number().int().nonnegative(),
   losses: z.number().int().nonnegative(),
   captures: z.number().int().nonnegative(),

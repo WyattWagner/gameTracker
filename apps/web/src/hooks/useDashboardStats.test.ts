@@ -8,6 +8,7 @@ vi.mock("../api/AuthContext", () => ({
     api: {
       dashboardStats: vi.fn().mockResolvedValue({
         totalQuestsCompleted: 3,
+        totalQuestsAccepted: 12,
         totalHunts: 10,
         monstersDefeated: 6,
         monstersCaptured: 2,

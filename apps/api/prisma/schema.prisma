@@ -36,7 +36,8 @@ model Monster {
   canBeCaptured      Boolean            @default(true)
   favoriteWeaponUsed String?
   lastEncounterAt    DateTime?
-  numberOfHunts      Int                @default(0)
+  numberOfHunts      Int                @default(0) // Quests accepted (any outing)
+  hunts              Int                @default(0) // Successful hunts only (not capture/fail)
   wins               Int                @default(0)
   losses             Int                @default(0)
   captures           Int                @default(0)

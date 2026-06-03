@@ -28,6 +28,11 @@ export function MonsterDetailPage() {
   const [mh, setMh] = useState<MonsterHunterDetail | null>(null);
   const [tab, setTab] = useState<TabId>("overview");
   const [materialRank, setMaterialRank] = useState<MaterialRank>("LOW");
+  const [newBodyPartName, setNewBodyPartName] = useState("");
+  const [newAilmentName, setNewAilmentName] = useState("");
+  const [newMaterialName, setNewMaterialName] = useState("");
+  const [tabError, setTabError] = useState<string | null>(null);
+  const [tabBusy, setTabBusy] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const { drops } = useDrops("monster-hunter", monsterId);
@@ -46,6 +51,18 @@ export function MonsterDetailPage() {
       .catch((err) => setError(err instanceof Error ? err.message : "Failed to load monster"))
       .finally(() => setLoading(false));
   }, [monsterId, reload]);
+
+  async function runTabAction(action: () => Promise<void>) {
+    setTabError(null);
+    setTabBusy(true);
+    try {
+      await action();
+    } catch (err) {
+      setTabError(err instanceof Error ? err.message : "Action failed");
+    } finally {
+      setTabBusy(false);
+    }
+  }
 
   if (loading) return <LoadingState message="Loading monster..." />;
   if (error) return <ErrorState message={error} />;
@@ -106,7 +123,10 @@ export function MonsterDetailPage() {
           <button
             key={t.id}
             type="button"
-            onClick={() => setTab(t.id)}
+            onClick={() => {
+              setTab(t.id);
+              setTabError(null);
+            }}
             className={`rounded-md px-3 py-1.5 text-sm ${
               tab === t.id ? "bg-slate-700 text-white" : "text-slate-400 hover:text-white"
             }`}
@@ -116,6 +136,8 @@ export function MonsterDetailPage() {
         ))}
       </nav>
 
+      {tabError && <ErrorState message={tabError} />}
+
       {tab === "overview" && (
         <>
           <MonsterHuntStatsSection
@@ -124,12 +146,16 @@ export function MonsterDetailPage() {
               const updated = await api.patchMonsterStats(monster.id, patch);
               setMonster(updated);
             }}
-            onHunted={async () => {
-              const updated = await api.huntedAction(monster.id);
+            onHunt={async () => {
+              const updated = await api.huntAction(monster.id);
               setMonster(updated);
             }}
             onCaptured={async () => {
               const updated = await api.capturedAction(monster.id);
+              setMonster(updated);
+            }}
+            onQuestFailed={async () => {
+              const updated = await api.questFailedAction(monster.id);
               setMonster(updated);
             }}
           />
@@ -143,42 +169,147 @@ export function MonsterDetailPage() {
       )}
 
       {tab === "weaknesses" && (
-        <WeaknessMatrix
-          bodyParts={mh.bodyParts}
-          weaknesses={mh.weaknesses}
-          onUpdateCell={async (bodyPartId, field, value) => {
-            const updated = await api.patchWeakness(monster.id, { bodyPartId, [field]: value });
-            setMh((prev) =>
-              prev
-                ? { ...prev, weaknesses: prev.weaknesses.map((w) => (w.bodyPartId === bodyPartId ? updated : w)) }
-                : prev,
-            );
-          }}
-        />
+        <div className="space-y-4">
+          <form
+            className="flex flex-wrap gap-2"
+            onSubmit={(e) => {
+              e.preventDefault();
+              const name = newBodyPartName.trim();
+              if (!name) return;
+              void runTabAction(async () => {
+                await api.createBodyPart(monster.id, name);
+                setNewBodyPartName("");
+                await reload();
+              });
+            }}
+          >
+            <input
+              className="rounded-md border border-slate-700 bg-slate-950 px-3 py-2 text-sm"
+              placeholder="New body part name"
+              value={newBodyPartName}
+              onChange={(e) => setNewBodyPartName(e.target.value)}
+              disabled={tabBusy}
+            />
+            <button
+              type="submit"
+              className="rounded-md bg-emerald-700 px-3 py-2 text-sm hover:bg-emerald-600 disabled:opacity-50"
+              disabled={tabBusy || !newBodyPartName.trim()}
+            >
+              Add body part
+            </button>
+          </form>
+          <WeaknessMatrix
+            bodyParts={mh.bodyParts}
+            weaknesses={mh.weaknesses}
+            onUpdateCell={async (bodyPartId, field, value) => {
+              const updated = await api.patchWeakness(monster.id, { bodyPartId, [field]: value });
+              setMh((prev) =>
+                prev
+                  ? { ...prev, weaknesses: prev.weaknesses.map((w) => (w.bodyPartId === bodyPartId ? updated : w)) }
+                  : prev,
+              );
+            }}
+            onDeleteBodyPart={(bodyPartId) => {
+              void runTabAction(async () => {
+                await api.deleteBodyPart(monster.id, bodyPartId);
+                await reload();
+              });
+            }}
+          />
+        </div>
       )}
 
       {tab === "ailments" && (
-        <AilmentResistanceList
-          ailments={mh.ailments}
-          onUpdate={async (ailmentId, field, value) => {
-            const updated = await api.updateAilment(monster.id, ailmentId, { [field]: value });
-            setMh((prev) =>
-              prev ? { ...prev, ailments: prev.ailments.map((a) => (a.id === ailmentId ? updated : a)) } : prev,
-            );
-          }}
-        />
+        <div className="space-y-4">
+          <form
+            className="flex flex-wrap gap-2"
+            onSubmit={(e) => {
+              e.preventDefault();
+              const name = newAilmentName.trim();
+              if (!name) return;
+              void runTabAction(async () => {
+                await api.createAilment(monster.id, name);
+                setNewAilmentName("");
+                await reload();
+              });
+            }}
+          >
+            <input
+              className="rounded-md border border-slate-700 bg-slate-950 px-3 py-2 text-sm"
+              placeholder="New custom ailment name"
+              value={newAilmentName}
+              onChange={(e) => setNewAilmentName(e.target.value)}
+              disabled={tabBusy}
+            />
+            <button
+              type="submit"
+              className="rounded-md bg-emerald-700 px-3 py-2 text-sm hover:bg-emerald-600 disabled:opacity-50"
+              disabled={tabBusy || !newAilmentName.trim()}
+            >
+              Add ailment
+            </button>
+          </form>
+          <AilmentResistanceList
+            ailments={mh.ailments}
+            onUpdate={async (ailmentId, field, value) => {
+              const updated = await api.updateAilment(monster.id, ailmentId, { [field]: value });
+              setMh((prev) =>
+                prev ? { ...prev, ailments: prev.ailments.map((a) => (a.id === ailmentId ? updated : a)) } : prev,
+              );
+            }}
+            onDeleteAilment={(ailmentId) => {
+              void runTabAction(async () => {
+                await api.deleteAilment(monster.id, ailmentId);
+                await reload();
+              });
+            }}
+          />
+        </div>
       )}
 
       {tab === "materials" && (
         <div className="space-y-4">
           <RankTabs rank={materialRank} onChange={setMaterialRank} />
+          <form
+            className="flex flex-wrap gap-2"
+            onSubmit={(e) => {
+              e.preventDefault();
+              const name = newMaterialName.trim();
+              if (!name) return;
+              void runTabAction(async () => {
+                await api.createMaterial(monster.id, { rank: materialRank, name });
+                setNewMaterialName("");
+                await reload();
+              });
+            }}
+          >
+            <input
+              className="rounded-md border border-slate-700 bg-slate-950 px-3 py-2 text-sm"
+              placeholder={`New ${materialRank.toLowerCase()} rank material`}
+              value={newMaterialName}
+              onChange={(e) => setNewMaterialName(e.target.value)}
+              disabled={tabBusy}
+            />
+            <button
+              type="submit"
+              className="rounded-md bg-emerald-700 px-3 py-2 text-sm hover:bg-emerald-600 disabled:opacity-50"
+              disabled={tabBusy || !newMaterialName.trim()}
+            >
+              Add material
+            </button>
+          </form>
           {materialRank === "HIGH" && materialsForRank.length === 0 && (
             <button
               type="button"
               className="rounded bg-emerald-800 px-3 py-2 text-sm"
-              onClick={async () => {
-                const res = await api.initializeMaterialRank(monster.id, "LOW", "HIGH");
-                setMh((prev) => (prev ? { ...prev, materials: [...prev.materials.filter((m) => m.rank !== "HIGH"), ...res.materials] } : prev));
+              disabled={tabBusy}
+              onClick={() => {
+                void runTabAction(async () => {
+                  const res = await api.initializeMaterialRank(monster.id, "LOW", "HIGH");
+                  setMh((prev) =>
+                    prev ? { ...prev, materials: [...prev.materials.filter((m) => m.rank !== "HIGH"), ...res.materials] } : prev,
+                  );
+                });
               }}
             >
               Initialize High Rank from Low
@@ -188,11 +319,14 @@ export function MonsterDetailPage() {
             <button
               type="button"
               className="rounded bg-emerald-800 px-3 py-2 text-sm"
-              onClick={async () => {
-                const res = await api.initializeMaterialRank(monster.id, "HIGH", "MASTER");
-                setMh((prev) =>
-                  prev ? { ...prev, materials: [...prev.materials.filter((m) => m.rank !== "MASTER"), ...res.materials] } : prev,
-                );
+              disabled={tabBusy}
+              onClick={() => {
+                void runTabAction(async () => {
+                  const res = await api.initializeMaterialRank(monster.id, "HIGH", "MASTER");
+                  setMh((prev) =>
+                    prev ? { ...prev, materials: [...prev.materials.filter((m) => m.rank !== "MASTER"), ...res.materials] } : prev,
+                  );
+                });
               }}
             >
               Initialize Master Rank from High
@@ -222,106 +356,17 @@ export function MonsterDetailPage() {
       )}
 
       {tab === "settings" && (
-        <div className="space-y-6">
-          <label className="flex items-center gap-2">
-            <input
-              type="checkbox"
-              checked={monster.canBeCaptured}
-              onChange={async (e) => {
-                const updated = await api.updateMonster(monster.id, { canBeCaptured: e.target.checked });
-                setMonster(updated);
-              }}
-            />
-            <span>Can be captured</span>
-          </label>
-
-          <section>
-            <h3 className="mb-2 font-medium">Body parts</h3>
-            <ul className="mb-2 space-y-1 text-sm">
-              {mh.bodyParts.map((p) => (
-                <li key={p.id} className="flex gap-2">
-                  {p.name}
-                  <button
-                    type="button"
-                    className="text-red-400"
-                    onClick={async () => {
-                      await api.deleteBodyPart(monster.id, p.id);
-                      await reload();
-                    }}
-                  >
-                    Delete
-                  </button>
-                </li>
-              ))}
-            </ul>
-            <button
-              type="button"
-              className="rounded bg-slate-700 px-3 py-1 text-sm"
-              onClick={async () => {
-                const name = window.prompt("Body part name");
-                if (!name) return;
-                await api.createBodyPart(monster.id, name);
-                await reload();
-              }}
-            >
-              Add body part
-            </button>
-          </section>
-
-          <section>
-            <h3 className="mb-2 font-medium">Custom ailments</h3>
-            <ul className="mb-2 space-y-1 text-sm">
-              {mh.ailments
-                .filter((a) => a.isCustom)
-                .map((a) => (
-                  <li key={a.id} className="flex gap-2">
-                    {a.name}
-                    <button
-                      type="button"
-                      className="text-red-400"
-                      onClick={async () => {
-                        await api.deleteAilment(monster.id, a.id);
-                        await reload();
-                      }}
-                    >
-                      Delete
-                    </button>
-                  </li>
-                ))}
-            </ul>
-            <button
-              type="button"
-              className="rounded bg-slate-700 px-3 py-1 text-sm"
-              onClick={async () => {
-                const name = window.prompt("Ailment name");
-                if (!name) return;
-                await api.createAilment(monster.id, name);
-                await reload();
-              }}
-            >
-              Add custom ailment
-            </button>
-          </section>
-
-          <section>
-            <h3 className="mb-2 font-medium">Materials ({materialRank})</h3>
-            <button
-              type="button"
-              className="rounded bg-slate-700 px-3 py-1 text-sm"
-              onClick={async () => {
-                const name = window.prompt("Material name");
-                if (!name) return;
-                await api.createMaterial(monster.id, { rank: materialRank, name });
-                await reload();
-              }}
-            >
-              Add material
-            </button>
-            <div className="mt-2">
-              <RankTabs rank={materialRank} onChange={setMaterialRank} />
-            </div>
-          </section>
-        </div>
+        <label className="flex items-center gap-2">
+          <input
+            type="checkbox"
+            checked={monster.canBeCaptured}
+            onChange={async (e) => {
+              const updated = await api.updateMonster(monster.id, { canBeCaptured: e.target.checked });
+              setMonster(updated);
+            }}
+          />
+          <span>Can be captured</span>
+        </label>
       )}
 
       {tab === "log" && (

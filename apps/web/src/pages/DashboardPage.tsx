@@ -13,11 +13,12 @@ export function DashboardPage() {
       <h2 className="text-2xl font-semibold">Dashboard</h2>
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         <StatCard label="Quests Completed" value={data.totalQuestsCompleted} />
+        <StatCard label="Quests Accepted" value={data.totalQuestsAccepted} />
         <StatCard label="Total Hunts" value={data.totalHunts} />
         <StatCard label="Monsters Defeated" value={data.monstersDefeated} />
         <StatCard label="Monsters Captured" value={data.monstersCaptured} />
-        <StatCard label="Failed Against" value={data.monstersFailedAgainst} />
-        <StatCard label="Most Hunted" value={data.mostHuntedMonster?.name ?? "—"} />
+        <StatCard label="Failed Quests" value={data.monstersFailedAgainst} />
+        <StatCard label="Most Hunts" value={data.mostHuntedMonster?.name ?? "—"} />
         <StatCard label="Rarest Drop" value={data.rarestDropObtained?.dropName ?? "—"} />
       </div>
 

@@ -3,9 +3,9 @@ import type { Monster } from "@game-tracker/shared";
 /** Monster Hunter-specific fields rendered via game module composition. */
 export function MonsterStatsPanel({ monster }: { monster: Monster }) {
   const stats = [
-    { label: "Hunts", value: monster.numberOfHunts },
-    { label: "Wins", value: monster.wins },
-    { label: "Losses", value: monster.losses },
+    { label: "Quests Accepted", value: monster.numberOfHunts },
+    { label: "Hunts", value: monster.hunts },
+    { label: "Quests Completed", value: monster.wins },
     { label: "Captures", value: monster.captures },
     { label: "Failed Quests", value: monster.failedQuests },
   ];
