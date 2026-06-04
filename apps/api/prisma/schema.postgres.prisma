@@ -1,0 +1,204 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String      @id @default(cuid())
+  email        String      @unique
+  passwordHash String
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+  monsters     Monster[]
+  quests       Quest[]
+  encounters   Encounter[]
+  drops        Drop[]
+}
+
+model Game {
+  id       String    @id
+  name     String
+  monsters Monster[]
+  quests   Quest[]
+  drops    Drop[]
+}
+
+model Monster {
+  id                 String             @id @default(cuid())
+  gameId             String
+  userId             String
+  name               String
+  imageUrl           String?
+  canBeCaptured      Boolean            @default(true)
+  favoriteWeaponUsed String?
+  lastEncounterAt    DateTime?
+  numberOfHunts      Int                @default(0) // Quests accepted (any outing)
+  hunts              Int                @default(0) // Successful hunts only (not capture/fail)
+  wins               Int                @default(0)
+  losses             Int                @default(0)
+  captures           Int                @default(0)
+  failedQuests       Int                @default(0)
+  notes              String?
+  metadata           Json?
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+  game               Game               @relation(fields: [gameId], references: [id])
+  user               User               @relation(fields: [userId], references: [id])
+  questMonsters      QuestMonster[]
+  encounters         Encounter[]
+  drops              Drop[]
+  bodyParts          MonsterBodyPart[]
+  weaknessEntries    WeaknessEntry[]
+  ailments           MonsterAilment[]
+  materials          MonsterMaterial[]
+
+  @@index([userId, gameId])
+}
+
+model MonsterBodyPart {
+  id                  String                 @id @default(cuid())
+  monsterId           String
+  name                String
+  sortOrder           Int                    @default(0)
+  monster             Monster                @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+  weaknessEntry       WeaknessEntry?
+  materialBodyPartDrops MaterialBodyPartDrop[]
+
+  @@index([monsterId])
+}
+
+model WeaknessEntry {
+  id          String          @id @default(cuid())
+  monsterId   String
+  bodyPartId  String          @unique
+  slash       Int             @default(0)
+  blunt       Int             @default(0)
+  pierce      Int             @default(0)
+  fire        Int             @default(0)
+  water       Int             @default(0)
+  thunder     Int             @default(0)
+  ice         Int             @default(0)
+  dragon      Int             @default(0)
+  monster     Monster         @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+  bodyPart    MonsterBodyPart @relation(fields: [bodyPartId], references: [id], onDelete: Cascade)
+
+  @@index([monsterId])
+}
+
+model MonsterAilment {
+  id                        String  @id @default(cuid())
+  monsterId                 String
+  name                      String
+  isCustom                  Boolean @default(false)
+  initialResistance         Int     @default(50)
+  nextResistanceThreshold   Int     @default(50)
+  maximumResistance         Int     @default(50)
+  naturalBuildUpDegradation Int     @default(50)
+  totalEffectiveness        Int     @default(50)
+  sortOrder                 Int     @default(0)
+  monster                   Monster @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+
+  @@index([monsterId])
+}
+
+model MonsterMaterial {
+  id                  String                 @id @default(cuid())
+  monsterId           String
+  rank                String
+  name                String
+  targetReward        Int                    @default(0)
+  captureReward       Int                    @default(0)
+  brokenPartReward    Int                    @default(0)
+  carveReward         Int                    @default(0)
+  dropMaterialReward  Int                    @default(0)
+  sortOrder           Int                    @default(0)
+  monster             Monster                @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+  bodyPartDrops       MaterialBodyPartDrop[]
+
+  @@index([monsterId, rank])
+}
+
+model MaterialBodyPartDrop {
+  id         String          @id @default(cuid())
+  materialId String
+  bodyPartId String
+  chance     Int             @default(0)
+  material   MonsterMaterial @relation(fields: [materialId], references: [id], onDelete: Cascade)
+  bodyPart   MonsterBodyPart @relation(fields: [bodyPartId], references: [id], onDelete: Cascade)
+
+  @@unique([materialId, bodyPartId])
+}
+
+model Quest {
+  id               String         @id @default(cuid())
+  gameId           String
+  userId           String
+  name             String
+  completionStatus String
+  timeTakenSeconds Int?
+  cartCount        Int            @default(0)
+  rewards          String?
+  notes            String?
+  weaponUsed       String?
+  isMultiplayer    Boolean        @default(false)
+  metadata         Json?
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  game             Game           @relation(fields: [gameId], references: [id])
+  user             User           @relation(fields: [userId], references: [id])
+  questMonsters    QuestMonster[]
+  encounters       Encounter[]
+  drops            Drop[]
+
+  @@index([userId, gameId])
+}
+
+model QuestMonster {
+  questId   String
+  monsterId String
+  quest     Quest   @relation(fields: [questId], references: [id], onDelete: Cascade)
+  monster   Monster @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+
+  @@id([questId, monsterId])
+}
+
+model Encounter {
+  id            String   @id @default(cuid())
+  questId       String
+  monsterId     String
+  userId        String
+  encounterDate DateTime @default(now())
+  result        String
+  metadata      Json?
+  createdAt     DateTime @default(now())
+  quest         Quest    @relation(fields: [questId], references: [id], onDelete: Cascade)
+  monster       Monster  @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+  user          User     @relation(fields: [userId], references: [id])
+
+  @@index([userId, encounterDate])
+}
+
+model Drop {
+  id              String   @id @default(cuid())
+  gameId          String
+  userId          String
+  sourceMonsterId String
+  questId         String?
+  dropName        String
+  rarity          String
+  quantity        Int      @default(1)
+  dateObtained    DateTime @default(now())
+  metadata        Json?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  game            Game     @relation(fields: [gameId], references: [id])
+  user            User     @relation(fields: [userId], references: [id])
+  sourceMonster   Monster  @relation(fields: [sourceMonsterId], references: [id])
+  quest           Quest?   @relation(fields: [questId], references: [id])
+
+  @@index([userId, gameId])
+}

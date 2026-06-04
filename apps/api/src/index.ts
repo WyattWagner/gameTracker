@@ -1,14 +1,18 @@
 import "dotenv/config";
 import { createApp } from "./app";
+import { getEnv } from "./config/env";
 import { ensureGames } from "./infrastructure/db/ensureGames";
 
-const app = createApp();
-const port = Number(process.env.PORT ?? 3001);
+const env = getEnv();
+const app = createApp(env);
 
 async function start() {
   await ensureGames();
-  app.listen(port, () => {
-    console.log(`API listening on http://localhost:${port}`);
+  app.listen(env.port, () => {
+    console.log(`API listening on http://localhost:${env.port}`);
+    if (env.webDistPath) {
+      console.log(`Serving web UI from ${env.webDistPath}`);
+    }
   });
 }
 

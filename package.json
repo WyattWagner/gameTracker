@@ -17,6 +17,11 @@
     "db:migrate": "npm run db:migrate --workspace api",
     "db:seed": "npm run db:seed --workspace api",
     "build:packages": "npm run build --workspace @game-tracker/shared && npm run build --workspace @game-tracker/domain",
+    "build:prod": "npm run build:packages && npm run build:prod --workspace api && npm run build --workspace web",
+    "start:prod": "npm run start:prod --workspace api",
+    "docker:up": "docker compose up -d postgres",
+    "docker:down": "docker compose down",
+    "docker:prod": "docker compose --profile production up --build",
     "save": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/commit-push.ps1",
     "git-all-push": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/commit-push.ps1"
   },

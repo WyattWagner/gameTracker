@@ -1,9 +1,6 @@
 import type { RequestHandler } from "express";
-import fs from "node:fs";
 import path from "node:path";
-
-export const MONSTER_UPLOAD_DIR = path.join(process.cwd(), "uploads", "monsters");
-fs.mkdirSync(MONSTER_UPLOAD_DIR, { recursive: true });
+import { getMonsterUploadDir } from "../../infrastructure/paths/uploads";
 
 /** Loads multer on demand so the API can start even if dependencies were not installed yet. */
 export function monsterImageUploadMiddleware(): RequestHandler {
@@ -11,9 +8,10 @@ export function monsterImageUploadMiddleware(): RequestHandler {
     try {
       // eslint-disable-next-line @typescript-eslint/no-require-imports
       const multer = require("multer") as typeof import("multer");
+      const uploadDir = getMonsterUploadDir();
       const upload = multer({
         storage: multer.diskStorage({
-          destination: MONSTER_UPLOAD_DIR,
+          destination: uploadDir,
           filename: (_req, file, cb) => {
             const ext = path.extname(file.originalname) || ".jpg";
             cb(null, `${Date.now()}${ext}`);

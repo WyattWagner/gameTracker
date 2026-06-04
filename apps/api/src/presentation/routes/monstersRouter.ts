@@ -15,9 +15,9 @@ import { toMonsterDto } from "../mappers/dtos";
 import type { AuthenticatedRequest } from "../middleware/requireAuth";
 import { requireAuth } from "../middleware/requireAuth";
 import {
-  MONSTER_UPLOAD_DIR,
   monsterImageUploadMiddleware,
 } from "../middleware/monsterImageUpload";
+import { getMonsterUploadDir } from "../../infrastructure/paths/uploads";
 import { validateBody, validateQuery } from "../middleware/validate";
 import { monsterHunterRouter } from "./monsterHunterRouter";
 
@@ -224,7 +224,7 @@ monstersRouter.post(
       }
 
       const destName = `${existing.id}${path.extname(req.file.filename)}`;
-      const destPath = path.join(MONSTER_UPLOAD_DIR, destName);
+      const destPath = path.join(getMonsterUploadDir(), destName);
       fs.renameSync(req.file.path, destPath);
 
       const imageUrl = `/uploads/monsters/${destName}`;

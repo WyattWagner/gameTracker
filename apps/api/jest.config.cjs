@@ -2,6 +2,7 @@
 module.exports = {
   maxWorkers: 1,
   testEnvironment: "node",
+  setupFiles: ["<rootDir>/tests/env.ts"],
   setupFilesAfterEnv: ["<rootDir>/tests/setup.ts"],
   transform: {
     "^.+\\.(t|j)sx?$": ["ts-jest", { tsconfig: "tsconfig.test.json" }],
