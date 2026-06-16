@@ -83,6 +83,49 @@ describe("Monsters API", () => {
   });
 });
 
+describe("Monster catalog API", () => {
+  it("lists catalog monsters and creates from catalog", async () => {
+    const token = await registerAndLogin("catalog@test.com");
+
+    const catalog = await request(app)
+      .get("/api/v1/catalog/monsters?gameId=monster-hunter&type=large")
+      .set("Authorization", `Bearer ${token}`);
+
+    expect(catalog.status).toBe(200);
+    expect(catalog.body.total).toBeGreaterThan(40);
+    expect(catalog.body.monsters[0].name).toBeDefined();
+
+    const rathalos = catalog.body.monsters.find((m: { name: string }) => m.name === "Rathalos");
+    expect(rathalos).toBeDefined();
+
+    const created = await request(app)
+      .post("/api/v1/monsters/from-catalog")
+      .set("Authorization", `Bearer ${token}`)
+      .send({ gameId: "monster-hunter", catalogId: rathalos.id });
+
+    expect(created.status).toBe(201);
+    expect(created.body.name).toBe("Rathalos");
+    expect(created.body.notes).toContain("wyvern");
+
+    const detail = await request(app)
+      .get(`/api/v1/monsters/${created.body.id}/mh-detail`)
+      .set("Authorization", `Bearer ${token}`);
+    const exhaust = detail.body.ailments.find((a: { name: string }) => a.name === "Exhaust");
+    expect(exhaust).toBeDefined();
+    expect(exhaust.initialResistance).toBe(0);
+    expect(exhaust.totalEffectiveness).toBe(0);
+    expect(detail.body.weaknesses[0].fire).toBe(0);
+    expect(detail.body.weaknesses[0].dragon).toBe(75);
+
+    const duplicate = await request(app)
+      .post("/api/v1/monsters/from-catalog")
+      .set("Authorization", `Bearer ${token}`)
+      .send({ gameId: "monster-hunter", catalogId: rathalos.id });
+
+    expect(duplicate.status).toBe(409);
+  });
+});
+
 describe("Quests and encounters API", () => {
   it("records encounters and updates dashboard stats", async () => {
     const token = await registerAndLogin("quest@test.com");

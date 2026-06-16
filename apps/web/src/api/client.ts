@@ -45,8 +45,13 @@ export function createApiClient(getToken: () => string | null) {
     getMonster: (id: string) => request<import("@game-tracker/shared").Monster>(`/monsters/${id}`),
     createMonster: (body: import("@game-tracker/shared").CreateMonsterRequest) =>
       request<import("@game-tracker/shared").Monster>("/monsters", { method: "POST", body: JSON.stringify(body) }),
+    listCatalogMonsters: (query = "") =>
+      request<import("@game-tracker/shared").MonsterCatalogListResponse>(`/catalog/monsters${query}`),
+    createMonsterFromCatalog: (body: import("@game-tracker/shared").CreateMonsterFromCatalogRequest) =>
+      request<import("@game-tracker/shared").Monster>("/monsters/from-catalog", { method: "POST", body: JSON.stringify(body) }),
     updateMonster: (id: string, body: import("@game-tracker/shared").UpdateMonsterRequest) =>
       request<import("@game-tracker/shared").Monster>(`/monsters/${id}`, { method: "PATCH", body: JSON.stringify(body) }),
+    deleteMonster: (id: string) => request<void>(`/monsters/${id}`, { method: "DELETE" }),
     patchMonsterStats: (id: string, body: PatchMonsterStats) =>
       request<import("@game-tracker/shared").Monster>(`/monsters/${id}/stats`, { method: "PATCH", body: JSON.stringify(body) }),
     huntAction: (id: string) =>

@@ -8,7 +8,8 @@ Production checklist for **Game Tracker** (monorepo: Express API + React web + P
 |-----------|------------|
 | API | Node 22, Express, port `3001` |
 | Web | Vite static build (`apps/web/dist`) |
-| Database | **PostgreSQL** (SQLite is no longer used) |
+| Database | **PostgreSQL** in production; **SQLite** for local dev without Docker |
+
 | Uploads | Local disk (`UPLOAD_DIR`) or mounted volume |
 
 **Single-server deploy (recommended first):** API serves `/api/v1`, `/uploads`, and the built React app from one URL.
@@ -80,6 +81,54 @@ docker compose --profile production up --build
 5. Open the Render URL — register a user and use the app.
 
 To redeploy after changes: push to GitHub; Render rebuilds automatically.
+
+---
+
+## Deploy to Railway
+
+Railway uses your existing **`Dockerfile`** and **`railway.toml`**. Best for a single URL (API + built web app).
+
+### 1. Connect GitHub
+
+1. Sign up at [railway.com](https://railway.com) with GitHub.
+2. **New Project → Deploy from GitHub repo** → select **`WyattWagner/gameTracker`**.
+3. If the private repo is missing: GitHub → Settings → Applications → Railway → grant access to **gameTracker**.
+
+### 2. Add PostgreSQL
+
+1. In the project: **+ New → Database → PostgreSQL**.
+2. Open the Postgres service → **Connect** → copy **`DATABASE_URL`**.
+
+### 3. Configure the web service
+
+Select your app service → **Variables**:
+
+| Variable | Value |
+|----------|--------|
+| `NODE_ENV` | `production` |
+| `DATABASE_URL` | `${{Postgres.DATABASE_URL}}` (Railway reference) or paste connection string |
+| `JWT_SECRET` | long random string |
+| `WEB_DIST_PATH` | `/app/apps/web/dist` |
+| `UPLOAD_DIR` | `/app/apps/api/uploads` |
+| `SEED_ON_START` | `true` (first deploy only) |
+| `PORT` | `3001` |
+
+### 4. Persistent uploads (recommended)
+
+1. Service → **Volumes** → **Add volume**
+2. Mount path: `/app/apps/api/uploads`
+
+Without a volume, monster image uploads are lost on redeploy.
+
+### 5. Deploy
+
+Railway builds from `Dockerfile`, runs `scripts/start-production.sh` (migrations + start).
+
+Open the generated **`.railway.app`** URL → register → add monsters from the catalog.
+
+### Railway pricing note
+
+New accounts get trial credits (~$5). Ongoing hosting is typically **~$5/month** (Hobby) for API + Postgres — not permanently free, but simple to use.
 
 ---
 

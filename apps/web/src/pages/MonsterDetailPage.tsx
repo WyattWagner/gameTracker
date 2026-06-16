@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import {
   AilmentResistanceList,
   ErrorState,
@@ -23,6 +23,7 @@ function imageSrc(url: string | null): string {
 
 export function MonsterDetailPage() {
   const { monsterId } = useParams();
+  const navigate = useNavigate();
   const { api } = useAuth();
   const [monster, setMonster] = useState<Monster | null>(null);
   const [mh, setMh] = useState<MonsterHunterDetail | null>(null);
@@ -33,6 +34,7 @@ export function MonsterDetailPage() {
   const [newMaterialName, setNewMaterialName] = useState("");
   const [tabError, setTabError] = useState<string | null>(null);
   const [tabBusy, setTabBusy] = useState(false);
+  const [deleting, setDeleting] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const { drops } = useDrops("monster-hunter", monsterId);
@@ -356,17 +358,45 @@ export function MonsterDetailPage() {
       )}
 
       {tab === "settings" && (
-        <label className="flex items-center gap-2">
-          <input
-            type="checkbox"
-            checked={monster.canBeCaptured}
-            onChange={async (e) => {
-              const updated = await api.updateMonster(monster.id, { canBeCaptured: e.target.checked });
-              setMonster(updated);
-            }}
-          />
-          <span>Can be captured</span>
-        </label>
+        <div className="space-y-6">
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={monster.canBeCaptured}
+              onChange={async (e) => {
+                const updated = await api.updateMonster(monster.id, { canBeCaptured: e.target.checked });
+                setMonster(updated);
+              }}
+            />
+            <span>Can be captured</span>
+          </label>
+
+          <section className="rounded-lg border border-red-900/50 bg-red-950/20 p-4">
+            <h3 className="mb-2 font-medium text-red-300">Danger zone</h3>
+            <p className="mb-3 text-sm text-slate-400">
+              Permanently remove {monster.name} and all hunt data, weaknesses, materials, and images.
+            </p>
+            <button
+              type="button"
+              disabled={deleting}
+              className="rounded-md bg-red-700 px-3 py-2 text-sm hover:bg-red-600 disabled:opacity-50"
+              onClick={async () => {
+                if (!window.confirm(`Delete ${monster.name}? This cannot be undone.`)) return;
+                setDeleting(true);
+                setTabError(null);
+                try {
+                  await api.deleteMonster(monster.id);
+                  navigate("/monsters");
+                } catch (err) {
+                  setTabError(err instanceof Error ? err.message : "Failed to delete monster");
+                  setDeleting(false);
+                }
+              }}
+            >
+              {deleting ? "Deleting…" : "Delete monster"}
+            </button>
+          </section>
+        </div>
       )}
 
       {tab === "log" && (

@@ -60,7 +60,9 @@ npm run test:e2e
 
 ## Production / hosting
 
-See **[DEPLOY.md](./DEPLOY.md)** for the full checklist, env vars, Docker, and Render deploy.
+See **[DEPLOY.md](./DEPLOY.md)** for Render, **Railway**, Docker, and env vars.
+
+Monster reference data: **[MONSTER_CATALOG.md](./MONSTER_CATALOG.md)** (58 MHW monsters).
 
 Quick local production smoke test:
 

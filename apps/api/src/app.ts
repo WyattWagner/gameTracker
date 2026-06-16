@@ -7,6 +7,7 @@ import { getEnv } from "./config/env";
 import { getUploadRoot } from "./infrastructure/paths/uploads";
 import { errorHandler } from "./presentation/errorHandler";
 import { authRouter } from "./presentation/routes/authRouter";
+import { catalogRouter } from "./presentation/routes/catalogRouter";
 import { dropsRouter } from "./presentation/routes/dropsRouter";
 import { monstersRouter } from "./presentation/routes/monstersRouter";
 import { questsRouter } from "./presentation/routes/questsRouter";
@@ -35,6 +36,7 @@ export function createApp(env: AppEnv = getEnv()) {
 
   const api = express.Router();
   api.use("/auth", authRouter);
+  api.use("/catalog", catalogRouter);
   api.use("/monsters", monstersRouter);
   api.use("/quests", questsRouter);
   api.use("/drops", dropsRouter);

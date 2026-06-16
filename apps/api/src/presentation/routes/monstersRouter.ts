@@ -2,11 +2,14 @@ import fs from "node:fs";
 import path from "node:path";
 import { Router, type NextFunction, type Response } from "express";
 import {
+  CreateMonsterFromCatalogSchema,
   CreateMonsterRequestSchema,
+  findCatalogEntry,
   ListMonstersQuerySchema,
   PatchMonsterStatsSchema,
   UpdateMonsterRequestSchema,
 } from "@game-tracker/shared";
+import { applyMonsterCatalogData } from "../../application/monster-hunter/applyCatalogMonster";
 import { initializeMonsterHunterData } from "../../application/monster-hunter/initializeMonsterHunter";
 import { applyMonsterStatsPatch } from "../../application/monster-hunter/applyMonsterStats";
 import { ensureGames } from "../../infrastructure/db/ensureGames";
@@ -68,6 +71,57 @@ monstersRouter.post("/", validateBody(CreateMonsterRequestSchema), async (req: A
     next(error);
   }
 });
+
+monstersRouter.post(
+  "/from-catalog",
+  validateBody(CreateMonsterFromCatalogSchema),
+  async (req: AuthenticatedRequest, res, next) => {
+    try {
+      const body = req.body;
+      const entry = findCatalogEntry(body.gameId, body.catalogId);
+      if (!entry) {
+        res.status(404).json({ code: "NOT_FOUND", message: "Catalog monster not found" });
+        return;
+      }
+
+      await ensureGames();
+
+      const existing = await prisma.monster.findFirst({
+        where: {
+          userId: req.user!.id,
+          gameId: body.gameId,
+          name: entry.name,
+        },
+      });
+      if (existing) {
+        res.status(409).json({ code: "CONFLICT", message: `You already track ${entry.name}` });
+        return;
+      }
+
+      const monster = await prisma.monster.create({
+        data: {
+          gameId: body.gameId,
+          userId: req.user!.id,
+          name: entry.name,
+          canBeCaptured: entry.canBeCaptured,
+          notes: entry.description,
+          metadata: {
+            catalogId: entry.id,
+            catalogSource: entry.source,
+          },
+        },
+      });
+
+      await initializeMonsterHunterData(prisma, monster.id, body.gameId);
+      await applyMonsterCatalogData(prisma, monster.id, entry);
+
+      const updated = await prisma.monster.findUniqueOrThrow({ where: { id: monster.id } });
+      res.status(201).json(toMonsterDto(updated));
+    } catch (error) {
+      next(error);
+    }
+  },
+);
 
 monstersRouter.get("/:monsterId", async (req: AuthenticatedRequest, res, next) => {
   try {

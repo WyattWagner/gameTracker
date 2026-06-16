@@ -1,0 +1,3034 @@
+[
+  {
+    "id": "mhw-1",
+    "source": "mhw-db",
+    "sourceId": 1,
+    "name": "Aptonoth",
+    "type": "small",
+    "species": "herbivore",
+    "description": "Docile herbivores that graze in packs. Their meat is considered a delicacy and is rich in nutrients. If one member of the herd is attacked, the rest will flee immediately.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Ancient Forest"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-2",
+    "source": "mhw-db",
+    "sourceId": 2,
+    "name": "Jagras",
+    "type": "small",
+    "species": "fanged wyvern",
+    "description": "Members of the Great Jagras pack, these smaller monsters will flee upon seeing one of their own perish. They're also known for ambushing larger monsters at a moment's notice.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Ancient Forest"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-3",
+    "source": "mhw-db",
+    "sourceId": 3,
+    "name": "Mernos",
+    "type": "small",
+    "species": "wingdrake",
+    "description": "Wingdrakes that feast on scatternuts. The flock will travel great distances when startled, making them an invaluable mode of transportation for clever hunters.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Ancient Forest",
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-4",
+    "source": "mhw-db",
+    "sourceId": 4,
+    "name": "Vespoid",
+    "type": "small",
+    "species": "neopteron",
+    "description": "Insects that paralyze their targets with their long stingers. They break easily, so attack them with poison or slinger ammo if you want to carve them.",
+    "elements": [],
+    "ailments": [
+      "Paralysis"
+    ],
+    "locations": [
+      "Ancient Forest",
+      "Coral Highlands",
+      "Wildspire Waste",
+      "Rotten Vale",
+      "Elder's Recess"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      }
+    ],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-5",
+    "source": "mhw-db",
+    "sourceId": 5,
+    "name": "Mosswine",
+    "type": "small",
+    "species": "herbivore",
+    "description": "Mosswine are known for their excellent sense of smell, and are often found foraging for fungi. If you're hunting for mushrooms, follow the Mosswine to the motherlode.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Ancient Forest",
+      "Wildspire Waste",
+      "Rotten Vale"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-6",
+    "source": "mhw-db",
+    "sourceId": 6,
+    "name": "Apceros",
+    "type": "small",
+    "species": "herbivore",
+    "description": "Herbivores that inhabit the Wildspire Waste. They've developed particularly hard hide to ward off attackers, and are known to gather in groups to defend themselves.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-7",
+    "source": "mhw-db",
+    "sourceId": 7,
+    "name": "Kestodon",
+    "type": "small",
+    "species": "herbivore",
+    "description": "Female Kestodon will alert the pack of danger, while the males will violently charge would-be threats. Their rushing charges can be blocked, however, leaving them open to attacks.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Ancient Forest",
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-8",
+    "source": "mhw-db",
+    "sourceId": 8,
+    "name": "Noios",
+    "type": "small",
+    "species": "wingdrake",
+    "description": "Wingdrakes that produce a sound similar to screamer pods when startled. Use meat to get their attention, and then hunt them for materials, or use them for transportation.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-9",
+    "source": "mhw-db",
+    "sourceId": 9,
+    "name": "Gajau",
+    "type": "small",
+    "species": "fish",
+    "description": "Vicious piscine that form groups to defend their territory from intruders. Be sure not to venture too closely to their habitat!",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Ancient Forest",
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-10",
+    "source": "mhw-db",
+    "sourceId": 10,
+    "name": "Kelbi",
+    "type": "small",
+    "species": "herbivore",
+    "description": "Small herbivores known for their gentle demeanor and the medicinal properties of their horns. Those wishing to harvest a horn should aim for the head when attacking them.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Coral Highlands",
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-11",
+    "source": "mhw-db",
+    "sourceId": 11,
+    "name": "Raphinos",
+    "type": "small",
+    "species": "wingdrake",
+    "description": "Wingdrakes inhabiting the Coral Highlands. They group up to steal the eggs of other animals, but this in turn exposes them to the attention of larger, more vicious predators.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Coral Highlands",
+      "Rotten Vale"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "thunder",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-12",
+    "source": "mhw-db",
+    "sourceId": 12,
+    "name": "Shamos",
+    "type": "small",
+    "species": "fanged wyvern",
+    "description": "Small nocturnal monsters. They're particularly vulnerable to Tzitzi-Ya-Ku's blinding flash, but have been known to gang up on enemies.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Coral Highlands"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-13",
+    "source": "mhw-db",
+    "sourceId": 13,
+    "name": "Girros",
+    "type": "small",
+    "species": "fanged wyvern",
+    "description": "Monsters known to attack in packs, using the deadly vapor of the Rotten Vale to their advantage. They're known for crippling targets with paralyzing fangs.",
+    "elements": [],
+    "ailments": [
+      "Paralysis"
+    ],
+    "locations": [
+      "Rotten Vale"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "thunder",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-14",
+    "source": "mhw-db",
+    "sourceId": 14,
+    "name": "Hornetaur",
+    "type": "small",
+    "species": "neopteron",
+    "description": "Small insects that are found primarily on land. They're highly territorial and will attack anything that approaches them. Gather their materials by attacking them with the slinger.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Rotten Vale"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-15",
+    "source": "mhw-db",
+    "sourceId": 15,
+    "name": "Gastodon",
+    "type": "small",
+    "species": "herbivore",
+    "description": "Pack monsters that inhabit the Elder's Recess. They are easily angered by intruders, and will charge at monsters twice their size.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Elder's Recess"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "thunder",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-16",
+    "source": "mhw-db",
+    "sourceId": 16,
+    "name": "Barnos",
+    "type": "small",
+    "species": "wingdrake",
+    "description": "Fervid wingdrakes that have flourished under harsh living conditions. They target intruders with a unique acidic agent, and then attack as a swarm.",
+    "elements": [],
+    "ailments": [
+      "Defense Down"
+    ],
+    "locations": [
+      "Elder's Recess",
+      "Great Ravine",
+      "Everstream"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": false
+  },
+  {
+    "id": "mhw-17",
+    "source": "mhw-db",
+    "sourceId": 17,
+    "name": "Great Jagras",
+    "type": "large",
+    "species": "fanged wyvern",
+    "description": "The pack leader of the Jagras. When hungry, Great Jagras are known to attack monsters even stronger than themselves. It balloons to unbelievable proportions after swallowing prey.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Ancient Forest"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 3
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "sleep",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "blast",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "stun",
+        "stars": 3,
+        "resistance": 25
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-18",
+    "source": "mhw-db",
+    "sourceId": 18,
+    "name": "Kulu-Ya-Ku",
+    "type": "large",
+    "species": "bird wyvern",
+    "description": "An odd bird wyvern that has developed limbs capable of carrying weapons. It's been spotted stealing eggs from nests found in the Ancient Forest and Wildspire Waste.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Ancient Forest",
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 3
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-19",
+    "source": "mhw-db",
+    "sourceId": 19,
+    "name": "Pukei-Pukei",
+    "type": "large",
+    "species": "bird wyvern",
+    "description": "A bird wyvern known to possess poisonous toxins in its body. It's been spotted storing scatternuts in its mouth or tail, coating them with poison and spitting them out at threats.",
+    "elements": [],
+    "ailments": [
+      "Poison",
+      "Stun"
+    ],
+    "locations": [
+      "Ancient Forest",
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "thunder",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "sleep",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-20",
+    "source": "mhw-db",
+    "sourceId": 20,
+    "name": "Barroth",
+    "type": "large",
+    "species": "brute wyvern",
+    "description": "Barroth seek out ants, their favorite snack, and mark their territory with mud. They attack potential rivals with their devastating charging attack.",
+    "elements": [],
+    "ailments": [
+      "Waterblight",
+      "Muddy"
+    ],
+    "locations": [
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 3
+      },
+      {
+        "element": "water",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "blast",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "stun",
+        "stars": 1,
+        "resistance": 75
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-21",
+    "source": "mhw-db",
+    "sourceId": 21,
+    "name": "Jyuratodus",
+    "type": "large",
+    "species": "piscine wyvern",
+    "description": "A large piscine wyvern that inhabits the swamps of the Wildspire Waste. It uses mud to capture prey, and it's known to battle Barroth over territory.",
+    "elements": [
+      "water"
+    ],
+    "ailments": [
+      "Waterblight",
+      "Muddy"
+    ],
+    "locations": [
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 3
+      },
+      {
+        "element": "thunder",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 3,
+        "resistance": 25
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-22",
+    "source": "mhw-db",
+    "sourceId": 22,
+    "name": "Tobi-Kadachi",
+    "type": "large",
+    "species": "fanged wyvern",
+    "description": "A fanged wyvern that flies among the trees of the Ancient Forest. Its penchant to brush against the ground and the trees as it moves around builds up static electricity within its fur.",
+    "elements": [
+      "thunder"
+    ],
+    "ailments": [
+      "Thunderblight"
+    ],
+    "locations": [
+      "Ancient Forest"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-23",
+    "source": "mhw-db",
+    "sourceId": 23,
+    "name": "Anjanath",
+    "type": "large",
+    "species": "brute wyvern",
+    "description": "The Anjanath patrols the Ancient Forest, looking for its favorite meal, Aptonoth. This belligerent monster will attack anything without hesitation.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "locations": [
+      "Ancient Forest",
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 3
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-24",
+    "source": "mhw-db",
+    "sourceId": 24,
+    "name": "Azure Rathalos",
+    "type": "large",
+    "species": "flying wyvern",
+    "description": "An azure-colored subspecies of Rathalos. More mobile than their standard cousins, they locate prey from the air and quickly swoop in for the kill.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison"
+    ],
+    "locations": [
+      "Ancient Forest",
+      "Elder's Recess"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "dragon",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-25",
+    "source": "mhw-db",
+    "sourceId": 25,
+    "name": "Bazelgeuse",
+    "type": "large",
+    "species": "flying wyvern",
+    "description": "A nefarious flying wyvern that travels the New World in search of prey. It scatters explosive scales over a wide area to prey on whatever gets caught in the blast.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Blastblight",
+      "Fireblight"
+    ],
+    "locations": [
+      "Ancient Forest",
+      "Coral Highlands",
+      "Wildspire Waste",
+      "Rotten Vale",
+      "Elder's Recess"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 1,
+        "resistance": 75
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-26",
+    "source": "mhw-db",
+    "sourceId": 26,
+    "name": "Behemoth",
+    "type": "large",
+    "species": "elder dragon",
+    "description": "A powerful beast from another world. Its large horns and muscular frame defy nature. Unique strategies are required to battle it.",
+    "elements": [
+      "fire",
+      "thunder"
+    ],
+    "ailments": [
+      "Bleeding",
+      "Fireblight",
+      "Thunderblight"
+    ],
+    "locations": [
+      "Elder's Recess"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 2
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-27",
+    "source": "mhw-db",
+    "sourceId": 27,
+    "name": "Deviljho",
+    "type": "large",
+    "species": "brute wyvern",
+    "description": "A monster that must feed constantly and will devour anything in its path, even feeding on the largest of monsters with its massive jowls.",
+    "elements": [
+      "dragon"
+    ],
+    "ailments": [
+      "Dragonblight",
+      "Defense Down"
+    ],
+    "locations": [
+      "Ancient Forest",
+      "Coral Highlands",
+      "Wildspire Waste",
+      "Rotten Vale",
+      "Elder's Recess",
+      "Great Ravine",
+      "Confluence of Fates",
+      "Everstream",
+      "Caverns of El Dorado"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 2
+      },
+      {
+        "element": "thunder",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-28",
+    "source": "mhw-db",
+    "sourceId": 28,
+    "name": "Diablos",
+    "type": "large",
+    "species": "flying wyvern",
+    "description": "The apex monster of the Wildspire Waste.\nA menacing, territorial beast that lurks underground.\nLoud noises will cause it to lunge out of the sand in search of prey.",
+    "elements": [],
+    "ailments": [
+      "Stun"
+    ],
+    "locations": [
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 2
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 3
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 1,
+        "resistance": 75
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-29",
+    "source": "mhw-db",
+    "sourceId": 29,
+    "name": "Black Diablos",
+    "type": "large",
+    "species": "flying wyvern",
+    "description": "These black-shelled Diablos are actually female Diablos in heat. The color signals their aggressiveness and heightened hostility to other creatures in their habitat.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 2
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 1,
+        "resistance": 75
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-30",
+    "source": "mhw-db",
+    "sourceId": 30,
+    "name": "Dodogama",
+    "type": "large",
+    "species": "fanged wyvern",
+    "description": "A monster that devours rock as its primary diet. The Crystals it devours mix with its saliva to produce explosive minerals that it can spit at its enemies.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Blastblight"
+    ],
+    "locations": [
+      "Elder's Recess"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 2
+      },
+      {
+        "element": "thunder",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-31",
+    "source": "mhw-db",
+    "sourceId": 31,
+    "name": "Great Girros",
+    "type": "large",
+    "species": "fanged wyvern",
+    "description": "A monster that scavenges for meals dropped from the Coral Highlands.\nIt acts as the alpha leader of a Girros pack, and sports giant fangs that paralyze its prey.",
+    "elements": [],
+    "ailments": [
+      "Paralysis"
+    ],
+    "locations": [
+      "Rotten Vale"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-32",
+    "source": "mhw-db",
+    "sourceId": 32,
+    "name": "Kirin",
+    "type": "large",
+    "species": "elder dragon",
+    "description": "Kirin are so rarely sighted that little is known of their ecology. It's been said they envelop themselves in pure electricity when they are provoked.\nThe lightning a Kirin cloaks itself with has been confirmed to toughen its skin. The key to hunting a Kirin lies in staggering it, using Elderseal weapons, and protecting yourself from and avoiding its lightning attacks.",
+    "elements": [
+      "thunder"
+    ],
+    "ailments": [
+      "Paralysis",
+      "Thunderblight"
+    ],
+    "locations": [
+      "Coral Highlands"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 3
+      },
+      {
+        "element": "water",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 1,
+        "resistance": 75
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-33",
+    "source": "mhw-db",
+    "sourceId": 33,
+    "name": "Kulve Taroth",
+    "type": "large",
+    "species": "elder dragon",
+    "description": "An Elder Dragon that protects itself with a glittering coat of metal. Its ecology and coat differ with each appearance, thus the need for a thorough investigation. An exhaustive investigation is required in order to break Kulve Taroth's giant gold plated horns. Pursue the monster to learn more about it. Gather tracks and recruit hunters to help you further your investigation.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "locations": [
+      "Caverns of El Dorado"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 2
+      },
+      {
+        "element": "thunder",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 3
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 1,
+        "resistance": 75
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-34",
+    "source": "mhw-db",
+    "sourceId": 34,
+    "name": "Kushala Daora",
+    "type": "large",
+    "species": "elder dragon",
+    "description": "An elder dragon that shields itself with fierce winds, preventing anyone from approaching it. Its skin consists of hard, metallic scales.",
+    "elements": [],
+    "ailments": [
+      "Stun"
+    ],
+    "locations": [
+      "Ancient Forest",
+      "Elder's Recess"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 3
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "blast",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-35",
+    "source": "mhw-db",
+    "sourceId": 35,
+    "name": "Lavasioth",
+    "type": "large",
+    "species": "piscine wyvern",
+    "description": "Lavasioth utilizes molten lava as armor. They are extremely aggressive and will attack without prejudice until the threat has been eliminated.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "locations": [
+      "Elder's Recess"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 3
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-36",
+    "source": "mhw-db",
+    "sourceId": 36,
+    "name": "Legiana",
+    "type": "large",
+    "species": "flying wyvern",
+    "description": "The apex monster of the Coral Highlands, whose diet primarily consists of Raphinos. It emits a chilling wind from its body, which dulls its prey's ability to escape.",
+    "elements": [
+      "ice"
+    ],
+    "ailments": [
+      "Iceblight"
+    ],
+    "locations": [
+      "Coral Highlands",
+      "Rotten Vale"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 3
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-37",
+    "source": "mhw-db",
+    "sourceId": 37,
+    "name": "Lunastra",
+    "type": "large",
+    "species": "elder dragon",
+    "description": "A rare female Elder Dragon that litters the air with hot blue dust. Reports of it traveling with her mate, Teostra, are still unconfirmed.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "locations": [
+      "Elder's Recess"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 3
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-38",
+    "source": "mhw-db",
+    "sourceId": 38,
+    "name": "Nergigante",
+    "type": "large",
+    "species": "elder dragon",
+    "description": "A terrible elder dragon that appears when other elders are in the vicinity. Its penchant for destruction is well documented.",
+    "elements": [],
+    "ailments": [],
+    "locations": [
+      "Wildspire Waste",
+      "Elder's Recess"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-39",
+    "source": "mhw-db",
+    "sourceId": 39,
+    "name": "Odogaron",
+    "type": "large",
+    "species": "fanged wyvern",
+    "description": "A terrifying monster that scours the Rotten Vale for carrion. Its highly aggressive nature means that anything, be it monster or man, is a potential meal.",
+    "elements": [],
+    "ailments": [
+      "Bleeding"
+    ],
+    "locations": [
+      "Coral Highlands",
+      "Rotten Vale"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-40",
+    "source": "mhw-db",
+    "sourceId": 40,
+    "name": "Paolumu",
+    "type": "large",
+    "species": "flying wyvern",
+    "description": "Paolumu feast on eggs found in the Coral Highlands. They are able to propel through the air using unique sacs in their bodies, and attack with their extremely hard tails.",
+    "elements": [],
+    "ailments": [
+      "Wind Pressure"
+    ],
+    "locations": [
+      "Coral Highlands"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 3
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "stun",
+        "stars": 3,
+        "resistance": 25
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-41",
+    "source": "mhw-db",
+    "sourceId": 41,
+    "name": "Radobaan",
+    "type": "large",
+    "species": "brute wyvern",
+    "description": "A gigantic brute wyvern that eats the bones of carcasses found in the Rotten Vale, using some of it as armor. It also rolls into a ball as a form of attack and transportation.",
+    "elements": [],
+    "ailments": [
+      "Sleep"
+    ],
+    "locations": [
+      "Rotten Vale"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "blast",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-42",
+    "source": "mhw-db",
+    "sourceId": 42,
+    "name": "Rathalos",
+    "type": "large",
+    "species": "flying wyvern",
+    "description": "The apex monster of the Ancient Forest, also known as the \"King of the Skies\". A fierce wyvern that descends upon invaders, attacking with its venomous claws and fiery breath.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison",
+      "Stun"
+    ],
+    "locations": [
+      "Ancient Forest"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-43",
+    "source": "mhw-db",
+    "sourceId": 43,
+    "name": "Rathian",
+    "type": "large",
+    "species": "flying wyvern",
+    "description": "A wyvern known as the \"Queen of the Land.\" Terrestrial predator, it overpowers its prey with a venomous tail and powerful legs.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison"
+    ],
+    "locations": [
+      "Ancient Forest",
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 3,
+        "resistance": 25
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-44",
+    "source": "mhw-db",
+    "sourceId": 44,
+    "name": "Pink Rathian",
+    "type": "large",
+    "species": "flying wyvern",
+    "description": "A subspecies with vibrant pink scales. Pink Rathians wield their toxic tails more deftly than normal Rathians, weakening prey with poison before moving in for the kill.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison"
+    ],
+    "locations": [
+      "Coral Highlands",
+      "Wildspire Waste"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 3,
+        "resistance": 25
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-45",
+    "source": "mhw-db",
+    "sourceId": 45,
+    "name": "Teostra",
+    "type": "large",
+    "species": "elder dragon",
+    "description": "A brutal elder dragon wreathed in flames that spits blazing fire. Teostra are of such a fierce and deadly nature that the Guild closely monitors their movements.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Blastblight",
+      "Fireblight"
+    ],
+    "locations": [
+      "Wildspire Waste",
+      "Elder's Recess"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 3
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 3
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-48",
+    "source": "mhw-db",
+    "sourceId": 48,
+    "name": "Tzitzi-Ya-Ku",
+    "type": "large",
+    "species": "bird wyvern",
+    "description": "This odd monster blinds both prey and enemies with a special pulsing organ near its head. It then uses its strong legs to deliver finishing blows.",
+    "elements": [],
+    "ailments": [
+      "Stun"
+    ],
+    "locations": [
+      "Coral Highlands"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 2
+      },
+      {
+        "element": "thunder",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 3
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-49",
+    "source": "mhw-db",
+    "sourceId": 49,
+    "name": "Uragaan",
+    "type": "large",
+    "species": "brute wyvern",
+    "description": "Large Brute Wyverns that feed on ore, using their mighty jaws to crush solid rock to powder. They've been known to confront Lavasioths over territory disputes.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Sleep"
+    ],
+    "locations": [
+      "Elder's Recess"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 3
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 3,
+        "resistance": 25
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-50",
+    "source": "mhw-db",
+    "sourceId": 50,
+    "name": "Vaal Hazak",
+    "type": "large",
+    "species": "elder dragon",
+    "description": "A grotesque Elder Dragon, that inhabits the deepest part of the Rotten Vale. It uses the fatal vapor of the vale in what appears to be a symbiotic relationship.",
+    "elements": [],
+    "ailments": [
+      "Effluvial Buildup"
+    ],
+    "locations": [
+      "Rotten Vale"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 3
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-51",
+    "source": "mhw-db",
+    "sourceId": 51,
+    "name": "Xeno'jiiva",
+    "type": "large",
+    "species": "elder dragon",
+    "description": "RESEARCHING. Threat level unknown.",
+    "elements": [
+      "dragon"
+    ],
+    "ailments": [
+      "Dragonblight",
+      "Fireblight"
+    ],
+    "locations": [
+      "Confluence of Fates"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 2
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 1,
+        "resistance": 75
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-52",
+    "source": "mhw-db",
+    "sourceId": 52,
+    "name": "Zorah Magdaros",
+    "type": "large",
+    "species": "elder dragon",
+    "description": "An elder dragon that rises from the earth like a volcano. Where it's headed, and why, the Research Commission has yet to figure out.",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "locations": [
+      "Great Ravine",
+      "Everstream"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "water",
+        "stars": 3
+      },
+      {
+        "element": "thunder",
+        "stars": 1
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-53",
+    "source": "mhw-db",
+    "sourceId": 53,
+    "name": "Leshen",
+    "type": "large",
+    "species": "relict",
+    "description": "Dwelling deep inside the forest, these creatures use their innate magic to control all flora and fauna within their territory.",
+    "elements": [],
+    "ailments": [
+      "Bleeding"
+    ],
+    "locations": [
+      "Ancient Forest"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 3
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 3,
+        "resistance": 25
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 1,
+        "resistance": 75
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-54",
+    "source": "mhw-db",
+    "sourceId": 54,
+    "name": "Ancient Leshen",
+    "type": "large",
+    "species": "relict",
+    "description": "An old leshen that arrived through a portal to assume control over the Ancient Forest. Sometimes revered as an indigenous deity.",
+    "elements": [],
+    "ailments": [
+      "Bleeding"
+    ],
+    "locations": [
+      "Ancient Forest"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 3
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "blast",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 1,
+        "resistance": 75
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-55",
+    "source": "mhw-db",
+    "sourceId": 55,
+    "name": "Safi'jiiva",
+    "type": "large",
+    "species": "elder dragon",
+    "description": "The fully-grown form of Xeno'jiiva. It absorbs energy from its environment to heal itself and change the ecosystem.",
+    "elements": [
+      "fire",
+      "dragon"
+    ],
+    "ailments": [
+      "Dragonblight",
+      "Fireblight"
+    ],
+    "locations": [
+      "Secluded Valley"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "dragon",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 2
+      },
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-56",
+    "source": "mhw-db",
+    "sourceId": 56,
+    "name": "Stygian Zinogre",
+    "type": "large",
+    "species": "fanged wyvern",
+    "description": "Has a symbiotic relationship with Dracophage Bugs, which it releases like bullets. Becomes even more dangerous when covered in light.",
+    "elements": [
+      "dragon"
+    ],
+    "ailments": [
+      "Dragonblight"
+    ],
+    "locations": [
+      "Guiding Lands"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "thunder",
+        "stars": 3
+      },
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 2
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-57",
+    "source": "mhw-db",
+    "sourceId": 57,
+    "name": "Rajang",
+    "type": "large",
+    "species": "fanged beast",
+    "description": "An ultra-aggressive creature that few have a chance of surviving against. Sports powerful arms that pack a punch, and turns gold when angry.",
+    "elements": [
+      "thunder"
+    ],
+    "ailments": [
+      "Thunderblight"
+    ],
+    "locations": [
+      "Guiding Lands"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "ice",
+        "stars": 3
+      },
+      {
+        "element": "water",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "stun",
+        "stars": 1,
+        "resistance": 75
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-58",
+    "source": "mhw-db",
+    "sourceId": 58,
+    "name": "Viper Tobi-Kadachi",
+    "type": "large",
+    "species": "fanged wyvern",
+    "description": "The tail of this subspecies secretes a toxin while its fangs paralyze prey. It can also glide without climbing trees.",
+    "elements": [],
+    "ailments": [
+      "Paralysis",
+      "Poison"
+    ],
+    "locations": [
+      "Hoarfrost Reach"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 3
+      },
+      {
+        "element": "ice",
+        "stars": 2
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "poison",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "sleep",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "blast",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "stun",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-59",
+    "source": "mhw-db",
+    "sourceId": 59,
+    "name": "Namielle",
+    "type": "large",
+    "species": "elder dragon",
+    "description": "An Elder Dragon said to be able to command water and use it as a shield. Though very few sightings have ever been reported, they mention 'exploding water' and 'bright glowing lights.' Its existence remains shrouded in mystery.",
+    "elements": [
+      "water",
+      "thunder"
+    ],
+    "ailments": [
+      "Thunderblight",
+      "Waterblight"
+    ],
+    "locations": [
+      "Coral Highlands"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 3
+      },
+      {
+        "element": "dragon",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true
+  },
+  {
+    "id": "mhw-60",
+    "source": "mhw-db",
+    "sourceId": 60,
+    "name": "Zinogre",
+    "type": "large",
+    "species": "fanged wyvern",
+    "description": "Lightning courses through the fur and unique plating of this fanged wyvern. It is most deadly in its supercharged state.",
+    "elements": [
+      "thunder"
+    ],
+    "ailments": [
+      "Thunderblight"
+    ],
+    "locations": [
+      "Ancient Forest",
+      "Coral Highlands",
+      "Guiding Lands"
+    ],
+    "elementalWeaknesses": [
+      {
+        "element": "ice",
+        "stars": 3
+      },
+      {
+        "element": "water",
+        "stars": 2
+      },
+      {
+        "element": "fire",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 1
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true
+  }
+]

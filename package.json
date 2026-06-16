@@ -22,6 +22,7 @@
     "docker:up": "docker compose up -d postgres",
     "docker:down": "docker compose down",
     "docker:prod": "docker compose --profile production up --build",
+    "catalog:generate": "node scripts/generate-mhw-catalog.mjs",
     "save": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/commit-push.ps1",
     "git-all-push": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/commit-push.ps1"
   },
