@@ -6,10 +6,11 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@game-tracker/ui": path.resolve(__dirname, "../../packages/ui/src"),
-      "@game-tracker/shared": path.resolve(__dirname, "../../packages/shared/src"),
-      "@game-tracker/domain": path.resolve(__dirname, "../../packages/domain/src"),
+      "@game-tracker/ui": path.resolve(__dirname, "../../packages/ui/src/index.ts"),
+      "@game-tracker/shared": path.resolve(__dirname, "../../packages/shared/src/index.ts"),
+      "@game-tracker/domain": path.resolve(__dirname, "../../packages/domain/src/index.ts"),
     },
+    extensions: [".ts", ".tsx", ".js", ".jsx"],
   },
   server: {
     port: 5173,
