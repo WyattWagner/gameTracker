@@ -6,3 +6,8 @@ dockerfilePath = "Dockerfile"
 healthcheckPath = "/health"
 healthcheckTimeout = 300
 restartPolicyType = "on_failure"
+# Required service variables (set in Railway dashboard):
+# DATABASE_URL = ${{Postgres.DATABASE_URL}}
+# JWT_SECRET   = (generate a long random string)
+# NODE_ENV     = production
+# Do NOT hardcode PORT — Railway injects it automatically.

@@ -168,5 +168,14 @@ export const DEFAULT_MH_AILMENTS = [
 
 export const DEFAULT_MH_BODY_PARTS = ["Head", "Neck", "Body", "Wing", "Foreleg", "Hind Leg", "Tail"] as const;
 
+/** All resistance bars at 0% — used when catalog/game data has no entry for an ailment. */
+export const ZERO_AILMENT_BARS = {
+  initialResistance: 0,
+  nextResistanceThreshold: 0,
+  maximumResistance: 0,
+  naturalBuildUpDegradation: 0,
+  totalEffectiveness: 0,
+} as const;
+
 export type PatchMonsterStats = z.infer<typeof PatchMonsterStatsSchema>;
 export type PatchWeakness = z.infer<typeof PatchWeaknessSchema>;

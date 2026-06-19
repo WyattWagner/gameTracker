@@ -33,6 +33,8 @@ Production checklist for **Game Tracker** (monorepo: Express API + React web + P
 | `CORS_ORIGIN` | Split deploy | Comma-separated frontend URLs |
 | `SEED_ON_START` | No | Set `true` on first deploy to seed `monster-hunter` game |
 
+Do **not** set `PORT` on Railway — the platform injects it automatically.
+
 ### Web (build time)
 
 | Variable | When |
@@ -111,7 +113,8 @@ Select your app service → **Variables**:
 | `WEB_DIST_PATH` | `/app/apps/web/dist` |
 | `UPLOAD_DIR` | `/app/apps/api/uploads` |
 | `SEED_ON_START` | `true` (first deploy only) |
-| `PORT` | `3001` |
+
+Do **not** set `PORT` — Railway injects it.
 
 ### 4. Persistent uploads (recommended)
 
@@ -173,7 +176,10 @@ Or use `npm run start:prod` from the repo root (runs migrate + start).
 
 | Issue | Fix |
 |-------|-----|
+| Health check fails / service unavailable | Check deploy logs. Common causes: missing `DATABASE_URL` or `JWT_SECRET`, or DB migrations failing (see below) |
 | `JWT_SECRET must be set in production` | Set a strong secret on the host |
+| `DATABASE_URL is not set` | Add PostgreSQL and reference `${{Postgres.DATABASE_URL}}` on Railway |
+| Migration provider mismatch (sqlite vs postgresql) | Fixed in Docker: production image uses `migrations-postgres/` — redeploy latest |
 | `Can't reach database` | Check `DATABASE_URL`, Postgres is running |
 | Blank page after deploy | Set `WEB_DIST_PATH` or deploy web separately |
 | API works, web CORS errors | Set `CORS_ORIGIN` to exact frontend URL |

@@ -37,7 +37,8 @@ npm run build:packages
 2. API `GET /api/v1/catalog/monsters` — browse catalog (auth required)
 3. API `POST /api/v1/monsters/from-catalog` — creates your personal tracker entry with:
    - Default MH body parts + weakness matrix (zeroed; edit per monster)
-   - Ailments pre-filled from catalog weakness data where available
+   - Ailments without catalog weakness data → **all resistance bars set to 0%** (0 stars)
+- Elemental columns without catalog data → **0** on all body parts in the weakness matrix
    - Notes = hunter field guide description
    - `metadata.catalogId` linking back to the reference entry
 

@@ -11,6 +11,7 @@ import {
   UpdateAilmentSchema,
   UpdateBodyPartSchema,
   UpdateMaterialSchema,
+  ZERO_AILMENT_BARS,
 } from "@game-tracker/shared";
 import { attachStarRatings, toBodyPartDto, toMaterialDto, toWeaknessDto } from "../../application/monster-hunter/mhMappers";
 import { prisma } from "../../infrastructure/prisma/client";
@@ -200,11 +201,12 @@ monsterHunterRouter.post("/ailments", validateBody(CreateAilmentSchema), async (
         monsterId,
         name: req.body.name,
         isCustom: req.body.isCustom ?? true,
-        initialResistance: req.body.initialResistance ?? 50,
-        nextResistanceThreshold: req.body.nextResistanceThreshold ?? 50,
-        maximumResistance: req.body.maximumResistance ?? 50,
-        naturalBuildUpDegradation: req.body.naturalBuildUpDegradation ?? 50,
-        totalEffectiveness: req.body.totalEffectiveness ?? 50,
+        initialResistance: req.body.initialResistance ?? ZERO_AILMENT_BARS.initialResistance,
+        nextResistanceThreshold: req.body.nextResistanceThreshold ?? ZERO_AILMENT_BARS.nextResistanceThreshold,
+        maximumResistance: req.body.maximumResistance ?? ZERO_AILMENT_BARS.maximumResistance,
+        naturalBuildUpDegradation:
+          req.body.naturalBuildUpDegradation ?? ZERO_AILMENT_BARS.naturalBuildUpDegradation,
+        totalEffectiveness: req.body.totalEffectiveness ?? ZERO_AILMENT_BARS.totalEffectiveness,
         sortOrder: count,
       },
     });

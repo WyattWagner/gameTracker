@@ -1,4 +1,5 @@
 import type { MonsterCatalogEntry } from "@game-tracker/shared";
+import { ZERO_AILMENT_BARS } from "@game-tracker/shared";
 import type { PrismaClient } from "@prisma/client";
 
 const AILMENT_NAME_MAP: Record<string, string> = {
@@ -46,14 +47,6 @@ function ailmentBarsFromResistance(resistance: number) {
   };
 }
 
-const ZERO_AILMENT_BARS = {
-  initialResistance: 0,
-  nextResistanceThreshold: 0,
-  maximumResistance: 0,
-  naturalBuildUpDegradation: 0,
-  totalEffectiveness: 0,
-};
-
 /** Applies catalog reference data (notes, ailments, metadata) after default MH init. */
 export async function applyMonsterCatalogData(
   prisma: PrismaClient,
@@ -63,9 +56,6 @@ export async function applyMonsterCatalogData(
   const weaknessByAilment = new Map<string, number>();
   for (const w of entry.ailmentWeaknesses) {
     weaknessByAilment.set(normalizeAilmentName(w.ailment), w.resistance);
-  }
-  for (const name of entry.ailments) {
-    weaknessByAilment.set(normalizeAilmentName(name), 50);
   }
 
   await prisma.$transaction(async (tx) => {
@@ -92,13 +82,14 @@ export async function applyMonsterCatalogData(
     });
 
     for (const ailment of existingAilments) {
-      const resistance = weaknessByAilment.get(ailment.name);
+      const key = normalizeAilmentName(ailment.name);
+      const resistance = weaknessByAilment.get(key);
       await tx.monsterAilment.update({
         where: { id: ailment.id },
         data: resistance === undefined ? ZERO_AILMENT_BARS : ailmentBarsFromResistance(resistance),
       });
       if (resistance !== undefined) {
-        weaknessByAilment.delete(ailment.name);
+        weaknessByAilment.delete(key);
       }
     }
 

@@ -8,8 +8,9 @@ const app = createApp(env);
 
 async function start() {
   await ensureGames();
-  app.listen(env.port, () => {
-    console.log(`API listening on http://localhost:${env.port}`);
+  const host = process.env.HOST ?? "0.0.0.0";
+  app.listen(env.port, host, () => {
+    console.log(`API listening on http://${host}:${env.port}`);
     if (env.webDistPath) {
       console.log(`Serving web UI from ${env.webDistPath}`);
     }

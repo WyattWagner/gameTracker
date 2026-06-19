@@ -33,6 +33,8 @@ COPY --from=build /app/package.json ./package.json
 COPY --from=build /app/apps/api/dist ./apps/api/dist
 COPY --from=build /app/apps/api/package.json ./apps/api/package.json
 COPY --from=build /app/apps/api/prisma ./apps/api/prisma
+# Production uses schema.postgres.prisma; PG migrations live in migrations-postgres/
+RUN rm -rf apps/api/prisma/migrations && cp -r apps/api/prisma/migrations-postgres apps/api/prisma/migrations
 COPY --from=build /app/apps/web/dist ./apps/web/dist
 COPY --from=build /app/packages/shared/dist ./packages/shared/dist
 COPY --from=build /app/packages/shared/package.json ./packages/shared/package.json
