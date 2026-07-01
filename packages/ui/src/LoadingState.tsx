@@ -1,3 +1,3 @@
-export function LoadingState({ message = "Loading..." }: { message?: string }) {
-  return <p className="text-slate-300">{message}</p>;
+export function LoadingState({ message = "Flipping pages…" }: { message?: string }) {
+  return <p className="text-ink-muted">{message}</p>;
 }

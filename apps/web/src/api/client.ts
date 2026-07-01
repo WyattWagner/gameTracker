@@ -1,6 +1,5 @@
 import type { ApiError, MaterialRank, PatchMonsterStats, PatchWeakness } from "@game-tracker/shared";
-
-const API_BASE = import.meta.env.VITE_API_URL ?? "/api/v1";
+import { API_BASE } from "../lib/apiOrigin";
 
 export class ApiClientError extends Error {
   constructor(
@@ -46,12 +45,22 @@ export function createApiClient(getToken: () => string | null) {
     createMonster: (body: import("@game-tracker/shared").CreateMonsterRequest) =>
       request<import("@game-tracker/shared").Monster>("/monsters", { method: "POST", body: JSON.stringify(body) }),
     listCatalogMonsters: (query = "") =>
-      request<import("@game-tracker/shared").MonsterCatalogListResponse>(`/catalog/monsters${query}`),
+      request<import("@game-tracker/shared").GameMonsterListResponse>(`/catalog/monsters${query}`),
+    getCatalogMonster: (id: string) =>
+      request<import("@game-tracker/shared").GameMonsterDetail>(`/catalog/monsters/${id}`),
+    getCatalogFamily: (familySlug: string) =>
+      request<import("@game-tracker/shared").GameMonsterFamily>(`/catalog/monsters/family/${familySlug}`),
+    resolveCatalogFamily: (name: string) =>
+      request<import("@game-tracker/shared").GameMonsterFamily>(
+        `/catalog/monsters/resolve-family?name=${encodeURIComponent(name)}`,
+      ),
     createMonsterFromCatalog: (body: import("@game-tracker/shared").CreateMonsterFromCatalogRequest) =>
       request<import("@game-tracker/shared").Monster>("/monsters/from-catalog", { method: "POST", body: JSON.stringify(body) }),
     updateMonster: (id: string, body: import("@game-tracker/shared").UpdateMonsterRequest) =>
       request<import("@game-tracker/shared").Monster>(`/monsters/${id}`, { method: "PATCH", body: JSON.stringify(body) }),
     deleteMonster: (id: string) => request<void>(`/monsters/${id}`, { method: "DELETE" }),
+    refreshFromCatalog: (id: string) =>
+      request<{ ok: boolean }>(`/monsters/${id}/actions/refresh-from-catalog`, { method: "POST" }),
     patchMonsterStats: (id: string, body: PatchMonsterStats) =>
       request<import("@game-tracker/shared").Monster>(`/monsters/${id}/stats`, { method: "PATCH", body: JSON.stringify(body) }),
     huntAction: (id: string) =>

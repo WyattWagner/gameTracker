@@ -1,4 +1,7 @@
 import { z } from "zod";
+import { BodyPartWeaknessRowSchema } from "./monster-database";
+
+export const CatalogExpansionSchema = z.enum(["base", "iceborne", "sunbreak"]);
 
 export const ElementalWeaknessSchema = z.object({
   element: z.string(),
@@ -24,6 +27,8 @@ export const MonsterCatalogEntrySchema = z.object({
   locations: z.array(z.string()),
   elementalWeaknesses: z.array(ElementalWeaknessSchema),
   ailmentWeaknesses: z.array(AilmentWeaknessSchema),
+  bodyPartWeaknesses: z.array(BodyPartWeaknessRowSchema).optional(),
+  expansion: CatalogExpansionSchema.optional(),
   canBeCaptured: z.boolean(),
 });
 export type MonsterCatalogEntry = z.infer<typeof MonsterCatalogEntrySchema>;
@@ -31,6 +36,8 @@ export type MonsterCatalogEntry = z.infer<typeof MonsterCatalogEntrySchema>;
 export const MonsterCatalogListResponseSchema = z.object({
   monsters: z.array(MonsterCatalogEntrySchema),
   total: z.number().int().nonnegative(),
+  page: z.number().int().positive().optional(),
+  pageSize: z.number().int().positive().optional(),
   gameTitle: z.string(),
   source: z.string(),
   sourceUrl: z.string().url(),
@@ -41,6 +48,11 @@ export const ListCatalogQuerySchema = z.object({
   gameId: z.string().default("monster-hunter"),
   search: z.string().optional(),
   type: z.enum(["large", "small", "all"]).default("all"),
+  monsterType: z.string().optional(),
+  weaknessElement: z.enum(["fire", "water", "thunder", "ice", "dragon"]).optional(),
+  rank: z.enum(["LOW", "HIGH", "MASTER"]).optional(),
+  page: z.coerce.number().int().min(1).default(1),
+  pageSize: z.coerce.number().int().min(1).max(100).default(50),
 });
 export type ListCatalogQuery = z.infer<typeof ListCatalogQuerySchema>;
 

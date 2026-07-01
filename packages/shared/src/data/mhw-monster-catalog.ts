@@ -1,6 +1,8 @@
 import catalogJson from "./mhw-monster-catalog.json";
 import type { MonsterCatalogEntry } from "../schemas/catalog";
 import { MonsterCatalogEntrySchema } from "../schemas/catalog";
+import { MHR_MONSTER_CATALOG } from "./mhr-monster-catalog";
+import { MHWILDS_MONSTER_CATALOG } from "./mhwilds-monster-catalog";
 
 export const MHW_MONSTER_CATALOG: MonsterCatalogEntry[] = catalogJson.map((entry) =>
   MonsterCatalogEntrySchema.parse(entry),
@@ -17,6 +19,8 @@ export const MHW_CATALOG_META = {
 
 export function getMonsterCatalog(gameId: string): MonsterCatalogEntry[] {
   if (gameId === "monster-hunter") return MHW_MONSTER_CATALOG;
+  if (gameId === "monster-hunter-rise") return MHR_MONSTER_CATALOG;
+  if (gameId === "monster-hunter-wilds") return MHWILDS_MONSTER_CATALOG;
   return [];
 }
 

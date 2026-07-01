@@ -166,7 +166,16 @@ export const DEFAULT_MH_AILMENTS = [
   "Iceblight",
 ] as const;
 
-export const DEFAULT_MH_BODY_PARTS = ["Head", "Neck", "Body", "Wing", "Foreleg", "Hind Leg", "Tail"] as const;
+export const DEFAULT_MH_BODY_PARTS = [
+  "Head",
+  "Neck",
+  "Body",
+  "Back",
+  "Wings",
+  "Forelegs",
+  "Hind Legs",
+  "Tail",
+] as const;
 
 /** All resistance bars at 0% — used when catalog/game data has no entry for an ailment. */
 export const ZERO_AILMENT_BARS = {

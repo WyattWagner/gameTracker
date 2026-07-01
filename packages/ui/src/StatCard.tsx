@@ -2,9 +2,9 @@ import type { ReactNode } from "react";
 
 export function StatCard({ label, value }: { label: string; value: ReactNode }) {
   return (
-    <div className="rounded-xl border border-slate-700 bg-slate-900/70 p-4 shadow-lg">
-      <p className="text-sm text-slate-400">{label}</p>
-      <p className="mt-2 text-2xl font-semibold text-emerald-300">{value}</p>
+    <div className="notebook-stat-panel rounded-lg p-4">
+      <p className="notebook-stat-label font-hand text-lg">{label}</p>
+      <p className="notebook-stat-value mt-1 font-serif text-2xl font-semibold">{value}</p>
     </div>
   );
 }

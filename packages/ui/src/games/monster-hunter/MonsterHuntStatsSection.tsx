@@ -34,7 +34,7 @@ export function MonsterHuntStatsSection({
         <button
           type="button"
           onClick={onHunt}
-          className="rounded-md bg-amber-700 px-4 py-2 text-sm font-medium hover:bg-amber-600"
+          className="rounded-md bg-moss px-4 py-2 text-sm font-medium text-paper shadow-sm hover:bg-moss/90"
         >
           Hunt
         </button>
@@ -42,7 +42,7 @@ export function MonsterHuntStatsSection({
           <button
             type="button"
             onClick={onCaptured}
-            className="rounded-md bg-sky-700 px-4 py-2 text-sm font-medium hover:bg-sky-600"
+            className="rounded-md bg-sky-700 px-4 py-2 text-sm font-medium text-paper hover:bg-sky-600"
           >
             Captured
           </button>
@@ -50,7 +50,7 @@ export function MonsterHuntStatsSection({
         <button
           type="button"
           onClick={onQuestFailed}
-          className="rounded-md bg-red-800 px-4 py-2 text-sm font-medium hover:bg-red-700"
+          className="rounded-md bg-wax px-4 py-2 text-sm font-medium text-paper hover:bg-wax/90"
         >
           Quest Failed
         </button>

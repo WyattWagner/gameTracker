@@ -110,12 +110,15 @@ describe("Monster catalog API", () => {
     const detail = await request(app)
       .get(`/api/v1/monsters/${created.body.id}/mh-detail`)
       .set("Authorization", `Bearer ${token}`);
+    expect(detail.body.bodyParts.length).toBeGreaterThanOrEqual(6);
+    expect(detail.body.weaknesses.length).toBeGreaterThanOrEqual(6);
     const exhaust = detail.body.ailments.find((a: { name: string }) => a.name === "Exhaust");
     expect(exhaust).toBeDefined();
-    expect(exhaust.initialResistance).toBe(0);
-    expect(exhaust.totalEffectiveness).toBe(0);
-    expect(detail.body.weaknesses[0].fire).toBe(0);
-    expect(detail.body.weaknesses[0].dragon).toBe(75);
+    const headWeakness = detail.body.weaknesses.find(
+      (w: { bodyPartId: string }) =>
+        detail.body.bodyParts.find((p: { id: string; name: string }) => p.id === w.bodyPartId)?.name === "Head",
+    );
+    expect(headWeakness?.slash).toBeGreaterThan(0);
 
     const duplicate = await request(app)
       .post("/api/v1/monsters/from-catalog")
@@ -123,6 +126,50 @@ describe("Monster catalog API", () => {
       .send({ gameId: "monster-hunter", catalogId: rathalos.id });
 
     expect(duplicate.status).toBe(409);
+  });
+
+  it("rejects from-catalog when gameId does not match catalog monster game", async () => {
+    const token = await registerAndLogin("catalog-mismatch@test.com");
+
+    const catalog = await request(app)
+      .get("/api/v1/catalog/monsters?gameId=monster-hunter&type=large")
+      .set("Authorization", `Bearer ${token}`);
+
+    const rathalos = catalog.body.monsters.find((m: { name: string }) => m.name === "Rathalos");
+    expect(rathalos).toBeDefined();
+
+    const res = await request(app)
+      .post("/api/v1/monsters/from-catalog")
+      .set("Authorization", `Bearer ${token}`)
+      .send({ gameId: "monster-hunter-rise", catalogId: rathalos.id });
+
+    expect(res.status).toBe(400);
+    expect(res.body.code).toBe("BAD_REQUEST");
+  });
+
+  it("imports Rise catalog monster with per-part weaknesses", async () => {
+    const token = await registerAndLogin("rise-catalog@test.com");
+
+    const catalog = await request(app)
+      .get("/api/v1/catalog/monsters?gameId=monster-hunter-rise&type=large")
+      .set("Authorization", `Bearer ${token}`);
+
+    const magnamalo = catalog.body.monsters.find((m: { name: string }) => m.name === "Magnamalo");
+    expect(magnamalo).toBeDefined();
+
+    const created = await request(app)
+      .post("/api/v1/monsters/from-catalog")
+      .set("Authorization", `Bearer ${token}`)
+      .send({ gameId: "monster-hunter-rise", catalogId: magnamalo.id });
+
+    expect(created.status).toBe(201);
+
+    const detail = await request(app)
+      .get(`/api/v1/monsters/${created.body.id}/mh-detail`)
+      .set("Authorization", `Bearer ${token}`);
+
+    expect(detail.body.bodyParts.length).toBeGreaterThanOrEqual(5);
+    expect(detail.body.weaknesses.some((w: { slash: number }) => w.slash > 0)).toBe(true);
   });
 });
 

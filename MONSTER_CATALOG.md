@@ -1,62 +1,56 @@
 # Monster catalog
 
-The app includes a **reference monster database** for **Monster Hunter World (+ Iceborne)** so you can add real monsters without typing everything manually.
+The app includes a **reference monster database** stored in PostgreSQL/SQLite (`game_monsters` and related tables) for:
 
-## What's included
+- **Monster Hunter World (+ Iceborne)** — large monsters from [MHW-DB](https://docs.mhw-db.com/) plus Iceborne supplements
+- **Monster Hunter Rise (+ Sunbreak)** — combined large monster roster
+- **Monster Hunter Wilds** — launch roster
 
-| Stat | Count |
-|------|-------|
-| Total monsters in catalog | **58** |
-| Large monsters (hunt targets) | **42** |
-| Small monsters | **16** |
+Three catalog game IDs: `monster-hunter`, `monster-hunter-rise`, `monster-hunter-wilds`.
 
-Data per entry:
+Run `npm run db:seed --workspace api` (or `SEED_ON_START=true` on deploy) to populate the database.
 
-- Name, species, description
-- Locations, elements
-- Elemental weaknesses (fire/water/thunder/ice/dragon stars)
-- Ailment weaknesses (poison, stun, sleep, etc.)
-- Whether the monster can be captured
+## Database tables
 
-## Data source
+| Table | Purpose |
+|-------|---------|
+| `game_monsters` | Core catalog entry (name, game, species, images, family slug) |
+| `monster_rise_data` | Rise/Sunbreak/World weakness & reward data (JSON) |
+| `monster_wilds_data` | Wilds-specific weaknesses, wounds, breakables |
+| `monster_db_materials` | Reference materials per monster & rank |
+| `monster_images` | Portrait, render, ecology, gallery images |
 
-- **API:** [Monster Hunter World Database (MHW-DB)](https://docs.mhw-db.com/)
-- **Endpoint:** `https://mhw-db.com/monsters`
-- **License / attribution:** Game content © Capcom. Catalog is derived from the open MHW-DB API.
+## API
 
-To refresh the bundled catalog from the live API:
+| Endpoint | Description |
+|----------|-------------|
+| `GET /api/v1/catalog/monsters` | List with filters (`gameId`, `search`, `monsterType`, `weaknessElement`, `rank`, pagination) |
+| `GET /api/v1/catalog/monsters/:id` | Full detail with materials & images |
+| `GET /api/v1/catalog/monsters/family/:slug` | All game variants for a monster family |
+| `POST /api/v1/monsters/from-catalog` | Create personal tracker entry from catalog |
+
+## UI
+
+- **Monsters page** — per-game tabs (World / Rise / Wilds); each tab has its own catalog dropdown and tracked-monster dropdown (name-list only)
+- **Monster detail** — Overview, per-game tabs (World/Rise/Wilds), Weaknesses & Ailments, image lightbox, hunt log
+
+## Refresh catalog data
 
 ```powershell
-npm run catalog:generate
+npm run catalog:generate:all
 npm run build:packages
+npm run db:refresh-body-parts --workspace api
 ```
 
-## How it works in the app
+To fully re-seed the catalog DB after JSON changes:
 
-1. **Monsters page** → **Add from game database** → pick a monster → **Add from catalog**
-2. API `GET /api/v1/catalog/monsters` — browse catalog (auth required)
-3. API `POST /api/v1/monsters/from-catalog` — creates your personal tracker entry with:
-   - Default MH body parts + weakness matrix (zeroed; edit per monster)
-   - Ailments without catalog weakness data → **all resistance bars set to 0%** (0 stars)
-- Elemental columns without catalog data → **0** on all body parts in the weakness matrix
-   - Notes = hunter field guide description
-   - `metadata.catalogId` linking back to the reference entry
+```powershell
+$env:FORCE_SEED_CATALOG="true"; npm run db:seed --workspace api
+```
 
-Each user still gets **their own** hunt stats; the catalog is read-only reference data.
-
-## Other Monster Hunter games
-
-The architecture supports more catalogs (`gameId` + static JSON per title). Candidates:
-
-| Game | Possible source |
-|------|-----------------|
-| MH Rise / Sunbreak | [Neryss/monster_hunter_db](https://github.com/Neryss/monster_hunter_db) |
-| Multi-game | [CrimsonNynja/monster-hunter-DB](https://github.com/CrimsonNynja/monster-hunter-DB) |
-
-MHW was chosen first because MHW-DB has a clean REST API and complete large-monster coverage.
+If monsters are missing from the picker after updating roster scripts, the database seed was likely skipped (seed only runs when `game_monsters` is empty unless `FORCE_SEED_CATALOG=true`).
 
 ## Limitations
 
-- **Body-part hit zones** are not imported (MHW-DB uses global elemental stars, not per-part matrix values). You still edit the weakness tab manually.
-- **Materials / rewards** are not imported yet.
-- Catalog is **MHW only**; Rise/Wilds would need additional data files and a `catalog:generate` script per game.
+- Rise/Sunbreak/Wilds entries use structured seed data (expandable via `seedMonsterDatabase.ts`).
+- Per-part hit zones for World use generated defaults where MHW-DB only provides global stars.

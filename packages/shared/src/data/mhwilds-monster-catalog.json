@@ -1,0 +1,3429 @@
+[
+  {
+    "id": "mhwilds-arkveld",
+    "source": "game-tracker-seed",
+    "sourceId": 2000,
+    "name": "Arkveld",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Arkveld from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Wings",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-balahara",
+    "source": "game-tracker-seed",
+    "sourceId": 2001,
+    "name": "Balahara",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Balahara from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-blangonga",
+    "source": "game-tracker-seed",
+    "sourceId": 2002,
+    "name": "Blangonga",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Beast",
+    "description": "Blangonga from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-chatacabra",
+    "source": "game-tracker-seed",
+    "sourceId": 2003,
+    "name": "Chatacabra",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Chatacabra from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Wings",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-congalala",
+    "source": "game-tracker-seed",
+    "sourceId": 2004,
+    "name": "Congalala",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Leviathan",
+    "description": "Congalala from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-doshaguma",
+    "source": "game-tracker-seed",
+    "sourceId": 2005,
+    "name": "Doshaguma",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Temnoceran",
+    "description": "Doshaguma from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-gore-magala",
+    "source": "game-tracker-seed",
+    "sourceId": 2006,
+    "name": "Gore Magala",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Bird Wyvern",
+    "description": "Gore Magala from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Wings",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-guardian-doshaguma",
+    "source": "game-tracker-seed",
+    "sourceId": 2007,
+    "name": "Guardian Doshaguma",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Piscine Wyvern",
+    "description": "Guardian Doshaguma from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-guardian-ebony-odogaron",
+    "source": "game-tracker-seed",
+    "sourceId": 2008,
+    "name": "Guardian Ebony Odogaron",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Amphibian",
+    "description": "Guardian Ebony Odogaron from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-guardian-fulgur-anjanath",
+    "source": "game-tracker-seed",
+    "sourceId": 2009,
+    "name": "Guardian Fulgur Anjanath",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Guardian Fulgur Anjanath from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-guardian-rathalos",
+    "source": "game-tracker-seed",
+    "sourceId": 2010,
+    "name": "Guardian Rathalos",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Guardian Rathalos from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Wings",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-guardian-rathian",
+    "source": "game-tracker-seed",
+    "sourceId": 2011,
+    "name": "Guardian Rathian",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Guardian Rathian from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Wings",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-guardian-zinogre",
+    "source": "game-tracker-seed",
+    "sourceId": 2012,
+    "name": "Guardian Zinogre",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Wyvern",
+    "description": "Guardian Zinogre from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-gypceros",
+    "source": "game-tracker-seed",
+    "sourceId": 2013,
+    "name": "Gypceros",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Beast",
+    "description": "Gypceros from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-hirabami",
+    "source": "game-tracker-seed",
+    "sourceId": 2014,
+    "name": "Hirabami",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Hirabami from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Wings",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-lala-barina",
+    "source": "game-tracker-seed",
+    "sourceId": 2015,
+    "name": "Lala Barina",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Leviathan",
+    "description": "Lala Barina from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-nerscylla",
+    "source": "game-tracker-seed",
+    "sourceId": 2016,
+    "name": "Nerscylla",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Temnoceran",
+    "description": "Nerscylla from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-nu-udra",
+    "source": "game-tracker-seed",
+    "sourceId": 2017,
+    "name": "Nu Udra",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Bird Wyvern",
+    "description": "Nu Udra from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Wings",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-odibatorasu",
+    "source": "game-tracker-seed",
+    "sourceId": 2018,
+    "name": "Odibatorasu",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Piscine Wyvern",
+    "description": "Odibatorasu from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-quematrice",
+    "source": "game-tracker-seed",
+    "sourceId": 2019,
+    "name": "Quematrice",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Amphibian",
+    "description": "Quematrice from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-rathalos",
+    "source": "game-tracker-seed",
+    "sourceId": 2020,
+    "name": "Rathalos",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Rathalos from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Wings",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-rathian",
+    "source": "game-tracker-seed",
+    "sourceId": 2021,
+    "name": "Rathian",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Rathian from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Wings",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-rey-dau",
+    "source": "game-tracker-seed",
+    "sourceId": 2022,
+    "name": "Rey Dau",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Rey Dau from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Wings",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-rompopolo",
+    "source": "game-tracker-seed",
+    "sourceId": 2023,
+    "name": "Rompopolo",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Rompopolo from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-uth-duna",
+    "source": "game-tracker-seed",
+    "sourceId": 2024,
+    "name": "Uth Duna",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Beast",
+    "description": "Uth Duna from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-xu-wu",
+    "source": "game-tracker-seed",
+    "sourceId": 2025,
+    "name": "Xu Wu",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Xu Wu from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Wings",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-yian-kut-ku",
+    "source": "game-tracker-seed",
+    "sourceId": 2026,
+    "name": "Yian Kut-Ku",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Leviathan",
+    "description": "Yian Kut-Ku from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mhwilds-zoh-shia",
+    "source": "game-tracker-seed",
+    "sourceId": 2027,
+    "name": "Zoh Shia",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Temnoceran",
+    "description": "Zoh Shia from Monster Hunter Wilds.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "wildsBodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "ammo": 71,
+        "element": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "ammo": 51,
+        "element": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "ammo": 61,
+        "element": 75
+      }
+    ],
+    "breakableParts": [
+      "Head",
+      "Tail"
+    ]
+  }
+]

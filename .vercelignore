@@ -1,0 +1,8 @@
+apps/api
+Dockerfile
+docker-compose.yml
+render.yaml
+railway.toml
+**/*.db
+**/*.db-journal
+.cursor

@@ -9,10 +9,10 @@ test("monster page supports hunt action and capture toggle", async ({ page }) =>
   await page.getByPlaceholder("Password").fill(password);
   await page.getByRole("button", { name: "Continue" }).click();
 
-  await page.getByRole("link", { name: "Monsters" }).click();
-  await page.getByPlaceholder("New monster name").fill("E2E Zinogre");
-  await page.getByRole("button", { name: "Add Monster" }).click();
-  await page.getByRole("link", { name: "E2E Zinogre" }).click();
+  await page.getByRole("button", { name: "Monsters" }).click();
+  await page.getByPlaceholder("Custom monster name").fill("E2E Zinogre");
+  await page.getByRole("button", { name: "Add custom" }).click();
+  await page.getByRole("button", { name: "E2E Zinogre" }).click();
 
   await expect(page.getByRole("button", { name: "Hunt" })).toBeVisible();
   await page.getByRole("button", { name: "Hunt" }).click();
@@ -22,8 +22,8 @@ test("monster page supports hunt action and capture toggle", async ({ page }) =>
   await page.getByLabel("Can be captured").uncheck();
   await expect(page.getByRole("button", { name: "Captured" })).not.toBeVisible();
 
-  await page.getByRole("button", { name: "Weaknesses" }).click();
-  const cell = page.locator("table input").first();
+  await page.getByRole("button", { name: "Weaknesses & Ailments" }).click();
+  const cell = page.locator("input[type='number']").first();
   await cell.fill("42");
   await cell.blur();
 });

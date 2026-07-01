@@ -30,11 +30,11 @@ export function AilmentResistanceList({
     <ul className="space-y-3">
       {ailments.map((a) => (
         <li key={a.id}>
-          <details className="group rounded-lg border border-slate-800 bg-slate-900/50">
+          <details className="group rounded-lg border border-rust/30 bg-paper-dark/80">
             <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3 [&::-webkit-details-marker]:hidden">
-              <span className="font-medium text-white">{a.name}</span>
+              <span className="font-medium text-ink">{a.name}</span>
               <span className="flex shrink-0 items-center gap-3">
-                <span className="text-amber-400">{formatStarRating(a.starRating ?? 0)}</span>
+                <span className="text-rust">{formatStarRating(a.starRating ?? 0)}</span>
                 <span
                   className="text-slate-500 transition group-open:rotate-180"
                   aria-hidden

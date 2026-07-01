@@ -9,13 +9,13 @@ test("user can log hunt flow and see dashboard update", async ({ page }) => {
   await page.getByPlaceholder("Password").fill(password);
   await page.getByRole("button", { name: "Continue" }).click();
 
-  await expect(page.getByRole("heading", { name: "Dashboard" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Expedition Log" })).toBeVisible();
 
-  await page.getByRole("link", { name: "Monsters" }).click();
-  await page.getByPlaceholder("New monster name").fill("E2E Rathalos");
-  await page.getByRole("button", { name: "Add Monster" }).click();
+  await page.getByRole("button", { name: "Monsters" }).click();
+  await page.getByPlaceholder("Custom monster name").fill("E2E Rathalos");
+  await page.getByRole("button", { name: "Add custom" }).click();
   await expect(page.getByText("E2E Rathalos")).toBeVisible();
 
-  await page.getByRole("link", { name: "Dashboard" }).click();
-  await expect(page.getByText("Total Hunts")).toBeVisible();
+  await page.getByRole("button", { name: "Home" }).click();
+  await expect(page.getByText("Quests Completed")).toBeVisible();
 });

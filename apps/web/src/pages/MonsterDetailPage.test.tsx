@@ -1,14 +1,17 @@
 import { describe, expect, it, vi, afterEach } from "vitest";
-import { cleanup, render, screen, waitFor } from "@testing-library/react";
-import { MemoryRouter, Route, Routes } from "react-router-dom";
+import { cleanup, fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { MonsterDetailPage } from "./MonsterDetailPage";
 
 const getMonster = vi.fn();
 const getMhDetail = vi.fn();
+const getCatalogFamily = vi.fn();
+const getCatalogMonster = vi.fn();
 
 const api = {
   getMonster,
   getMhDetail,
+  getCatalogFamily,
+  getCatalogMonster,
   patchMonsterStats: vi.fn(),
   huntAction: vi.fn(),
   capturedAction: vi.fn(),
@@ -18,16 +21,12 @@ const api = {
   updateMonster: vi.fn(),
   patchWeakness: vi.fn(),
   updateAilment: vi.fn(),
-  updateMaterial: vi.fn(),
-  addMaterialBodyPartDrop: vi.fn(),
-  removeMaterialBodyPartDrop: vi.fn(),
-  initializeMaterialRank: vi.fn(),
   createBodyPart: vi.fn(),
   deleteBodyPart: vi.fn(),
   createAilment: vi.fn(),
   deleteAilment: vi.fn(),
   deleteMonster: vi.fn(),
-  createMaterial: vi.fn(),
+  refreshFromCatalog: vi.fn(),
 };
 
 vi.mock("../api/AuthContext", () => ({
@@ -41,6 +40,14 @@ vi.mock("../hooks/useDrops", () => ({
     error: null,
   }),
 }));
+
+const defaultProps = {
+  monsterId: "m1",
+  onBack: vi.fn(),
+  detailTab: "overview" as const,
+  onDetailTabChange: vi.fn(),
+  onInvalidMonster: vi.fn(),
+};
 
 describe("MonsterDetailPage", () => {
   afterEach(() => {
@@ -65,6 +72,7 @@ describe("MonsterDetailPage", () => {
       captures: 1,
       failedQuests: 0,
       notes: "Fire wyvern",
+      metadata: { familySlug: "rathalos" },
     });
 
     getMhDetail.mockResolvedValue({
@@ -88,20 +96,45 @@ describe("MonsterDetailPage", () => {
       materials: [],
     });
 
-    render(
-      <MemoryRouter initialEntries={["/monsters/m1"]}>
-        <Routes>
-          <Route path="/monsters/:monsterId" element={<MonsterDetailPage />} />
-        </Routes>
-      </MemoryRouter>,
-    );
+    getCatalogFamily.mockResolvedValue({
+      familySlug: "rathalos",
+      name: "Rathalos",
+      games: [{ game: "monster-hunter-rise", monsterId: "cat1", name: "Rathalos" }],
+    });
+    getCatalogMonster.mockResolvedValue({
+      id: "cat1",
+      slug: "rathalos-rise",
+      name: "Rathalos",
+      species: "flying wyvern",
+      description: null,
+      game: "monster-hunter-rise",
+      monsterType: "Flying Wyvern",
+      threatLevel: 6,
+      iconImage: null,
+      largeRenderImage: "https://example.com/rath.png",
+      familySlug: "rathalos",
+      ecologyText: null,
+      canBeCaptured: true,
+      monsterSize: "large",
+      riseData: {
+        elementalWeaknesses: [{ element: "dragon", stars: 3 }],
+        ailmentWeaknesses: [],
+      },
+      wildsData: null,
+      materials: [],
+      images: [],
+    });
+
+    const onDetailTabChange = vi.fn();
+    const { rerender } = render(<MonsterDetailPage {...defaultProps} onDetailTabChange={onDetailTabChange} />);
 
     await waitFor(() => {
       expect(screen.getByRole("heading", { name: "Rathalos" })).toBeInTheDocument();
       expect(screen.getByText("Hunts")).toBeInTheDocument();
     });
 
-    await screen.findByRole("button", { name: "Hunt log" }).then((btn) => btn.click());
+    fireEvent.click(screen.getByRole("button", { name: "Hunt log" }));
+    rerender(<MonsterDetailPage {...defaultProps} detailTab="log" onDetailTabChange={onDetailTabChange} />);
     expect(screen.getByText("Rathalos Scale × 2 (COMMON)")).toBeInTheDocument();
   });
 
@@ -122,6 +155,7 @@ describe("MonsterDetailPage", () => {
       captures: 0,
       failedQuests: 0,
       notes: null,
+      metadata: null,
     });
     getMhDetail.mockResolvedValue({
       bodyParts: [],
@@ -129,17 +163,11 @@ describe("MonsterDetailPage", () => {
       ailments: [],
       materials: [],
     });
+    getCatalogFamily.mockResolvedValue({ familySlug: "rathalos", name: "Rathalos", games: [] });
 
-    render(
-      <MemoryRouter initialEntries={["/monsters/m1"]}>
-        <Routes>
-          <Route path="/monsters/:monsterId" element={<MonsterDetailPage />} />
-        </Routes>
-      </MemoryRouter>,
-    );
+    render(<MonsterDetailPage {...defaultProps} detailTab="settings" />);
 
     await waitFor(() => expect(screen.getByRole("heading", { name: "Rathalos" })).toBeInTheDocument());
-    await screen.findByRole("button", { name: "Settings" }).then((btn) => btn.click());
     expect(screen.getByRole("button", { name: "Delete monster" })).toBeInTheDocument();
   });
 });

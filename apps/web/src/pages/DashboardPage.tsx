@@ -1,17 +1,16 @@
-import { ErrorState, LoadingState, StatCard } from "@game-tracker/ui";
+import { ErrorState, LoadingState, NotebookCard, StatCard } from "@game-tracker/ui";
 import { useDashboardStats } from "../hooks/useDashboardStats";
 
-export function DashboardPage() {
+export function DashboardPage({ onOpenMonster }: { onOpenMonster?: (id: string) => void }) {
   const { data, loading, error } = useDashboardStats();
 
-  if (loading) return <LoadingState message="Loading dashboard..." />;
+  if (loading) return <LoadingState message="Opening expedition log…" />;
   if (error) return <ErrorState message={error} />;
   if (!data) return null;
 
   return (
     <div className="space-y-6">
-      <h2 className="text-2xl font-semibold">Dashboard</h2>
-      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+      <div className="grid gap-3 sm:grid-cols-2">
         <StatCard label="Quests Completed" value={data.totalQuestsCompleted} />
         <StatCard label="Quests Accepted" value={data.totalQuestsAccepted ?? 0} />
         <StatCard label="Total Hunts" value={data.totalHunts ?? 0} />
@@ -23,12 +22,14 @@ export function DashboardPage() {
       </div>
 
       <section>
-        <h3 className="mb-3 text-lg font-medium">Recent Activity</h3>
+        <h3 className="mb-3 font-hand text-2xl text-ink">Recent activity</h3>
         <ul className="space-y-2">
-          {data.recentActivity.length === 0 && <li className="text-slate-400">No activity yet.</li>}
+          {data.recentActivity.length === 0 && <li className="text-ink-muted">No activity yet.</li>}
           {data.recentActivity.map((item) => (
-            <li key={item.id} className="rounded-md border border-slate-800 bg-slate-900/50 px-3 py-2 text-sm">
-              <span className="text-emerald-300">{item.type}</span> — {item.summary}
+            <li key={item.id}>
+              <NotebookCard className="py-2 text-sm">
+                <span className="font-medium text-moss">{item.type}</span> — {item.summary}
+              </NotebookCard>
             </li>
           ))}
         </ul>

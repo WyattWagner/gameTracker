@@ -1,6 +1,9 @@
 import { FormEvent, useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
+import { NotebookButton, NotebookInput, ErrorState } from "@game-tracker/ui";
 import { useAuth } from "../api/AuthContext";
+import { BookCover, ParchmentPage } from "../components/book/BookCover";
+import { useParchmentTexture } from "../hooks/useParchmentTexture";
 
 export function LoginPage() {
   const { api, setToken, token } = useAuth();
@@ -8,6 +11,7 @@ export function LoginPage() {
   const [email, setEmail] = useState("hunter@example.com");
   const [password, setPassword] = useState("password123");
   const [error, setError] = useState<string | null>(null);
+  useParchmentTexture();
 
   if (token) return <Navigate to="/" replace />;
 
@@ -27,27 +31,30 @@ export function LoginPage() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center p-6">
-      <form onSubmit={onSubmit} className="w-full max-w-md space-y-4 rounded-xl border border-slate-700 bg-slate-900 p-6">
-        <h2 className="text-xl font-semibold">Monster Hunter Tracker</h2>
-        <input
-          className="w-full rounded-md border border-slate-700 bg-slate-950 px-3 py-2"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Email"
-        />
-        <input
-          type="password"
-          className="w-full rounded-md border border-slate-700 bg-slate-950 px-3 py-2"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          placeholder="Password"
-        />
-        {error && <p className="text-sm text-red-300">{error}</p>}
-        <button className="w-full rounded-md bg-emerald-600 px-3 py-2 font-medium hover:bg-emerald-500" type="submit">
-          Continue
-        </button>
-      </form>
+    <div className="flex min-h-dvh items-center justify-center p-4">
+      <BookCover className="max-h-[90dvh]">
+        <ParchmentPage className="flex items-center justify-center">
+          <div className="notebook-stat-panel w-full max-w-md space-y-4">
+            <div className="text-center">
+              <p className="notebook-stat-label font-hand text-lg">Hunter&apos;s Field Journal</p>
+              <h2 className="notebook-stat-value font-serif text-2xl font-bold">Sign in to continue</h2>
+            </div>
+            <form onSubmit={onSubmit} className="space-y-4">
+              <NotebookInput value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" type="email" />
+              <NotebookInput
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="Password"
+              />
+              {error && <ErrorState message={error} />}
+              <NotebookButton type="submit" className="w-full">
+                Continue
+              </NotebookButton>
+            </form>
+          </div>
+        </ParchmentPage>
+      </BookCover>
     </div>
   );
 }

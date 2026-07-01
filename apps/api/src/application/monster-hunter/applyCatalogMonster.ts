@@ -1,5 +1,10 @@
-import type { MonsterCatalogEntry } from "@game-tracker/shared";
-import { ZERO_AILMENT_BARS } from "@game-tracker/shared";
+import type { GameMonsterDetail, MonsterCatalogEntry } from "@game-tracker/shared";
+import {
+  ZERO_AILMENT_BARS,
+  normalizePartName,
+  primaryElementFromStars,
+  wildsRowToFullRow,
+} from "@game-tracker/shared";
 import type { PrismaClient } from "@prisma/client";
 
 const AILMENT_NAME_MAP: Record<string, string> = {
@@ -15,27 +20,19 @@ const AILMENT_NAME_MAP: Record<string, string> = {
   iceblight: "Iceblight",
 };
 
+const ELEMENTAL_WEAKNESS_KEYS = ["fire", "water", "thunder", "ice", "dragon"] as const;
+
 function normalizeAilmentName(raw: string): string {
   const key = raw.toLowerCase().replace(/\s+/g, "");
   return AILMENT_NAME_MAP[key] ?? raw;
 }
 
-function resistanceFromStars(stars: number): number {
-  if (stars >= 3) return 25;
-  if (stars === 2) return 50;
-  if (stars === 1) return 75;
-  return 100;
-}
-
-/** MHW elemental stars → weakness matrix cell (0–99); missing element → 0. */
 function elementalStarsToWeakness(stars: number): number {
   if (stars >= 3) return 75;
   if (stars === 2) return 50;
   if (stars === 1) return 25;
   return 0;
 }
-
-const ELEMENTAL_WEAKNESS_KEYS = ["fire", "water", "thunder", "ice", "dragon"] as const;
 
 function ailmentBarsFromResistance(resistance: number) {
   return {
@@ -47,16 +44,120 @@ function ailmentBarsFromResistance(resistance: number) {
   };
 }
 
-/** Applies catalog reference data (notes, ailments, metadata) after default MH init. */
+type BodyPartRow = {
+  part: string;
+  slash?: number;
+  blunt?: number;
+  pierce?: number;
+  fire?: number;
+  water?: number;
+  thunder?: number;
+  ice?: number;
+  dragon?: number;
+};
+
+function extractBodyParts(detail: GameMonsterDetail): BodyPartRow[] {
+  const riseParts = detail.riseData?.bodyPartWeaknesses ?? [];
+  if (riseParts.length > 0) {
+    return riseParts.map((row) => ({
+      part: normalizePartName(row.part),
+      slash: row.slash,
+      blunt: row.blunt,
+      pierce: row.pierce,
+      fire: row.fire,
+      water: row.water,
+      thunder: row.thunder,
+      ice: row.ice,
+      dragon: row.dragon,
+    }));
+  }
+
+  const wildsParts = detail.wildsData?.bodyPartWeaknesses ?? [];
+  if (wildsParts.length > 0) {
+    const primary = primaryElementFromStars(detail.wildsData!.elementalWeaknesses);
+    return wildsParts.map((row) => wildsRowToFullRow(row, primary));
+  }
+
+  return [];
+}
+
+function globalElementalMap(entry: MonsterCatalogEntry): Map<string, number> {
+  const map = new Map<string, number>();
+  for (const key of ELEMENTAL_WEAKNESS_KEYS) map.set(key, 0);
+  for (const w of entry.elementalWeaknesses) {
+    if (ELEMENTAL_WEAKNESS_KEYS.includes(w.element as (typeof ELEMENTAL_WEAKNESS_KEYS)[number])) {
+      map.set(w.element, elementalStarsToWeakness(w.stars));
+    }
+  }
+  return map;
+}
+
+async function replaceBodyPartsFromCatalog(
+  tx: Parameters<Parameters<PrismaClient["$transaction"]>[0]>[0],
+  monsterId: string,
+  parts: BodyPartRow[],
+  fallbackElemental: Map<string, number>,
+) {
+  await tx.materialBodyPartDrop.deleteMany({ where: { material: { monsterId } } });
+  await tx.weaknessEntry.deleteMany({ where: { monsterId } });
+  await tx.monsterBodyPart.deleteMany({ where: { monsterId } });
+
+  for (let i = 0; i < parts.length; i++) {
+    const row = parts[i]!;
+    const bodyPart = await tx.monsterBodyPart.create({
+      data: { monsterId, name: row.part, sortOrder: i },
+    });
+    await tx.weaknessEntry.create({
+      data: {
+        monsterId,
+        bodyPartId: bodyPart.id,
+        slash: row.slash ?? 0,
+        blunt: row.blunt ?? 0,
+        pierce: row.pierce ?? 0,
+        fire: row.fire ?? fallbackElemental.get("fire") ?? 0,
+        water: row.water ?? fallbackElemental.get("water") ?? 0,
+        thunder: row.thunder ?? fallbackElemental.get("thunder") ?? 0,
+        ice: row.ice ?? fallbackElemental.get("ice") ?? 0,
+        dragon: row.dragon ?? fallbackElemental.get("dragon") ?? 0,
+      },
+    });
+  }
+}
+
+async function applyGlobalElementalToExistingParts(
+  tx: Parameters<Parameters<PrismaClient["$transaction"]>[0]>[0],
+  monsterId: string,
+  elemental: Map<string, number>,
+) {
+  const rows = await tx.weaknessEntry.findMany({ where: { monsterId } });
+  for (const row of rows) {
+    await tx.weaknessEntry.update({
+      where: { id: row.id },
+      data: {
+        fire: elemental.get("fire") ?? 0,
+        water: elemental.get("water") ?? 0,
+        thunder: elemental.get("thunder") ?? 0,
+        ice: elemental.get("ice") ?? 0,
+        dragon: elemental.get("dragon") ?? 0,
+      },
+    });
+  }
+}
+
+/** Applies catalog reference data to a tracked monster. */
 export async function applyMonsterCatalogData(
   prisma: PrismaClient,
   monsterId: string,
   entry: MonsterCatalogEntry,
+  detail?: GameMonsterDetail,
 ) {
   const weaknessByAilment = new Map<string, number>();
   for (const w of entry.ailmentWeaknesses) {
     weaknessByAilment.set(normalizeAilmentName(w.ailment), w.resistance);
   }
+
+  const bodyParts = detail ? extractBodyParts(detail) : [];
+  const fallbackElemental = globalElementalMap(entry);
 
   await prisma.$transaction(async (tx) => {
     await tx.monster.update({
@@ -88,9 +189,7 @@ export async function applyMonsterCatalogData(
         where: { id: ailment.id },
         data: resistance === undefined ? ZERO_AILMENT_BARS : ailmentBarsFromResistance(resistance),
       });
-      if (resistance !== undefined) {
-        weaknessByAilment.delete(key);
-      }
+      if (resistance !== undefined) weaknessByAilment.delete(key);
     }
 
     let sortOrder = existingAilments.length;
@@ -108,28 +207,19 @@ export async function applyMonsterCatalogData(
       });
     }
 
-    const elementalWeakness = new Map<string, number>();
-    for (const key of ELEMENTAL_WEAKNESS_KEYS) {
-      elementalWeakness.set(key, 0);
-    }
-    for (const w of entry.elementalWeaknesses) {
-      if (ELEMENTAL_WEAKNESS_KEYS.includes(w.element as (typeof ELEMENTAL_WEAKNESS_KEYS)[number])) {
-        elementalWeakness.set(w.element, elementalStarsToWeakness(w.stars));
-      }
-    }
-
-    const weaknessRows = await tx.weaknessEntry.findMany({ where: { monsterId } });
-    for (const row of weaknessRows) {
-      await tx.weaknessEntry.update({
-        where: { id: row.id },
-        data: {
-          fire: elementalWeakness.get("fire") ?? 0,
-          water: elementalWeakness.get("water") ?? 0,
-          thunder: elementalWeakness.get("thunder") ?? 0,
-          ice: elementalWeakness.get("ice") ?? 0,
-          dragon: elementalWeakness.get("dragon") ?? 0,
-        },
-      });
+    if (bodyParts.length > 0) {
+      await replaceBodyPartsFromCatalog(tx, monsterId, bodyParts, fallbackElemental);
+    } else {
+      await applyGlobalElementalToExistingParts(tx, monsterId, fallbackElemental);
     }
   });
+}
+
+export async function refreshTrackedMonsterFromCatalog(
+  prisma: PrismaClient,
+  monsterId: string,
+  detail: GameMonsterDetail,
+  entry: MonsterCatalogEntry,
+) {
+  await applyMonsterCatalogData(prisma, monsterId, entry, detail);
 }

@@ -14,7 +14,65 @@ Production checklist for **Game Tracker** (monorepo: Express API + React web + P
 
 **Single-server deploy (recommended first):** API serves `/api/v1`, `/uploads`, and the built React app from one URL.
 
-**Split deploy:** Host `apps/web/dist` on Netlify/Vercel/Cloudflare Pages and set `VITE_API_URL` + `CORS_ORIGIN`.
+**Split deploy:** Host the web app on **Vercel** (recommended) or Netlify/Cloudflare Pages; run the API on Render/Railway/Fly with `CORS_ORIGIN` + `VITE_API_URL`.
+
+---
+
+## Deploy to Vercel (frontend)
+
+Vercel hosts the **React static app only**. The Express API must run elsewhere (Render, Railway, or Fly) with PostgreSQL.
+
+```
+┌─────────────────────┐         ┌──────────────────────────────┐
+│  Vercel             │  HTTPS  │  Render / Railway / Fly      │
+│  apps/web/dist      │ ──────► │  Express API + PostgreSQL    │
+│  React SPA          │         │  /api/v1, /uploads (volume)  │
+└─────────────────────┘         └──────────────────────────────┘
+```
+
+### 1. Deploy the API first
+
+Follow [Deploy to Render](#deploy-to-render) or [Deploy to Railway](#deploy-to-railway), but **omit** `WEB_DIST_PATH` so the API does not serve the frontend.
+
+Set on the API host:
+
+| Variable | Example |
+|----------|---------|
+| `CORS_ORIGIN` | `https://your-app.vercel.app` |
+| `CORS_ALLOW_VERCEL_PREVIEWS` | `true` (allows `*.vercel.app` preview URLs) |
+
+### 2. Import repo to Vercel
+
+1. [vercel.com](https://vercel.com) → **Add New → Project** → import your GitHub repo.
+2. Vercel reads root **`vercel.json`** — no extra framework preset needed.
+3. **Build command:** `npm run build:vercel` (default from `vercel.json`)
+4. **Output directory:** `apps/web/dist`
+
+### 3. Vercel environment variables (Project → Settings → Environment Variables)
+
+| Variable | Value | Environments |
+|----------|-------|--------------|
+| `VITE_API_URL` | `https://your-api.onrender.com/api/v1` | Production, Preview, Development |
+
+`VITE_API_ORIGIN` is optional; it is inferred from `VITE_API_URL` for monster upload images (`/uploads/...`).
+
+### 4. Deploy
+
+Push to GitHub — Vercel builds and deploys automatically.
+
+Open your `*.vercel.app` URL → register → use the app.
+
+### Local Vercel-style build
+
+```powershell
+$env:VITE_API_URL = "http://localhost:3001/api/v1"
+npm run build:vercel
+npx serve apps/web/dist
+```
+
+### Why not API on Vercel?
+
+The API uses a long-running Express server, Prisma + PostgreSQL, and disk uploads (multer). Vercel serverless functions have ephemeral storage and request timeouts — use Render/Railway for the API unless you migrate uploads to blob storage and refactor to serverless handlers.
 
 ---
 
@@ -31,6 +89,7 @@ Production checklist for **Game Tracker** (monorepo: Express API + React web + P
 | `WEB_DIST_PATH` | Single-server | Path to `apps/web/dist` |
 | `UPLOAD_DIR` | No | Upload root (default `uploads`) |
 | `CORS_ORIGIN` | Split deploy | Comma-separated frontend URLs |
+| `CORS_ALLOW_VERCEL_PREVIEWS` | Split + Vercel | Set `true` to allow `*.vercel.app` preview origins |
 | `SEED_ON_START` | No | Set `true` on first deploy to seed `monster-hunter` game |
 
 Do **not** set `PORT` on Railway — the platform injects it automatically.
@@ -40,6 +99,7 @@ Do **not** set `PORT` on Railway — the platform injects it automatically.
 | Variable | When |
 |----------|------|
 | `VITE_API_URL` | Split hosting only, e.g. `https://api.example.com/api/v1` |
+| `VITE_API_ORIGIN` | Optional; API origin for `/uploads` (auto-derived from `VITE_API_URL`) |
 
 Leave unset for same-origin deploy (Docker / Render single service).
 
@@ -138,15 +198,16 @@ New accounts get trial credits (~$5). Ongoing hosting is typically **~$5/month**
 ## Split frontend + API
 
 1. Deploy API (Render/Railway/Fly) with **only** API env vars (no `WEB_DIST_PATH`).
-2. Set `CORS_ORIGIN` to your frontend URL.
-3. Build web with frontend env:
+2. Set `CORS_ORIGIN` to your Vercel URL; set `CORS_ALLOW_VERCEL_PREVIEWS=true` for preview deploys.
+3. On Vercel, set `VITE_API_URL` (see [Deploy to Vercel](#deploy-to-vercel-frontend)).
+4. Or build locally:
 
    ```powershell
    $env:VITE_API_URL = "https://your-api.onrender.com/api/v1"
-   npm run build --workspace web
+   npm run build:vercel
    ```
 
-4. Deploy `apps/web/dist` to static hosting.
+5. Deploy `apps/web/dist` to Vercel (or `npm run build:vercel` via Git integration).
 
 ---
 
@@ -182,5 +243,6 @@ Or use `npm run start:prod` from the repo root (runs migrate + start).
 | Migration provider mismatch (sqlite vs postgresql) | Fixed in Docker: production image uses `migrations-postgres/` — redeploy latest |
 | `Can't reach database` | Check `DATABASE_URL`, Postgres is running |
 | Blank page after deploy | Set `WEB_DIST_PATH` or deploy web separately |
-| API works, web CORS errors | Set `CORS_ORIGIN` to exact frontend URL |
+| API works, web CORS errors | Set `CORS_ORIGIN` to exact frontend URL; use `CORS_ALLOW_VERCEL_PREVIEWS=true` for Vercel previews |
+| Monster images broken on Vercel | Set `VITE_API_URL`; upload paths resolve via API origin |
 | Uploads disappear | Mount persistent disk at `UPLOAD_DIR` |

@@ -202,3 +202,96 @@ model Drop {
 
   @@index([userId, gameId])
 }
+
+// --- Reference monster database (catalog) ---
+
+model GameMonster {
+  id               String              @id @default(cuid())
+  slug             String
+  name             String
+  species          String?
+  description      String?
+  game             String
+  monsterType      String?
+  threatLevel      Int?
+  iconImage        String?
+  largeRenderImage String?
+  familySlug       String
+  ecologyText      String?
+  canBeCaptured    Boolean             @default(true)
+  monsterSize      String              @default("large")
+  createdAt        DateTime            @default(now())
+  updatedAt        DateTime            @updatedAt
+  riseData         MonsterRiseData?
+  wildsData        MonsterWildsData?
+  dbMaterials      MonsterDbMaterial[]
+  images           MonsterImage[]
+
+  @@unique([slug, game])
+  @@index([name])
+  @@index([game])
+  @@index([familySlug])
+  @@index([monsterType])
+  @@map("game_monsters")
+}
+
+model MonsterRiseData {
+  id                  String      @id @default(cuid())
+  monsterId           String      @unique
+  elementalWeaknesses Json
+  ailmentWeaknesses   Json
+  statusResistances   Json?
+  bodyPartWeaknesses  Json?
+  huntRewards         Json?
+  captureRewards      Json?
+  breakRewards        Json?
+  monster             GameMonster @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+
+  @@map("monster_rise_data")
+}
+
+model MonsterWildsData {
+  id                  String      @id @default(cuid())
+  monsterId           String      @unique
+  elementalWeaknesses Json
+  bodyPartWeaknesses  Json
+  woundData           Json?
+  breakableParts      Json?
+  resistanceValues    Json?
+  huntRewards         Json?
+  wildsMechanics      Json?
+  monster             GameMonster @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+
+  @@map("monster_wilds_data")
+}
+
+model MonsterDbMaterial {
+  id           String      @id @default(cuid())
+  monsterId    String
+  game         String
+  materialName String
+  rarity       String      @default("COMMON")
+  dropSource   String?
+  dropRate     Int?
+  rank         String
+  description  String?
+  icon         String?
+  sortOrder    Int         @default(0)
+  monster      GameMonster @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+
+  @@index([monsterId, game])
+  @@index([monsterId, rank])
+  @@map("monster_db_materials")
+}
+
+model MonsterImage {
+  id        String      @id @default(cuid())
+  monsterId String
+  imageUrl  String
+  imageType String
+  sortOrder Int         @default(0)
+  monster   GameMonster @relation(fields: [monsterId], references: [id], onDelete: Cascade)
+
+  @@index([monsterId])
+  @@map("monster_images")
+}

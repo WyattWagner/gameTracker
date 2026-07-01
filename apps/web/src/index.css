@@ -2,6 +2,247 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-slate-950 text-slate-100 min-h-screen;
+:root {
+  --color-paper: #f3ead4;
+  --color-paper-dark: #e8dcc0;
+  --color-parchment: #f0e4b8;
+  --color-ink: #2a2218;
+  --color-ink-muted: #6b5d4a;
+  --color-rule: #c4b59a;
+  --color-margin: #c45c4a;
+  --color-moss: #4a5d3f;
+  --color-rust: #8b5a3c;
+  --color-wax: #9b2d2d;
+  --color-leather: #5c3d28;
+  --color-leather-light: #8b5e3c;
+  --color-leather-dark: #3d2818;
+  --color-strap: #4a3020;
+  --color-buckle: #c4a574;
+  --color-rise-accent: #8b5a3c;
+  --color-wilds-accent: #3d5c6b;
+  --parchment-texture-url: none;
+}
+
+@layer base {
+  body {
+    min-height: 100dvh;
+    background-color: var(--color-leather-dark);
+    color: var(--color-ink);
+    font-family: "Source Sans 3", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .notebook-card {
+    transition: box-shadow 0.15s ease;
+  }
+}
+
+.notebook-scroll-tabs {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.notebook-scroll-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+@layer components {
+  .book-cover {
+    position: relative;
+    background: linear-gradient(
+      145deg,
+      var(--color-leather-light) 0%,
+      var(--color-leather) 40%,
+      var(--color-leather-dark) 100%
+    );
+    box-shadow:
+      inset 0 0 40px rgba(0, 0, 0, 0.35),
+      0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  .book-cover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.15;
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.08) 2px,
+      rgba(0, 0, 0, 0.08) 4px
+    );
+    pointer-events: none;
+  }
+
+  .book-inner {
+    position: relative;
+    display: flex;
+    flex: 1;
+    min-height: 0;
+    margin: 0.5rem 0.75rem;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .book-spine {
+    width: 14px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #2a1810 0%, var(--color-leather-dark) 40%, #6b4a32 100%);
+    box-shadow: inset -3px 0 6px rgba(0, 0, 0, 0.4);
+  }
+
+  .book-page-area {
+    background: var(--color-parchment);
+    min-width: 0;
+  }
+
+  .book-strap {
+    height: 10px;
+    margin: 0 1.5rem;
+    background: linear-gradient(180deg, var(--color-strap) 0%, #2a1810 100%);
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+
+  .book-strap::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 14px;
+    background: linear-gradient(180deg, var(--color-buckle) 0%, #8b6a3c 100%);
+    border-radius: 2px;
+    border: 1px solid #5a4020;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  }
+
+  .book-strap-top {
+    margin-top: 0.5rem;
+  }
+
+  .book-strap-bottom {
+    margin-bottom: 0.5rem;
+  }
+
+  .book-title-plate {
+    background: linear-gradient(
+      165deg,
+      var(--color-leather-light) 0%,
+      var(--color-leather) 55%,
+      var(--color-leather-dark) 100%
+    );
+    border: 1px solid var(--color-leather-dark);
+    box-shadow: inset 0 1px 0 rgba(255, 248, 230, 0.15);
+  }
+
+  .parchment-surface {
+    background-color: var(--color-parchment);
+    background-image: var(--parchment-texture-url);
+    background-repeat: repeat;
+    background-size: 512px 512px;
+  }
+
+  .book-header {
+    background: linear-gradient(180deg, rgba(240, 228, 184, 0.95) 0%, rgba(240, 228, 184, 0.8) 100%);
+    backdrop-filter: blur(4px);
+  }
+
+  .notebook-nav-leather {
+    background: linear-gradient(
+      180deg,
+      var(--color-leather-light) 0%,
+      var(--color-leather) 100%
+    );
+    border-top: 2px solid var(--color-leather-dark);
+    box-shadow: 0 -2px 8px rgba(42, 34, 24, 0.2);
+  }
+
+  .notebook-stat-panel {
+    background: linear-gradient(
+      165deg,
+      var(--color-leather-light) 0%,
+      var(--color-leather) 55%,
+      var(--color-leather-dark) 100%
+    );
+    border: 1px solid var(--color-leather-dark);
+    box-shadow:
+      0 2px 5px rgba(42, 34, 24, 0.3),
+      inset 0 1px 0 rgba(255, 248, 230, 0.12);
+    color: var(--color-paper);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+  }
+
+  .notebook-stat-panel .notebook-stat-label {
+    color: rgba(243, 234, 212, 0.9);
+  }
+
+  .notebook-stat-panel .notebook-stat-value {
+    color: var(--color-paper);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .notebook-monster-select {
+    background: linear-gradient(
+      165deg,
+      var(--color-leather-light) 0%,
+      var(--color-leather) 55%,
+      var(--color-leather-dark) 100%
+    );
+    border: 1px solid var(--color-leather-dark);
+    box-shadow:
+      0 2px 5px rgba(42, 34, 24, 0.3),
+      inset 0 1px 0 rgba(255, 248, 230, 0.12);
+    color: var(--color-paper);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border-left-width: 4px;
+  }
+
+  .notebook-monster-select--world {
+    border-left-color: var(--color-moss);
+  }
+
+  .notebook-monster-select--rise {
+    border-left-color: var(--color-rise-accent);
+  }
+
+  .notebook-monster-select--wilds {
+    border-left-color: var(--color-wilds-accent);
+  }
+
+  .notebook-table {
+    width: 100%;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(139, 90, 60, 0.3);
+    overflow: hidden;
+  }
+
+  .notebook-table thead {
+    background: linear-gradient(180deg, var(--color-leather-light) 0%, var(--color-leather) 100%);
+    color: var(--color-paper);
+    text-align: left;
+  }
+
+  .notebook-table th,
+  .notebook-table td {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .notebook-table tbody tr {
+    border-top: 1px solid rgba(139, 90, 60, 0.2);
+    background: rgba(243, 234, 212, 0.6);
+  }
+
+  .notebook-table tbody tr:nth-child(even) {
+    background: rgba(232, 220, 192, 0.7);
+  }
 }

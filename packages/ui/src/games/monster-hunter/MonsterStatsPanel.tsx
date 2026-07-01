@@ -13,9 +13,9 @@ export function MonsterStatsPanel({ monster }: { monster: Monster }) {
   return (
     <div className="grid grid-cols-2 gap-3 md:grid-cols-3">
       {stats.map((stat) => (
-        <div key={stat.label} className="rounded-lg bg-slate-800/80 p-3">
-          <p className="text-xs uppercase tracking-wide text-slate-400">{stat.label}</p>
-          <p className="text-lg font-semibold text-white">{stat.value}</p>
+        <div key={stat.label} className="notebook-stat-panel rounded-lg p-3">
+          <p className="notebook-stat-label text-xs uppercase tracking-wide">{stat.label}</p>
+          <p className="notebook-stat-value text-lg font-semibold">{stat.value}</p>
         </div>
       ))}
     </div>

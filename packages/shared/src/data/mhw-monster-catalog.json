@@ -6,6 +6,7 @@
     "name": "Aptonoth",
     "type": "small",
     "species": "herbivore",
+    "monsterType": "Herbivore",
     "description": "Docile herbivores that graze in packs. Their meat is considered a delicacy and is rich in nutrients. If one member of the herd is attacked, the rest will flee immediately.",
     "elements": [],
     "ailments": [],
@@ -31,7 +32,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-2",
@@ -40,6 +42,7 @@
     "name": "Jagras",
     "type": "small",
     "species": "fanged wyvern",
+    "monsterType": "Fanged Wyvern",
     "description": "Members of the Great Jagras pack, these smaller monsters will flee upon seeing one of their own perish. They're also known for ambushing larger monsters at a moment's notice.",
     "elements": [],
     "ailments": [],
@@ -57,7 +60,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-3",
@@ -66,6 +70,7 @@
     "name": "Mernos",
     "type": "small",
     "species": "wingdrake",
+    "monsterType": "Wingdrake",
     "description": "Wingdrakes that feast on scatternuts. The flock will travel great distances when startled, making them an invaluable mode of transportation for clever hunters.",
     "elements": [],
     "ailments": [],
@@ -92,7 +97,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-4",
@@ -101,6 +107,7 @@
     "name": "Vespoid",
     "type": "small",
     "species": "neopteron",
+    "monsterType": "Neopteron",
     "description": "Insects that paralyze their targets with their long stingers. They break easily, so attack them with poison or slinger ammo if you want to carve them.",
     "elements": [],
     "ailments": [
@@ -126,7 +133,8 @@
         "resistance": 75
       }
     ],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-5",
@@ -135,6 +143,7 @@
     "name": "Mosswine",
     "type": "small",
     "species": "herbivore",
+    "monsterType": "Herbivore",
     "description": "Mosswine are known for their excellent sense of smell, and are often found foraging for fungi. If you're hunting for mushrooms, follow the Mosswine to the motherlode.",
     "elements": [],
     "ailments": [],
@@ -162,7 +171,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-6",
@@ -171,6 +181,7 @@
     "name": "Apceros",
     "type": "small",
     "species": "herbivore",
+    "monsterType": "Herbivore",
     "description": "Herbivores that inhabit the Wildspire Waste. They've developed particularly hard hide to ward off attackers, and are known to gather in groups to defend themselves.",
     "elements": [],
     "ailments": [],
@@ -188,7 +199,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-7",
@@ -197,6 +209,7 @@
     "name": "Kestodon",
     "type": "small",
     "species": "herbivore",
+    "monsterType": "Herbivore",
     "description": "Female Kestodon will alert the pack of danger, while the males will violently charge would-be threats. Their rushing charges can be blocked, however, leaving them open to attacks.",
     "elements": [],
     "ailments": [],
@@ -215,7 +228,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-8",
@@ -224,6 +238,7 @@
     "name": "Noios",
     "type": "small",
     "species": "wingdrake",
+    "monsterType": "Wingdrake",
     "description": "Wingdrakes that produce a sound similar to screamer pods when startled. Use meat to get their attention, and then hunt them for materials, or use them for transportation.",
     "elements": [],
     "ailments": [],
@@ -245,7 +260,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-9",
@@ -254,6 +270,7 @@
     "name": "Gajau",
     "type": "small",
     "species": "fish",
+    "monsterType": "Fish",
     "description": "Vicious piscine that form groups to defend their territory from intruders. Be sure not to venture too closely to their habitat!",
     "elements": [],
     "ailments": [],
@@ -272,7 +289,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-10",
@@ -281,6 +299,7 @@
     "name": "Kelbi",
     "type": "small",
     "species": "herbivore",
+    "monsterType": "Herbivore",
     "description": "Small herbivores known for their gentle demeanor and the medicinal properties of their horns. Those wishing to harvest a horn should aim for the head when attacking them.",
     "elements": [],
     "ailments": [],
@@ -307,7 +326,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-11",
@@ -316,6 +336,7 @@
     "name": "Raphinos",
     "type": "small",
     "species": "wingdrake",
+    "monsterType": "Wingdrake",
     "description": "Wingdrakes inhabiting the Coral Highlands. They group up to steal the eggs of other animals, but this in turn exposes them to the attention of larger, more vicious predators.",
     "elements": [],
     "ailments": [],
@@ -330,7 +351,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-12",
@@ -339,6 +361,7 @@
     "name": "Shamos",
     "type": "small",
     "species": "fanged wyvern",
+    "monsterType": "Fanged Wyvern",
     "description": "Small nocturnal monsters. They're particularly vulnerable to Tzitzi-Ya-Ku's blinding flash, but have been known to gang up on enemies.",
     "elements": [],
     "ailments": [],
@@ -356,7 +379,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-13",
@@ -365,6 +389,7 @@
     "name": "Girros",
     "type": "small",
     "species": "fanged wyvern",
+    "monsterType": "Fanged Wyvern",
     "description": "Monsters known to attack in packs, using the deadly vapor of the Rotten Vale to their advantage. They're known for crippling targets with paralyzing fangs.",
     "elements": [],
     "ailments": [
@@ -380,7 +405,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-14",
@@ -389,6 +415,7 @@
     "name": "Hornetaur",
     "type": "small",
     "species": "neopteron",
+    "monsterType": "Neopteron",
     "description": "Small insects that are found primarily on land. They're highly territorial and will attack anything that approaches them. Gather their materials by attacking them with the slinger.",
     "elements": [],
     "ailments": [],
@@ -406,7 +433,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-15",
@@ -415,6 +443,7 @@
     "name": "Gastodon",
     "type": "small",
     "species": "herbivore",
+    "monsterType": "Herbivore",
     "description": "Pack monsters that inhabit the Elder's Recess. They are easily angered by intruders, and will charge at monsters twice their size.",
     "elements": [],
     "ailments": [],
@@ -428,7 +457,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-16",
@@ -437,6 +467,7 @@
     "name": "Barnos",
     "type": "small",
     "species": "wingdrake",
+    "monsterType": "Wingdrake",
     "description": "Fervid wingdrakes that have flourished under harsh living conditions. They target intruders with a unique acidic agent, and then attack as a swarm.",
     "elements": [],
     "ailments": [
@@ -454,7 +485,8 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": false
+    "canBeCaptured": false,
+    "expansion": "base"
   },
   {
     "id": "mhw-17",
@@ -463,6 +495,7 @@
     "name": "Great Jagras",
     "type": "large",
     "species": "fanged wyvern",
+    "monsterType": "Fanged Wyvern",
     "description": "The pack leader of the Jagras. When hungry, Great Jagras are known to attack monsters even stronger than themselves. It balloons to unbelievable proportions after swallowing prey.",
     "elements": [],
     "ailments": [],
@@ -514,7 +547,65 @@
         "resistance": 25
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-18",
@@ -523,6 +614,7 @@
     "name": "Kulu-Ya-Ku",
     "type": "large",
     "species": "bird wyvern",
+    "monsterType": "Bird Wyvern",
     "description": "An odd bird wyvern that has developed limbs capable of carrying weapons. It's been spotted stealing eggs from nests found in the Ancient Forest and Wildspire Waste.",
     "elements": [],
     "ailments": [],
@@ -579,7 +671,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 75,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 75,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 75,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 75,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 75,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-19",
@@ -588,6 +738,7 @@
     "name": "Pukei-Pukei",
     "type": "large",
     "species": "bird wyvern",
+    "monsterType": "Bird Wyvern",
     "description": "A bird wyvern known to possess poisonous toxins in its body. It's been spotted storing scatternuts in its mouth or tail, coating them with poison and spitting them out at threats.",
     "elements": [],
     "ailments": [
@@ -643,7 +794,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 0,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 0,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 0,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 0,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 0,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-20",
@@ -652,6 +861,7 @@
     "name": "Barroth",
     "type": "large",
     "species": "brute wyvern",
+    "monsterType": "Brute Wyvern",
     "description": "Barroth seek out ants, their favorite snack, and mark their territory with mud. They attack potential rivals with their devastating charging attack.",
     "elements": [],
     "ailments": [
@@ -706,7 +916,65 @@
         "resistance": 75
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 75,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 75,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-21",
@@ -715,6 +983,7 @@
     "name": "Jyuratodus",
     "type": "large",
     "species": "piscine wyvern",
+    "monsterType": "Piscine Wyvern",
     "description": "A large piscine wyvern that inhabits the swamps of the Wildspire Waste. It uses mud to capture prey, and it's known to battle Barroth over territory.",
     "elements": [
       "water"
@@ -775,7 +1044,65 @@
         "resistance": 25
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 25,
+        "water": 75,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 75,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 25
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 75,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 25
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 75,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 25,
+        "water": 75,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-22",
@@ -784,6 +1111,7 @@
     "name": "Tobi-Kadachi",
     "type": "large",
     "species": "fanged wyvern",
+    "monsterType": "Fanged Wyvern",
     "description": "A fanged wyvern that flies among the trees of the Ancient Forest. Its penchant to brush against the ground and the trees as it moves around builds up static electricity within its fur.",
     "elements": [
       "thunder"
@@ -839,7 +1167,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-23",
@@ -848,6 +1234,7 @@
     "name": "Anjanath",
     "type": "large",
     "species": "brute wyvern",
+    "monsterType": "Brute Wyvern",
     "description": "The Anjanath patrols the Ancient Forest, looking for its favorite meal, Aptonoth. This belligerent monster will attack anything without hesitation.",
     "elements": [
       "fire"
@@ -904,7 +1291,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 75,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 75,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 75,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 75,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 75,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-24",
@@ -913,6 +1358,7 @@
     "name": "Azure Rathalos",
     "type": "large",
     "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
     "description": "An azure-colored subspecies of Rathalos. More mobile than their standard cousins, they locate prey from the air and quickly swoop in for the kill.",
     "elements": [
       "fire"
@@ -970,7 +1416,87 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 25,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 25,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      }
+    ]
   },
   {
     "id": "mhw-25",
@@ -979,6 +1505,7 @@
     "name": "Bazelgeuse",
     "type": "large",
     "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
     "description": "A nefarious flying wyvern that travels the New World in search of prey. It scatters explosive scales over a wide area to prey on whatever gets caught in the blast.",
     "elements": [
       "fire"
@@ -1039,7 +1566,87 @@
         "resistance": 75
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-26",
@@ -1048,6 +1655,7 @@
     "name": "Behemoth",
     "type": "large",
     "species": "elder dragon",
+    "monsterType": "Elder Dragon",
     "description": "A powerful beast from another world. Its large horns and muscular frame defy nature. Unique strategies are required to battle it.",
     "elements": [
       "fire",
@@ -1110,7 +1718,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 25,
+        "water": 50,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 50,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 50,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 50,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 25,
+        "water": 50,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      }
+    ]
   },
   {
     "id": "mhw-27",
@@ -1119,6 +1785,7 @@
     "name": "Deviljho",
     "type": "large",
     "species": "brute wyvern",
+    "monsterType": "Brute Wyvern",
     "description": "A monster that must feed constantly and will devour anything in its path, even feeding on the largest of monsters with its massive jowls.",
     "elements": [
       "dragon"
@@ -1187,7 +1854,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
   },
   {
     "id": "mhw-28",
@@ -1196,6 +1921,7 @@
     "name": "Diablos",
     "type": "large",
     "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
     "description": "The apex monster of the Wildspire Waste.\nA menacing, territorial beast that lurks underground.\nLoud noises will cause it to lunge out of the sand in search of prey.",
     "elements": [],
     "ailments": [
@@ -1249,7 +1975,87 @@
         "resistance": 75
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-29",
@@ -1258,6 +2064,7 @@
     "name": "Black Diablos",
     "type": "large",
     "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
     "description": "These black-shelled Diablos are actually female Diablos in heat. The color signals their aggressiveness and heightened hostility to other creatures in their habitat.",
     "elements": [],
     "ailments": [],
@@ -1305,7 +2112,87 @@
         "resistance": 75
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 50,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 0
+      }
+    ]
   },
   {
     "id": "mhw-30",
@@ -1314,6 +2201,7 @@
     "name": "Dodogama",
     "type": "large",
     "species": "fanged wyvern",
+    "monsterType": "Fanged Wyvern",
     "description": "A monster that devours rock as its primary diet. The Crystals it devours mix with its saliva to produce explosive minerals that it can spit at its enemies.",
     "elements": [
       "fire"
@@ -1369,7 +2257,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 50,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 50,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 50,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-31",
@@ -1378,6 +2324,7 @@
     "name": "Great Girros",
     "type": "large",
     "species": "fanged wyvern",
+    "monsterType": "Fanged Wyvern",
     "description": "A monster that scavenges for meals dropped from the Coral Highlands.\nIt acts as the alpha leader of a Girros pack, and sports giant fangs that paralyze its prey.",
     "elements": [],
     "ailments": [
@@ -1431,7 +2378,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 75,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-32",
@@ -1440,6 +2445,7 @@
     "name": "Kirin",
     "type": "large",
     "species": "elder dragon",
+    "monsterType": "Elder Dragon",
     "description": "Kirin are so rarely sighted that little is known of their ecology. It's been said they envelop themselves in pure electricity when they are provoked.\nThe lightning a Kirin cloaks itself with has been confirmed to toughen its skin. The key to hunting a Kirin lies in staggering it, using Elderseal weapons, and protecting yourself from and avoiding its lightning attacks.",
     "elements": [
       "thunder"
@@ -1491,7 +2497,65 @@
         "resistance": 75
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 75,
+        "water": 50,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 50,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 50,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 50,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 75,
+        "water": 50,
+        "thunder": 0,
+        "ice": 50,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-33",
@@ -1500,6 +2564,7 @@
     "name": "Kulve Taroth",
     "type": "large",
     "species": "elder dragon",
+    "monsterType": "Elder Dragon",
     "description": "An Elder Dragon that protects itself with a glittering coat of metal. Its ecology and coat differ with each appearance, thus the need for a thorough investigation. An exhaustive investigation is required in order to break Kulve Taroth's giant gold plated horns. Pursue the monster to learn more about it. Gather tracks and recruit hunters to help you further your investigation.",
     "elements": [
       "fire"
@@ -1563,7 +2628,65 @@
         "resistance": 75
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 25,
+        "water": 50,
+        "thunder": 75,
+        "ice": 75,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 50,
+        "thunder": 75,
+        "ice": 75,
+        "dragon": 25
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 50,
+        "thunder": 75,
+        "ice": 75,
+        "dragon": 25
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 50,
+        "thunder": 75,
+        "ice": 75,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 25,
+        "water": 50,
+        "thunder": 75,
+        "ice": 75,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-34",
@@ -1572,6 +2695,7 @@
     "name": "Kushala Daora",
     "type": "large",
     "species": "elder dragon",
+    "monsterType": "Elder Dragon",
     "description": "An elder dragon that shields itself with fierce winds, preventing anyone from approaching it. Its skin consists of hard, metallic scales.",
     "elements": [],
     "ailments": [
@@ -1622,7 +2746,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 25,
+        "water": 0,
+        "thunder": 75,
+        "ice": 0,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 0,
+        "thunder": 75,
+        "ice": 0,
+        "dragon": 50
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 0,
+        "thunder": 75,
+        "ice": 0,
+        "dragon": 50
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 0,
+        "thunder": 75,
+        "ice": 0,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 25,
+        "water": 0,
+        "thunder": 75,
+        "ice": 0,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-35",
@@ -1631,6 +2813,7 @@
     "name": "Lavasioth",
     "type": "large",
     "species": "piscine wyvern",
+    "monsterType": "Piscine Wyvern",
     "description": "Lavasioth utilizes molten lava as armor. They are extremely aggressive and will attack without prejudice until the threat has been eliminated.",
     "elements": [
       "fire"
@@ -1694,7 +2877,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 25,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 25,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-36",
@@ -1703,6 +2944,7 @@
     "name": "Legiana",
     "type": "large",
     "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
     "description": "The apex monster of the Coral Highlands, whose diet primarily consists of Raphinos. It emits a chilling wind from its body, which dulls its prey's ability to escape.",
     "elements": [
       "ice"
@@ -1758,7 +3000,87 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-37",
@@ -1767,6 +3089,7 @@
     "name": "Lunastra",
     "type": "large",
     "species": "elder dragon",
+    "monsterType": "Elder Dragon",
     "description": "A rare female Elder Dragon that litters the air with hot blue dust. Reports of it traveling with her mate, Teostra, are still unconfirmed.",
     "elements": [
       "fire"
@@ -1822,7 +3145,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 25,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 25,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-38",
@@ -1831,6 +3212,7 @@
     "name": "Nergigante",
     "type": "large",
     "species": "elder dragon",
+    "monsterType": "Elder Dragon",
     "description": "A terrible elder dragon that appears when other elders are in the vicinity. Its penchant for destruction is well documented.",
     "elements": [],
     "ailments": [],
@@ -1887,7 +3269,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 25,
+        "water": 25,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 25,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 25,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 25,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 25,
+        "water": 25,
+        "thunder": 75,
+        "ice": 25,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-39",
@@ -1896,6 +3336,7 @@
     "name": "Odogaron",
     "type": "large",
     "species": "fanged wyvern",
+    "monsterType": "Fanged Wyvern",
     "description": "A terrifying monster that scours the Rotten Vale for carrion. Its highly aggressive nature means that anything, be it monster or man, is a potential meal.",
     "elements": [],
     "ailments": [
@@ -1950,7 +3391,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 25,
+        "water": 25,
+        "thunder": 50,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 25,
+        "thunder": 50,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 25,
+        "thunder": 50,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 25,
+        "thunder": 50,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 25,
+        "water": 25,
+        "thunder": 50,
+        "ice": 75,
+        "dragon": 0
+      }
+    ]
   },
   {
     "id": "mhw-40",
@@ -1959,6 +3458,7 @@
     "name": "Paolumu",
     "type": "large",
     "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
     "description": "Paolumu feast on eggs found in the Coral Highlands. They are able to propel through the air using unique sacs in their bodies, and attack with their extremely hard tails.",
     "elements": [],
     "ailments": [
@@ -2012,7 +3512,87 @@
         "resistance": 25
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 25
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 25
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 25
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 25
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-41",
@@ -2021,6 +3601,7 @@
     "name": "Radobaan",
     "type": "large",
     "species": "brute wyvern",
+    "monsterType": "Brute Wyvern",
     "description": "A gigantic brute wyvern that eats the bones of carcasses found in the Rotten Vale, using some of it as armor. It also rolls into a ball as a form of attack and transportation.",
     "elements": [],
     "ailments": [
@@ -2078,7 +3659,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 25,
+        "water": 25,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 25,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 25,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 25,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 25,
+        "water": 25,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      }
+    ]
   },
   {
     "id": "mhw-42",
@@ -2087,6 +3726,7 @@
     "name": "Rathalos",
     "type": "large",
     "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
     "description": "The apex monster of the Ancient Forest, also known as the \"King of the Skies\". A fierce wyvern that descends upon invaders, attacking with its venomous claws and fiery breath.",
     "elements": [
       "fire"
@@ -2144,7 +3784,87 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
   },
   {
     "id": "mhw-43",
@@ -2153,6 +3873,7 @@
     "name": "Rathian",
     "type": "large",
     "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
     "description": "A wyvern known as the \"Queen of the Land.\" Terrestrial predator, it overpowers its prey with a venomous tail and powerful legs.",
     "elements": [
       "fire"
@@ -2210,7 +3931,87 @@
         "resistance": 25
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
   },
   {
     "id": "mhw-44",
@@ -2219,6 +4020,7 @@
     "name": "Pink Rathian",
     "type": "large",
     "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
     "description": "A subspecies with vibrant pink scales. Pink Rathians wield their toxic tails more deftly than normal Rathians, weakening prey with poison before moving in for the kill.",
     "elements": [
       "fire"
@@ -2276,7 +4078,87 @@
         "resistance": 25
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
   },
   {
     "id": "mhw-45",
@@ -2285,6 +4167,7 @@
     "name": "Teostra",
     "type": "large",
     "species": "elder dragon",
+    "monsterType": "Elder Dragon",
     "description": "A brutal elder dragon wreathed in flames that spits blazing fire. Teostra are of such a fierce and deadly nature that the Guild closely monitors their movements.",
     "elements": [
       "fire"
@@ -2342,7 +4225,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 25
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 25
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 75,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-48",
@@ -2351,6 +4292,7 @@
     "name": "Tzitzi-Ya-Ku",
     "type": "large",
     "species": "bird wyvern",
+    "monsterType": "Bird Wyvern",
     "description": "This odd monster blinds both prey and enemies with a special pulsing organ near its head. It then uses its strong legs to deliver finishing blows.",
     "elements": [],
     "ailments": [
@@ -2408,7 +4350,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 75,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 75,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-49",
@@ -2417,6 +4417,7 @@
     "name": "Uragaan",
     "type": "large",
     "species": "brute wyvern",
+    "monsterType": "Brute Wyvern",
     "description": "Large Brute Wyverns that feed on ore, using their mighty jaws to crush solid rock to powder. They've been known to confront Lavasioths over territory disputes.",
     "elements": [
       "fire"
@@ -2473,7 +4474,65 @@
         "resistance": 25
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-50",
@@ -2482,6 +4541,7 @@
     "name": "Vaal Hazak",
     "type": "large",
     "species": "elder dragon",
+    "monsterType": "Elder Dragon",
     "description": "A grotesque Elder Dragon, that inhabits the deepest part of the Rotten Vale. It uses the fatal vapor of the vale in what appears to be a symbiotic relationship.",
     "elements": [],
     "ailments": [
@@ -2535,7 +4595,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 75,
+        "water": 0,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 75,
+        "water": 0,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      }
+    ]
   },
   {
     "id": "mhw-51",
@@ -2544,6 +4662,7 @@
     "name": "Xeno'jiiva",
     "type": "large",
     "species": "elder dragon",
+    "monsterType": "Elder Dragon",
     "description": "RESEARCHING. Threat level unknown.",
     "elements": [
       "dragon"
@@ -2599,7 +4718,65 @@
         "resistance": 75
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 71,
+        "blunt": 66,
+        "pierce": 63,
+        "fire": 50,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 51,
+        "blunt": 46,
+        "pierce": 43,
+        "fire": 50,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Wings",
+        "slash": 51,
+        "blunt": 46,
+        "pierce": 43,
+        "fire": 50,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Legs",
+        "slash": 51,
+        "blunt": 46,
+        "pierce": 43,
+        "fire": 50,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 61,
+        "blunt": 56,
+        "pierce": 53,
+        "fire": 50,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-52",
@@ -2608,6 +4785,7 @@
     "name": "Zorah Magdaros",
     "type": "large",
     "species": "elder dragon",
+    "monsterType": "Elder Dragon",
     "description": "An elder dragon that rises from the earth like a volcano. Where it's headed, and why, the Research Commission has yet to figure out.",
     "elements": [
       "fire"
@@ -2638,7 +4816,65 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 75,
+        "thunder": 25,
+        "ice": 50,
+        "dragon": 75
+      }
+    ]
   },
   {
     "id": "mhw-53",
@@ -2647,6 +4883,7 @@
     "name": "Leshen",
     "type": "large",
     "species": "relict",
+    "monsterType": "Relict",
     "description": "Dwelling deep inside the forest, these creatures use their innate magic to control all flora and fauna within their territory.",
     "elements": [],
     "ailments": [
@@ -2695,7 +4932,98 @@
         "resistance": 75
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-54",
@@ -2704,6 +5032,7 @@
     "name": "Ancient Leshen",
     "type": "large",
     "species": "relict",
+    "monsterType": "Relict",
     "description": "An old leshen that arrived through a portal to assume control over the Ancient Forest. Sometimes revered as an indigenous deity.",
     "elements": [],
     "ailments": [
@@ -2752,7 +5081,98 @@
         "resistance": 75
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 75,
+        "water": 0,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-55",
@@ -2761,6 +5181,7 @@
     "name": "Safi'jiiva",
     "type": "large",
     "species": "elder dragon",
+    "monsterType": "Elder Dragon",
     "description": "The fully-grown form of Xeno'jiiva. It absorbs energy from its environment to heal itself and change the ecosystem.",
     "elements": [
       "fire",
@@ -2800,7 +5221,65 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 50,
+        "thunder": 50,
+        "ice": 50,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-56",
@@ -2809,6 +5288,7 @@
     "name": "Stygian Zinogre",
     "type": "large",
     "species": "fanged wyvern",
+    "monsterType": "Fanged Wyvern",
     "description": "Has a symbiotic relationship with Dracophage Bugs, which it releases like bullets. Becomes even more dangerous when covered in light.",
     "elements": [
       "dragon"
@@ -2834,7 +5314,65 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 0,
+        "dragon": 0
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 0,
+        "dragon": 0
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 0,
+        "dragon": 0
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 0,
+        "dragon": 0
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 50,
+        "thunder": 75,
+        "ice": 0,
+        "dragon": 0
+      }
+    ]
   },
   {
     "id": "mhw-57",
@@ -2843,6 +5381,7 @@
     "name": "Rajang",
     "type": "large",
     "species": "fanged beast",
+    "monsterType": "Fanged Beast",
     "description": "An ultra-aggressive creature that few have a chance of surviving against. Sports powerful arms that pack a punch, and turns gold when angry.",
     "elements": [
       "thunder"
@@ -2890,7 +5429,65 @@
         "resistance": 75
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 0,
+        "water": 25,
+        "thunder": 0,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 0,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 0,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 0,
+        "water": 25,
+        "thunder": 0,
+        "ice": 75,
+        "dragon": 0
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 0,
+        "water": 25,
+        "thunder": 0,
+        "ice": 75,
+        "dragon": 0
+      }
+    ]
   },
   {
     "id": "mhw-58",
@@ -2899,6 +5496,7 @@
     "name": "Viper Tobi-Kadachi",
     "type": "large",
     "species": "fanged wyvern",
+    "monsterType": "Fanged Wyvern",
     "description": "The tail of this subspecies secretes a toxin while its fangs paralyze prey. It can also glide without climbing trees.",
     "elements": [],
     "ailments": [
@@ -2953,7 +5551,65 @@
         "resistance": 50
       }
     ],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 25,
+        "water": 0,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 0,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 0,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 0,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 25,
+        "water": 0,
+        "thunder": 75,
+        "ice": 50,
+        "dragon": 25
+      }
+    ]
   },
   {
     "id": "mhw-59",
@@ -2962,6 +5618,7 @@
     "name": "Namielle",
     "type": "large",
     "species": "elder dragon",
+    "monsterType": "Elder Dragon",
     "description": "An Elder Dragon said to be able to command water and use it as a shield. Though very few sightings have ever been reported, they mention 'exploding water' and 'bright glowing lights.' Its existence remains shrouded in mystery.",
     "elements": [
       "water",
@@ -2989,7 +5646,65 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 75,
+        "water": 0,
+        "thunder": 0,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 0,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 0,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 75,
+        "water": 0,
+        "thunder": 0,
+        "ice": 25,
+        "dragon": 50
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 75,
+        "water": 0,
+        "thunder": 0,
+        "ice": 25,
+        "dragon": 50
+      }
+    ]
   },
   {
     "id": "mhw-60",
@@ -2998,6 +5713,7 @@
     "name": "Zinogre",
     "type": "large",
     "species": "fanged wyvern",
+    "monsterType": "Fanged Wyvern",
     "description": "Lightning courses through the fur and unique plating of this fanged wyvern. It is most deadly in its supercharged state.",
     "elements": [
       "thunder"
@@ -3029,6 +5745,3430 @@
       }
     ],
     "ailmentWeaknesses": [],
-    "canBeCaptured": true
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 25,
+        "water": 50,
+        "thunder": 0,
+        "ice": 75,
+        "dragon": 25
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 50,
+        "thunder": 0,
+        "ice": 75,
+        "dragon": 25
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 50,
+        "thunder": 0,
+        "ice": 75,
+        "dragon": 25
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 25,
+        "water": 50,
+        "thunder": 0,
+        "ice": 75,
+        "dragon": 25
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 25,
+        "water": 50,
+        "thunder": 0,
+        "ice": 75,
+        "dragon": 25
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9000",
+    "source": "game-tracker-seed",
+    "sourceId": 9000,
+    "name": "Velkhana",
+    "type": "large",
+    "species": "elder dragon",
+    "monsterType": "Elder Dragon",
+    "description": "Velkhana from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9001",
+    "source": "game-tracker-seed",
+    "sourceId": 9001,
+    "name": "Barioth",
+    "type": "large",
+    "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
+    "description": "Barioth from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9002",
+    "source": "game-tracker-seed",
+    "sourceId": 9002,
+    "name": "Glavenus",
+    "type": "large",
+    "species": "brute wyvern",
+    "monsterType": "Brute Wyvern",
+    "description": "Glavenus from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9003",
+    "source": "game-tracker-seed",
+    "sourceId": 9003,
+    "name": "Acidic Glavenus",
+    "type": "large",
+    "species": "brute wyvern",
+    "monsterType": "Brute Wyvern",
+    "description": "Acidic Glavenus from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9004",
+    "source": "game-tracker-seed",
+    "sourceId": 9004,
+    "name": "Tigrex",
+    "type": "large",
+    "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
+    "description": "Tigrex from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9005",
+    "source": "game-tracker-seed",
+    "sourceId": 9005,
+    "name": "Nargacuga",
+    "type": "large",
+    "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
+    "description": "Nargacuga from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9006",
+    "source": "game-tracker-seed",
+    "sourceId": 9006,
+    "name": "Brachydios",
+    "type": "large",
+    "species": "brute wyvern",
+    "monsterType": "Brute Wyvern",
+    "description": "Brachydios from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9007",
+    "source": "game-tracker-seed",
+    "sourceId": 9007,
+    "name": "Shara Ishvalda",
+    "type": "large",
+    "species": "elder dragon",
+    "monsterType": "Elder Dragon",
+    "description": "Shara Ishvalda from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9008",
+    "source": "game-tracker-seed",
+    "sourceId": 9008,
+    "name": "Alatreon",
+    "type": "large",
+    "species": "elder dragon",
+    "monsterType": "Elder Dragon",
+    "description": "Alatreon from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9009",
+    "source": "game-tracker-seed",
+    "sourceId": 9009,
+    "name": "Fatalis",
+    "type": "large",
+    "species": "elder dragon",
+    "monsterType": "Elder Dragon",
+    "description": "Fatalis from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9010",
+    "source": "game-tracker-seed",
+    "sourceId": 9010,
+    "name": "Ruiner Nergigante",
+    "type": "large",
+    "species": "elder dragon",
+    "monsterType": "Elder Dragon",
+    "description": "Ruiner Nergigante from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9011",
+    "source": "game-tracker-seed",
+    "sourceId": 9011,
+    "name": "Savage Deviljho",
+    "type": "large",
+    "species": "brute wyvern",
+    "monsterType": "Brute Wyvern",
+    "description": "Savage Deviljho from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9012",
+    "source": "game-tracker-seed",
+    "sourceId": 9012,
+    "name": "Seething Bazelgeuse",
+    "type": "large",
+    "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
+    "description": "Seething Bazelgeuse from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9013",
+    "source": "game-tracker-seed",
+    "sourceId": 9013,
+    "name": "Furious Rajang",
+    "type": "large",
+    "species": "fanged beast",
+    "monsterType": "Fanged Beast",
+    "description": "Furious Rajang from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9014",
+    "source": "game-tracker-seed",
+    "sourceId": 9014,
+    "name": "Scarred Yian Garuga",
+    "type": "large",
+    "species": "bird wyvern",
+    "monsterType": "Bird Wyvern",
+    "description": "Scarred Yian Garuga from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9015",
+    "source": "game-tracker-seed",
+    "sourceId": 9015,
+    "name": "Yian Garuga",
+    "type": "large",
+    "species": "bird wyvern",
+    "monsterType": "Bird Wyvern",
+    "description": "Yian Garuga from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9016",
+    "source": "game-tracker-seed",
+    "sourceId": 9016,
+    "name": "Fulgur Anjanath",
+    "type": "large",
+    "species": "brute wyvern",
+    "monsterType": "Brute Wyvern",
+    "description": "Fulgur Anjanath from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9017",
+    "source": "game-tracker-seed",
+    "sourceId": 9017,
+    "name": "Ebony Odogaron",
+    "type": "large",
+    "species": "fanged wyvern",
+    "monsterType": "Fanged Wyvern",
+    "description": "Ebony Odogaron from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9018",
+    "source": "game-tracker-seed",
+    "sourceId": 9018,
+    "name": "Banbaro",
+    "type": "large",
+    "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
+    "description": "Banbaro from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9019",
+    "source": "game-tracker-seed",
+    "sourceId": 9019,
+    "name": "Beotodus",
+    "type": "large",
+    "species": "piscine wyvern",
+    "monsterType": "Piscine Wyvern",
+    "description": "Beotodus from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9020",
+    "source": "game-tracker-seed",
+    "sourceId": 9020,
+    "name": "Coral Pukei-Pukei",
+    "type": "large",
+    "species": "bird wyvern",
+    "monsterType": "Bird Wyvern",
+    "description": "Coral Pukei-Pukei from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9021",
+    "source": "game-tracker-seed",
+    "sourceId": 9021,
+    "name": "Nightshade Paolumu",
+    "type": "large",
+    "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
+    "description": "Nightshade Paolumu from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9022",
+    "source": "game-tracker-seed",
+    "sourceId": 9022,
+    "name": "Shrieking Legiana",
+    "type": "large",
+    "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
+    "description": "Shrieking Legiana from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9023",
+    "source": "game-tracker-seed",
+    "sourceId": 9023,
+    "name": "Brute Tigrex",
+    "type": "large",
+    "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
+    "description": "Brute Tigrex from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9024",
+    "source": "game-tracker-seed",
+    "sourceId": 9024,
+    "name": "Gold Rathian",
+    "type": "large",
+    "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
+    "description": "Gold Rathian from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhw-ice-9025",
+    "source": "game-tracker-seed",
+    "sourceId": 9025,
+    "name": "Silver Rathalos",
+    "type": "large",
+    "species": "flying wyvern",
+    "monsterType": "Flying Wyvern",
+    "description": "Silver Rathalos from Monster Hunter World: Iceborne.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "iceborne",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
   }
 ]

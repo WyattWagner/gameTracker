@@ -6,6 +6,7 @@ export interface AppEnv {
   jwtSecret: string;
   databaseUrl: string;
   corsOrigin: string | undefined;
+  corsAllowVercelPreviews: boolean;
   webDistPath: string | undefined;
   uploadDir: string;
 }
@@ -31,6 +32,7 @@ export function getEnv(): AppEnv {
     jwtSecret,
     databaseUrl,
     corsOrigin: process.env.CORS_ORIGIN,
+    corsAllowVercelPreviews: process.env.CORS_ALLOW_VERCEL_PREVIEWS === "true",
     webDistPath: process.env.WEB_DIST_PATH,
     uploadDir: process.env.UPLOAD_DIR ?? "uploads",
   };

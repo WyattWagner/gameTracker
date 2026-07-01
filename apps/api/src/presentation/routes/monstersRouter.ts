@@ -4,12 +4,13 @@ import { Router, type NextFunction, type Response } from "express";
 import {
   CreateMonsterFromCatalogSchema,
   CreateMonsterRequestSchema,
-  findCatalogEntry,
   ListMonstersQuerySchema,
   PatchMonsterStatsSchema,
   UpdateMonsterRequestSchema,
 } from "@game-tracker/shared";
-import { applyMonsterCatalogData } from "../../application/monster-hunter/applyCatalogMonster";
+import { gameMonsterDetailToCatalogEntry } from "../../application/catalog/catalogMappers";
+import { getGameMonsterDetail } from "../../application/catalog/catalogService";
+import { applyMonsterCatalogData, refreshTrackedMonsterFromCatalog } from "../../application/monster-hunter/applyCatalogMonster";
 import { initializeMonsterHunterData } from "../../application/monster-hunter/initializeMonsterHunter";
 import { applyMonsterStatsPatch } from "../../application/monster-hunter/applyMonsterStats";
 import { ensureGames } from "../../infrastructure/db/ensureGames";
@@ -78,11 +79,19 @@ monstersRouter.post(
   async (req: AuthenticatedRequest, res, next) => {
     try {
       const body = req.body;
-      const entry = findCatalogEntry(body.gameId, body.catalogId);
-      if (!entry) {
+      const detail = await getGameMonsterDetail(body.catalogId);
+      if (!detail) {
         res.status(404).json({ code: "NOT_FOUND", message: "Catalog monster not found" });
         return;
       }
+      if (detail.game !== body.gameId) {
+        res.status(400).json({
+          code: "BAD_REQUEST",
+          message: `Catalog monster belongs to ${detail.game}, not ${body.gameId}`,
+        });
+        return;
+      }
+      const entry = gameMonsterDetailToCatalogEntry(detail);
 
       await ensureGames();
 
@@ -103,17 +112,19 @@ monstersRouter.post(
           gameId: body.gameId,
           userId: req.user!.id,
           name: entry.name,
+          imageUrl: detail.largeRenderImage ?? detail.iconImage,
           canBeCaptured: entry.canBeCaptured,
           notes: entry.description,
           metadata: {
-            catalogId: entry.id,
-            catalogSource: entry.source,
+            catalogId: detail.id,
+            catalogSource: detail.game,
+            familySlug: detail.familySlug,
           },
         },
       });
 
       await initializeMonsterHunterData(prisma, monster.id, body.gameId);
-      await applyMonsterCatalogData(prisma, monster.id, entry);
+      await applyMonsterCatalogData(prisma, monster.id, entry, detail);
 
       const updated = await prisma.monster.findUniqueOrThrow({ where: { id: monster.id } });
       res.status(201).json(toMonsterDto(updated));
@@ -355,6 +366,37 @@ monstersRouter.delete("/:monsterId", async (req: AuthenticatedRequest, res, next
 
     await prisma.monster.delete({ where: { id: existing.id } });
     res.status(204).send();
+  } catch (error) {
+    next(error);
+  }
+});
+
+monstersRouter.post("/:monsterId/actions/refresh-from-catalog", async (req: AuthenticatedRequest, res, next) => {
+  try {
+    const existing = await prisma.monster.findFirst({
+      where: { id: req.params.monsterId, userId: req.user!.id },
+    });
+    if (!existing) {
+      res.status(404).json({ code: "NOT_FOUND", message: "Monster not found" });
+      return;
+    }
+
+    const metadata = existing.metadata as { catalogId?: string } | null;
+    const catalogId = metadata?.catalogId;
+    if (!catalogId) {
+      res.status(400).json({ code: "BAD_REQUEST", message: "Monster has no catalog reference" });
+      return;
+    }
+
+    const detail = await getGameMonsterDetail(catalogId);
+    if (!detail) {
+      res.status(404).json({ code: "NOT_FOUND", message: "Catalog monster not found" });
+      return;
+    }
+
+    const entry = gameMonsterDetailToCatalogEntry(detail);
+    await refreshTrackedMonsterFromCatalog(prisma, existing.id, detail, entry);
+    res.json({ ok: true });
   } catch (error) {
     next(error);
   }

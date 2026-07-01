@@ -12,14 +12,14 @@ export function CounterControl({
   onSetValue: (value: number) => void;
 }) {
   return (
-    <div className="rounded-lg bg-slate-800/80 p-3">
-      <p className="text-xs uppercase tracking-wide text-slate-400">{label}</p>
+    <div className="notebook-stat-panel rounded-lg p-3">
+      <p className="notebook-stat-label text-xs uppercase tracking-wide">{label}</p>
       <div className="mt-1 flex items-center gap-2">
         {onDecrement && (
           <button
             type="button"
             onClick={onDecrement}
-            className="rounded bg-slate-700 px-2 py-1 text-sm hover:bg-slate-600"
+            className="rounded-md border border-paper/30 bg-leather-dark/50 px-2 py-1 text-sm text-paper hover:bg-leather-dark/70"
             aria-label={`Decrease ${label}`}
           >
             −
@@ -30,12 +30,12 @@ export function CounterControl({
           min={0}
           value={value}
           onChange={(e) => onSetValue(Math.max(0, Number(e.target.value) || 0))}
-          className="w-16 rounded border border-slate-600 bg-slate-900 px-2 py-1 text-center text-lg font-semibold text-white"
+          className="w-16 rounded-md border border-paper/40 bg-paper px-2 py-1 text-center text-lg font-semibold text-ink"
         />
         <button
           type="button"
           onClick={onIncrement}
-          className="rounded bg-emerald-700 px-2 py-1 text-sm hover:bg-emerald-600"
+          className="rounded-md bg-moss px-2 py-1 text-sm font-medium text-paper hover:bg-moss/90"
           aria-label={`Increase ${label}`}
         >
           +

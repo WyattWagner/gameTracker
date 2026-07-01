@@ -1,0 +1,9473 @@
+[
+  {
+    "id": "mhr-aknosom",
+    "source": "game-tracker-seed",
+    "sourceId": 1000,
+    "name": "Aknosom",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Aknosom from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-almudron",
+    "source": "game-tracker-seed",
+    "sourceId": 1001,
+    "name": "Almudron",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Almudron from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-anjanath",
+    "source": "game-tracker-seed",
+    "sourceId": 1002,
+    "name": "Anjanath",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Anjanath from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-apex-arzuros",
+    "source": "game-tracker-seed",
+    "sourceId": 1003,
+    "name": "Apex Arzuros",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Apex Arzuros from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-apex-diablos",
+    "source": "game-tracker-seed",
+    "sourceId": 1004,
+    "name": "Apex Diablos",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Apex Diablos from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-apex-rathalos",
+    "source": "game-tracker-seed",
+    "sourceId": 1005,
+    "name": "Apex Rathalos",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Apex Rathalos from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-apex-rathian",
+    "source": "game-tracker-seed",
+    "sourceId": 1006,
+    "name": "Apex Rathian",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Apex Rathian from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-apex-zinogre",
+    "source": "game-tracker-seed",
+    "sourceId": 1007,
+    "name": "Apex Zinogre",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Wyvern",
+    "description": "Apex Zinogre from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-arzuros",
+    "source": "game-tracker-seed",
+    "sourceId": 1008,
+    "name": "Arzuros",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Amphibian",
+    "description": "Arzuros from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-astalos",
+    "source": "game-tracker-seed",
+    "sourceId": 1009,
+    "name": "Astalos",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Wyvern",
+    "description": "Astalos from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-barioth",
+    "source": "game-tracker-seed",
+    "sourceId": 1010,
+    "name": "Barioth",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Carapaceon",
+    "description": "Barioth from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Claw",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-barroth",
+    "source": "game-tracker-seed",
+    "sourceId": 1011,
+    "name": "Barroth",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Barroth from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-basarios",
+    "source": "game-tracker-seed",
+    "sourceId": 1012,
+    "name": "Basarios",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Basarios from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-bazelgeuse",
+    "source": "game-tracker-seed",
+    "sourceId": 1013,
+    "name": "Bazelgeuse",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Beast",
+    "description": "Bazelgeuse from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-bishaten",
+    "source": "game-tracker-seed",
+    "sourceId": 1014,
+    "name": "Bishaten",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Bishaten from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-chameleos",
+    "source": "game-tracker-seed",
+    "sourceId": 1015,
+    "name": "Chameleos",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Leviathan",
+    "description": "Chameleos from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-goss-harag",
+    "source": "game-tracker-seed",
+    "sourceId": 1016,
+    "name": "Goss Harag",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Temnoceran",
+    "description": "Goss Harag from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-great-baggi",
+    "source": "game-tracker-seed",
+    "sourceId": 1017,
+    "name": "Great Baggi",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Bird Wyvern",
+    "description": "Great Baggi from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-great-izuchi",
+    "source": "game-tracker-seed",
+    "sourceId": 1018,
+    "name": "Great Izuchi",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Piscine Wyvern",
+    "description": "Great Izuchi from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-great-wroggi",
+    "source": "game-tracker-seed",
+    "sourceId": 1019,
+    "name": "Great Wroggi",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Amphibian",
+    "description": "Great Wroggi from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-ibushi",
+    "source": "game-tracker-seed",
+    "sourceId": 1020,
+    "name": "Ibushi",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Ibushi from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": false,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-jyuratodus",
+    "source": "game-tracker-seed",
+    "sourceId": 1021,
+    "name": "Jyuratodus",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Carapaceon",
+    "description": "Jyuratodus from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Claw",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-khezu",
+    "source": "game-tracker-seed",
+    "sourceId": 1022,
+    "name": "Khezu",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Khezu from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-kulu-ya-ku",
+    "source": "game-tracker-seed",
+    "sourceId": 1023,
+    "name": "Kulu-Ya-Ku",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Kulu-Ya-Ku from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-kushala-daora",
+    "source": "game-tracker-seed",
+    "sourceId": 1024,
+    "name": "Kushala Daora",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Beast",
+    "description": "Kushala Daora from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-lagombi",
+    "source": "game-tracker-seed",
+    "sourceId": 1025,
+    "name": "Lagombi",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Lagombi from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-magnamalo",
+    "source": "game-tracker-seed",
+    "sourceId": 1026,
+    "name": "Magnamalo",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Wyvern",
+    "description": "Magnamalo from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-mizutsune",
+    "source": "game-tracker-seed",
+    "sourceId": 1027,
+    "name": "Mizutsune",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Temnoceran",
+    "description": "Mizutsune from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-narwa",
+    "source": "game-tracker-seed",
+    "sourceId": 1028,
+    "name": "Narwa",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Narwa from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": false,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-nargacuga",
+    "source": "game-tracker-seed",
+    "sourceId": 1029,
+    "name": "Nargacuga",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Piscine Wyvern",
+    "description": "Nargacuga from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-pukei-pukei",
+    "source": "game-tracker-seed",
+    "sourceId": 1030,
+    "name": "Pukei-Pukei",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Amphibian",
+    "description": "Pukei-Pukei from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-rakna-kadaki",
+    "source": "game-tracker-seed",
+    "sourceId": 1031,
+    "name": "Rakna-Kadaki",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Wyvern",
+    "description": "Rakna-Kadaki from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-rathalos",
+    "source": "game-tracker-seed",
+    "sourceId": 1032,
+    "name": "Rathalos",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Rathalos from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-rathian",
+    "source": "game-tracker-seed",
+    "sourceId": 1033,
+    "name": "Rathian",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Rathian from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-royal-ludroth",
+    "source": "game-tracker-seed",
+    "sourceId": 1034,
+    "name": "Royal Ludroth",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Royal Ludroth from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-somnacanth",
+    "source": "game-tracker-seed",
+    "sourceId": 1035,
+    "name": "Somnacanth",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Beast",
+    "description": "Somnacanth from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-tetranadon",
+    "source": "game-tracker-seed",
+    "sourceId": 1036,
+    "name": "Tetranadon",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Tetranadon from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-tigrex",
+    "source": "game-tracker-seed",
+    "sourceId": 1037,
+    "name": "Tigrex",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Tigrex from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-tobi-kadachi",
+    "source": "game-tracker-seed",
+    "sourceId": 1038,
+    "name": "Tobi-Kadachi",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Temnoceran",
+    "description": "Tobi-Kadachi from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-volvidon",
+    "source": "game-tracker-seed",
+    "sourceId": 1039,
+    "name": "Volvidon",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Bird Wyvern",
+    "description": "Volvidon from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-zinogre",
+    "source": "game-tracker-seed",
+    "sourceId": 1040,
+    "name": "Zinogre",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Wyvern",
+    "description": "Zinogre from Monster Hunter Rise.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "base",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-afflicted-apex-rathalos",
+    "source": "game-tracker-seed",
+    "sourceId": 1041,
+    "name": "Afflicted Apex Rathalos",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Afflicted Apex Rathalos from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-afflicted-apex-zinogre",
+    "source": "game-tracker-seed",
+    "sourceId": 1042,
+    "name": "Afflicted Apex Zinogre",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Wyvern",
+    "description": "Afflicted Apex Zinogre from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-afflicted-chameleos",
+    "source": "game-tracker-seed",
+    "sourceId": 1043,
+    "name": "Afflicted Chameleos",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Carapaceon",
+    "description": "Afflicted Chameleos from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Claw",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-afflicted-kushala-daora",
+    "source": "game-tracker-seed",
+    "sourceId": 1044,
+    "name": "Afflicted Kushala Daora",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Afflicted Kushala Daora from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-afflicted-teostra",
+    "source": "game-tracker-seed",
+    "sourceId": 1045,
+    "name": "Afflicted Teostra",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Afflicted Teostra from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-allmother-narwa",
+    "source": "game-tracker-seed",
+    "sourceId": 1046,
+    "name": "Allmother Narwa",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Allmother Narwa from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": false,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-aurora-somnacanth",
+    "source": "game-tracker-seed",
+    "sourceId": 1047,
+    "name": "Aurora Somnacanth",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Aurora Somnacanth from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-blood-orange-bishaten",
+    "source": "game-tracker-seed",
+    "sourceId": 1048,
+    "name": "Blood Orange Bishaten",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Leviathan",
+    "description": "Blood Orange Bishaten from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-chaotic-gore-magala",
+    "source": "game-tracker-seed",
+    "sourceId": 1049,
+    "name": "Chaotic Gore Magala",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Temnoceran",
+    "description": "Chaotic Gore Magala from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-crimson-glow-valstrax",
+    "source": "game-tracker-seed",
+    "sourceId": 1050,
+    "name": "Crimson Glow Valstrax",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Bird Wyvern",
+    "description": "Crimson Glow Valstrax from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-daimyo-hermitaur",
+    "source": "game-tracker-seed",
+    "sourceId": 1051,
+    "name": "Daimyo Hermitaur",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Piscine Wyvern",
+    "description": "Daimyo Hermitaur from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-espinas",
+    "source": "game-tracker-seed",
+    "sourceId": 1052,
+    "name": "Espinas",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Amphibian",
+    "description": "Espinas from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-flaming-espinas",
+    "source": "game-tracker-seed",
+    "sourceId": 1053,
+    "name": "Flaming Espinas",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Wyvern",
+    "description": "Flaming Espinas from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-furious-rajang",
+    "source": "game-tracker-seed",
+    "sourceId": 1054,
+    "name": "Furious Rajang",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Carapaceon",
+    "description": "Furious Rajang from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Claw",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-gaismagorm",
+    "source": "game-tracker-seed",
+    "sourceId": 1055,
+    "name": "Gaismagorm",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Gaismagorm from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-garangolm",
+    "source": "game-tracker-seed",
+    "sourceId": 1056,
+    "name": "Garangolm",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Garangolm from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-gore-magala",
+    "source": "game-tracker-seed",
+    "sourceId": 1057,
+    "name": "Gore Magala",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Beast",
+    "description": "Gore Magala from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-lunagaron",
+    "source": "game-tracker-seed",
+    "sourceId": 1058,
+    "name": "Lunagaron",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Lunagaron from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-lucent-nargacuga",
+    "source": "game-tracker-seed",
+    "sourceId": 1059,
+    "name": "Lucent Nargacuga",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Leviathan",
+    "description": "Lucent Nargacuga from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-malzeno",
+    "source": "game-tracker-seed",
+    "sourceId": 1060,
+    "name": "Malzeno",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Malzeno from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-primordial-malzeno",
+    "source": "game-tracker-seed",
+    "sourceId": 1061,
+    "name": "Primordial Malzeno",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Primordial Malzeno from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-pyre-rakna-kadaki",
+    "source": "game-tracker-seed",
+    "sourceId": 1062,
+    "name": "Pyre Rakna-Kadaki",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Piscine Wyvern",
+    "description": "Pyre Rakna-Kadaki from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-risen-chameleos",
+    "source": "game-tracker-seed",
+    "sourceId": 1063,
+    "name": "Risen Chameleos",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Amphibian",
+    "description": "Risen Chameleos from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-risen-crimson-glow-valstrax",
+    "source": "game-tracker-seed",
+    "sourceId": 1064,
+    "name": "Risen Crimson Glow Valstrax",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Wyvern",
+    "description": "Risen Crimson Glow Valstrax from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-risen-kushala-daora",
+    "source": "game-tracker-seed",
+    "sourceId": 1065,
+    "name": "Risen Kushala Daora",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Carapaceon",
+    "description": "Risen Kushala Daora from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Claw",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-risen-shagaru-magala",
+    "source": "game-tracker-seed",
+    "sourceId": 1066,
+    "name": "Risen Shagaru Magala",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Risen Shagaru Magala from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-risen-teostra",
+    "source": "game-tracker-seed",
+    "sourceId": 1067,
+    "name": "Risen Teostra",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Brute Wyvern",
+    "description": "Risen Teostra from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Arms",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-scorned-magnamalo",
+    "source": "game-tracker-seed",
+    "sourceId": 1068,
+    "name": "Scorned Magnamalo",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Wyvern",
+    "description": "Scorned Magnamalo from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-seething-bazelgeuse",
+    "source": "game-tracker-seed",
+    "sourceId": 1069,
+    "name": "Seething Bazelgeuse",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Elder Dragon",
+    "description": "Seething Bazelgeuse from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-shagaru-magala",
+    "source": "game-tracker-seed",
+    "sourceId": 1070,
+    "name": "Shagaru Magala",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Leviathan",
+    "description": "Shagaru Magala from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Fins",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-shogun-ceanataur",
+    "source": "game-tracker-seed",
+    "sourceId": 1071,
+    "name": "Shogun Ceanataur",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Temnoceran",
+    "description": "Shogun Ceanataur from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-silver-rathalos",
+    "source": "game-tracker-seed",
+    "sourceId": 1072,
+    "name": "Silver Rathalos",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Silver Rathalos from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-gold-rathian",
+    "source": "game-tracker-seed",
+    "sourceId": 1073,
+    "name": "Gold Rathian",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Flying Wyvern",
+    "description": "Gold Rathian from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Neck",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Back",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Wings",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-velkhana",
+    "source": "game-tracker-seed",
+    "sourceId": 1074,
+    "name": "Velkhana",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Amphibian",
+    "description": "Velkhana from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  },
+  {
+    "id": "mhr-violet-mizutsune",
+    "source": "game-tracker-seed",
+    "sourceId": 1075,
+    "name": "Violet Mizutsune",
+    "type": "large",
+    "species": "unknown",
+    "monsterType": "Fanged Wyvern",
+    "description": "Violet Mizutsune from Monster Hunter Rise: Sunbreak.",
+    "elements": [],
+    "ailments": [],
+    "locations": [],
+    "elementalWeaknesses": [
+      {
+        "element": "fire",
+        "stars": 2
+      },
+      {
+        "element": "water",
+        "stars": 1
+      },
+      {
+        "element": "thunder",
+        "stars": 2
+      },
+      {
+        "element": "ice",
+        "stars": 1
+      },
+      {
+        "element": "dragon",
+        "stars": 3
+      }
+    ],
+    "ailmentWeaknesses": [
+      {
+        "ailment": "Poison",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Stun",
+        "stars": 2,
+        "resistance": 50
+      },
+      {
+        "ailment": "Paralysis",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Sleep",
+        "stars": 1,
+        "resistance": 75
+      },
+      {
+        "ailment": "Blast",
+        "stars": 2,
+        "resistance": 50
+      }
+    ],
+    "canBeCaptured": true,
+    "expansion": "sunbreak",
+    "bodyPartWeaknesses": [
+      {
+        "part": "Head",
+        "slash": 79,
+        "blunt": 74,
+        "pierce": 71,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Body",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Forelegs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Hind Legs",
+        "slash": 59,
+        "blunt": 54,
+        "pierce": 51,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      },
+      {
+        "part": "Tail",
+        "slash": 69,
+        "blunt": 64,
+        "pierce": 61,
+        "fire": 50,
+        "water": 25,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 75
+      }
+    ]
+  }
+]
